@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CAD (Confoederatio, Artistic Division)/Plans/2025.12.06.md",
+                "file": "📰 Blogs/6 December 2025 - The Long Road Ahead.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025.12.06"
+              "title": "6 December 2025 - The Long Road Ahead"
             }
           }
         ]
@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Confoederatio Docs.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Confoederatio Docs"
+              "title": "Home"
             }
           }
         ]
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CAD (Confoederatio, Artistic Division)/Plans/2025.12.06.md",
+                "file": "📰 Blogs/6 December 2025 - The Long Road Ahead.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2025.12.06"
+              "title": "Backlinks for 6 December 2025 - The Long Road Ahead"
             }
           },
           {
@@ -133,12 +133,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CAD (Confoederatio, Artistic Division)/Plans/2025.12.06.md",
+                "file": "📰 Blogs/6 December 2025 - The Long Road Ahead.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2025.12.06"
+              "title": "Outgoing links from 6 December 2025 - The Long Road Ahead"
             }
           },
           {
@@ -176,13 +176,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CAD (Confoederatio, Artistic Division)/Plans/2025.12.06.md",
+                "file": "📰 Blogs/6 December 2025 - The Long Road Ahead.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025.12.06"
+              "title": "Outline of 6 December 2025 - The Long Road Ahead"
             }
           }
         ],
@@ -210,20 +210,25 @@
   },
   "active": "8cafb33fb70c3314",
   "lastOpenFiles": [
-    "CTD (Confoederatio, Technical Division)/Documentation/Legacy (Frontend)/Scriptly IDE.md",
+    "2025-12-06.md",
+    "Untitled.canvas",
+    "📰 Blogs/6 December 2025 - The Long Road Ahead.md",
+    "_images/blogs",
+    "Home.md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Games/Balance of Power/Balance of Power.md",
+    "favicon.ico",
+    "confoederatio_icon.ico",
+    "confoederatio_icon.ico.0.pdnSave",
+    "confoederatio_icon.png",
     "CAD (Confoederatio, Artistic Division)/Plans/2025.12.06.md",
-    "Confoederatio Docs.md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Games/Balance of Power",
+    "CTD (Confoederatio, Technical Division)/Documentation/Legacy (Frontend)/Scriptly IDE.md",
     "Preservés des Confoederatio/Documentation/Digital Archives.md",
     "CTD (Confoederatio, Technical Division)/Documentation/Legacy (Frontend)",
     "CTD (Confoederatio, Technical Division)/Documentation/Legacy (Backend)",
     "CTD (Confoederatio, Technical Division)/Documentation/Technical (Frontend)",
     "CTD (Confoederatio, Technical Division)/Documentation/Technical (Backend)",
     "CTD (Confoederatio, Technical Division)/Documentation/Games",
-    "CRD (Confoederatio, Research Division)/Documentation/Legacy",
-    "CRD (Confoederatio, Research Division)/Documentation/Software",
-    "CRD (Confoederatio, Research Division)/Documentation/Datasets",
-    "CAD (Confoederatio, Artistic Division)/Documentation/Web",
-    "CAD (Confoederatio, Artistic Division)/Documentation/Traditional",
     "Preservés des Confoederatio/Documentation/Physical Archives.md",
     "CTD (Confoederatio, Technical Division)/Documentation/Legacy (Backend)/Legacy Geospatiale.md",
     "CTD (Confoederatio, Technical Division)/Documentation/Technical (Backend)/Universal Framework/UF.md",
@@ -242,10 +247,6 @@
     "CAD (Confoederatio, Artistic Division)/Documentation/Digital/G-Earth.MC.md",
     "CRD (Confoederatio, Research Division)/Documentation/Datasets/Atlas.md",
     "CRD (Confoederatio, Research Division)/Documentation/Software/Constele Red.md",
-    "CRD (Confoederatio, Research Division)/Documentation/Datasets/Sehistoir.md",
-    "CRD (Confoederatio, Research Division)/Documentation/Datasets/Velkscala.md",
-    "CRD (Confoederatio, Research Division)/Documentation/Datasets/Stadestér.md",
-    "CRD (Confoederatio, Research Division)/Documentation/Datasets/Eoscala.md",
     "_images/banners/ctd_games_or_other.png",
     "_images/banners/ctd_analytical_engine.png",
     "_images/banners/ctd_vercengen.png",
@@ -255,8 +256,6 @@
     "_images/banners/crd_datasets.png",
     "_images/banners/crd_banner.png",
     "_images/banners/crd_constele_red.png",
-    "_images/banners/crd_naissance.png",
-    "Untitled 1.canvas",
-    "Untitled.canvas"
+    "Untitled 1.canvas"
   ]
 }

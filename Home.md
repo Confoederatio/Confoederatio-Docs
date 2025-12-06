@@ -1,5 +1,5 @@
 <div align = "center">
-An open-access project on the full documentation of all projects managed by Confoederatio and their histories.<br>
+An ongoing project on the full documentation of all projects managed by Confoederatio and their histories.<br>
 <sub><i><u>Verc et haut et svargestent!</i></u></sub><br><br>
 
 </div>
@@ -50,8 +50,9 @@ All datasets and documents, alongside accompanying research notes and code, are 
 
 **CTD**:
 - Game Engines: [[Analytical Engine]] | [[Gamechanger]]
+- Games/Game-related Projects: [[Balance of Power]] | [[Triumph & Tragedy II]]
 - Technical Projects: [[UF]] | [[Vercengen]]
-- Legacy (Games): [[11.59 (AOC2)]] | [[11.59 (AOC3)]] | [[Triumph & Tragedy I]] | [[Triumph & Tragedy II]]
+- Legacy (Games): [[11.59 (AOC2)]] | [[11.59 (AOC3)]] | [[Triumph & Tragedy I]]
 - Legacy (Technical Projects): [[BrowserUI]] | [[Legacy Geospatiale]] | [[Legacy UF]] | [[Scriptly IDE]]
 
 **Preservés des Confoederatio**:
