@@ -1,3 +1,6 @@
+
+> [!WARNING]
+> The **FAQ** section is currently under __active review__. If you have any specific questions, please contact us over Discord or Email.
 ## Summary
 
 **Confoederatio Studios** (also known as **Confoederatio**) is a loose organisation of programmers, researchers, and artists that primarily evolved out of the grand-strategy modding and development community (in particular **Midnight**/**11:59**), having built auxiliary tools and models for the simulation and interpolation of real-world historical data. Over time, we have decided to focus more on research, technical frameworks, modelling software, and other applied tools and critical infrastructure necessary to continued knowledge production. 
@@ -5,9 +8,6 @@
 Confoederatio is split into four divisions: CAD (Confoederatio, Artistic Division); CRD (Confoederatio, Research Division); CTD (Confoederatio, Technical Division); and the Preservés. Grand-strategy development responsibilities rest solely with CTD, whilst CRD works purely on academic-related research and dataset production that may be of use to grand-strategy games and modelling. Each division may be recognised by their colour code, with the exception of the Preservés, which uses the Southern Cross as its coat of arms. CAD is represented in orange, CRD in teal, and CTD in neon green.
 
 Question categories, apart from general questions, are arranged alphabetically. You can use `Ctrl + F` to find answers of interest.
-
-> [!WARNING]
-> The **FAQ** section is currently being overhauled. If you have any specific questions, please contact us over Discord or Email.
 ## Organisation
 
 **General.**
