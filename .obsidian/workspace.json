@@ -1,0 +1,262 @@
+{
+  "main": {
+    "id": "37d2350ebd7a615d",
+    "type": "split",
+    "children": [
+      {
+        "id": "f770ce8556089ecc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dc198fb330743c75",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CAD (Confoederatio, Artistic Division)/Plans/2025.12.06.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025.12.06"
+            }
+          }
+        ]
+      },
+      {
+        "id": "164c80f7816102b5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8b19e14f9e649d14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Confoederatio Docs.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Confoederatio Docs"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "dcdfb8037e288ded",
+    "type": "split",
+    "children": [
+      {
+        "id": "e7bb263b814b7dcd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8cafb33fb70c3314",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "8abfa731e95e5147",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "304de57d938b3bfc",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7dfac3b42341780e",
+    "type": "split",
+    "children": [
+      {
+        "id": "ac553ca4e5aa6860",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "470a5baa7bfc2ed7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CAD (Confoederatio, Artistic Division)/Plans/2025.12.06.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 2025.12.06"
+            }
+          },
+          {
+            "id": "6602bf7ec9c15c3e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CAD (Confoederatio, Artistic Division)/Plans/2025.12.06.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2025.12.06"
+            }
+          },
+          {
+            "id": "6cf0c378bea41f37",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "1e911f6b1027a984",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "69d8f0dde7b84075",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CAD (Confoederatio, Artistic Division)/Plans/2025.12.06.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2025.12.06"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "webpage-html-export:Export as HTML": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "markdown-table-editor:Open Markdown Table Editor": false,
+      "publish:Publish changes...": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "iconic:Open rulebook": false
+    }
+  },
+  "active": "8cafb33fb70c3314",
+  "lastOpenFiles": [
+    "CTD (Confoederatio, Technical Division)/Documentation/Legacy (Frontend)/Scriptly IDE.md",
+    "CAD (Confoederatio, Artistic Division)/Plans/2025.12.06.md",
+    "Confoederatio Docs.md",
+    "Preservés des Confoederatio/Documentation/Digital Archives.md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Legacy (Frontend)",
+    "CTD (Confoederatio, Technical Division)/Documentation/Legacy (Backend)",
+    "CTD (Confoederatio, Technical Division)/Documentation/Technical (Frontend)",
+    "CTD (Confoederatio, Technical Division)/Documentation/Technical (Backend)",
+    "CTD (Confoederatio, Technical Division)/Documentation/Games",
+    "CRD (Confoederatio, Research Division)/Documentation/Legacy",
+    "CRD (Confoederatio, Research Division)/Documentation/Software",
+    "CRD (Confoederatio, Research Division)/Documentation/Datasets",
+    "CAD (Confoederatio, Artistic Division)/Documentation/Web",
+    "CAD (Confoederatio, Artistic Division)/Documentation/Traditional",
+    "Preservés des Confoederatio/Documentation/Physical Archives.md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Legacy (Backend)/Legacy Geospatiale.md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Technical (Backend)/Universal Framework/UF.md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Legacy (Backend)/Legacy UF.md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Gamechanger/Untitled.md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Legacy (Frontend)/BrowserUI.md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Games/Triumph & Tragedy/Triumph & Tragedy II.md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Games/Triumph & Tragedy/Triumph & Tragedy I.md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Games/11.59/11.59 (AOC3).md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Games/11.59/11.59 (AOC2).md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Games/Analytical Engine/Analytical Engine.md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Games/Gamechanger/Gamechanger.md",
+    "CRD (Confoederatio, Research Division)/Documentation/Legacy/Project Humanity.md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Technical (Frontend)/Vercengen/Vercengen.md",
+    "CAD (Confoederatio, Artistic Division)/Documentation/Traditional/Traditional Art.md",
+    "CAD (Confoederatio, Artistic Division)/Documentation/Digital/G-Earth.MC.md",
+    "CRD (Confoederatio, Research Division)/Documentation/Datasets/Atlas.md",
+    "CRD (Confoederatio, Research Division)/Documentation/Software/Constele Red.md",
+    "CRD (Confoederatio, Research Division)/Documentation/Datasets/Sehistoir.md",
+    "CRD (Confoederatio, Research Division)/Documentation/Datasets/Velkscala.md",
+    "CRD (Confoederatio, Research Division)/Documentation/Datasets/Stadestér.md",
+    "CRD (Confoederatio, Research Division)/Documentation/Datasets/Eoscala.md",
+    "_images/banners/ctd_games_or_other.png",
+    "_images/banners/ctd_analytical_engine.png",
+    "_images/banners/ctd_vercengen.png",
+    "_images/banners/ctd_banner.png",
+    "_images/banners/cad_banner.png",
+    "_images/banners/crd_software.png",
+    "_images/banners/crd_datasets.png",
+    "_images/banners/crd_banner.png",
+    "_images/banners/crd_constele_red.png",
+    "_images/banners/crd_naissance.png",
+    "Untitled 1.canvas",
+    "Untitled.canvas"
+  ]
+}

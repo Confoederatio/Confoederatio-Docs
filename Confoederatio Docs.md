@@ -1,0 +1,59 @@
+<div align = "center">
+An open-access project on the full documentation of all projects managed by Confoederatio and their histories.<br>
+<sub><i><u>Verc et haut et svargestent!</i></u></sub><br><br>
+
+</div>
+<div align = "center">
+	<img src = "_images/confoederatio_icon.png" width = "150">
+</div>
+
+**[[FAQs]]** | **[[Projects]]** | **[[Confoederatio|More About Confoederatio >]]**
+
+---
+# Introduction
+
+Confoederatio is a comprehensive R&D studio focused on the production of scientific tooling, technical infrastructure, complex strategy/simulation games, and applied knowledge and modelling. It is split into three main divisions: Confoederatio, Artistic Division (CAD); Confoederatio, Research Division (CRD); and Confoederatio, Technical Division (CTD). The physical and digital holdings of historical and scientific documents are covered under the _Preservés des Confoederatio_ or _Preservés_ generally. These documents are outlined in the given gazetteer.
+
+All datasets and documents, alongside accompanying research notes and code, are made available in the public interest even if they may not be fully documented. This website is currently under construction; and as such, some fundamental projects may currently be missing documentation.
+
+---
+<table>
+	<tr><td style = "padding:0;border:0;" width = "50%"><img src = "_images/banners/cad_art_design.png"></td><td style = "padding:0;border:0;padding-left: 0.25rem;" width = "50%"><img src = "_images/banners/cad_banner.png"></td></tr>
+	<tr><td style = "padding:0;border:0;" width = "50%"><img src = "_images/banners/cad_gearth_mc.png"></td><td style = "padding:0;border:0;padding-left: 0.25rem;" width = "50%"><a href = "https://www.deviantart.com/australiszero"><img src = "_images/banners/cad_deviantart.png"></a></td></tr>
+	<tr><td style = "padding:0;border:0;" width = "50%"><a href = "https://discord.gg/midnight-548994743925997570"><img src = "_images/banners/cad_discord.png"></a></td><td style = "padding:0;border:0;padding-left: 0.25rem;" width = "50%"><a href = "https://www.youtube.com/@Confoederatio"><img src = "_images/banners/cad_youtube.png"></a></td></tr>
+</table>
+
+<table>
+	<tr><td style = "padding:0;border:0;" width = "50%"><img src = "_images/banners/crd_banner.png"></td><td style = "padding:0;border:0;padding-left: 0.25rem;" width = "50%"><img src = "_images/banners/crd_datasets.png"></td>
+	<tr><td style = "padding:0;border:0;" width = "50%"><img src = "_images/banners/crd_eoscala.png"></td><td style = "padding:0;border:0;padding-left: 0.25rem;" width = "50%"><img src = "_images/banners/crd_sehistoir.png"></td></tr>
+	<tr><td style = "padding:0;border:0;" width = "50%"><img src = "_images/banners/crd_stadester.png"></td><td style = "padding:0;border:0;padding-left: 0.25rem;" width = "50%"><img src = "_images/banners/crd_velkscala.png"></td></tr>
+	<tr><td style = "padding:0;border:0;" width = "50%"><img src = "_images/banners/crd_software.png"></td><td style = "padding:0;border:0;padding-left: 0.25rem;" width = "50%"><img src = "_images/banners/crd_constele_red.png"></td></tr>
+	<tr><td style = "padding:0;border:0;" width = "50%"><img src = "_images/banners/crd_naissance.png"></td><td style = "padding:0;border:0;padding-left: 0.25rem;" width = "50%"><img src = "_images/banners/placeholder.png"></td></tr>
+</table>
+
+<table>
+<tr><td style = "padding:0;border:0;" width = "50%"><a href = "/confoederatio/CTD+(Confoederatio%2C+Technical+Division)/Documentation/Vercengen/Vercengen+README"><img src = "_images/banners/ctd_vercengen.png"></a></td><td style = "padding:0;border:0;padding-left: 0.25rem;" width = "50%"><img src = "_images/banners/ctd_banner.png"></td>
+<tr><td style = "padding:0;border:0;" width = "50%"><img src = "_images/banners/ctd_analytical_engine.png"></td><td style = "padding:0;border:0;padding-left: 0.25rem;" width = "50%"><img src = "_images/banners/ctd_games_or_other.png"></td>
+</table>
+
+<div align = "center"><h4>Subnavigation by Division:</h4></div>
+
+**CAD**:
+- Artwork: [[Graphic Design]] | [[Icons and Assets]] | [[Traditional Art]]
+- Digital Projects: [[G-Earth.MC]]
+- Web Presence: [[Confoederatio Website]]
+
+**CRD**:
+- Datasets: [[Atlas]] | [[Eoscala]] | [[Sehistoir]] | [[Stadestér]] | [[Velkscala]]
+- Software: [[Constele Red]] | [[Naissance HGIS]] 
+- Legacy (Software): [[Naissance]] | [[Project Humanity]]
+
+**CTD**:
+- Game Engines: [[Analytical Engine]] | [[Gamechanger]]
+- Technical Projects: [[UF]] | [[Vercengen]]
+- Legacy (Games): [[11.59 (AOC2)]] | [[11.59 (AOC3)]] | [[Triumph & Tragedy I]] | [[Triumph & Tragedy II]]
+- Legacy (Technical Projects): [[BrowserUI]] | [[Legacy Geospatiale]] | [[Legacy UF]] | [[Scriptly IDE]]
+
+**Preservés des Confoederatio**:
+- Digital Archives: [[Digital Archives]]
+- Physical Archives: [[Physical Archives]]
