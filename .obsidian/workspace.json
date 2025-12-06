@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FAQs.md",
+                "file": "CAD (Confoederatio, Artistic Division)/Plans/2025.12.06.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "FAQs"
+              "title": "2025.12.06"
             }
           }
         ],
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FAQs.md",
+                "file": "CAD (Confoederatio, Artistic Division)/Plans/2025.12.06.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for FAQs"
+              "title": "Backlinks for 2025.12.06"
             }
           },
           {
@@ -148,12 +148,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FAQs.md",
+                "file": "CAD (Confoederatio, Artistic Division)/Plans/2025.12.06.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from FAQs"
+              "title": "Outgoing links from 2025.12.06"
             }
           },
           {
@@ -191,13 +191,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FAQs.md",
+                "file": "CAD (Confoederatio, Artistic Division)/Plans/2025.12.06.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of FAQs"
+              "title": "Outline of 2025.12.06"
             }
           }
         ],
@@ -225,8 +225,8 @@
   },
   "active": "9d53bb633d2ac9e1",
   "lastOpenFiles": [
-    "Home.md",
     "FAQs.md",
+    "Home.md",
     "📰 Blogs/6 December 2025 - The Long Road Ahead.md",
     "Preservés des Confoederatio/Documentation/Digital Archives.md",
     "Projects.md",
