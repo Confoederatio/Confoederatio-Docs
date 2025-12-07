@@ -1,3 +1,8 @@
+---
+image: https://i.postimg.cc/qvvmDC6H/embed-template.png
+description: Centralised documentation for all Confoederatio projects.
+---
+
 <div align = "center">
 An ongoing project on the full documentation of all projects managed by Confoederatio and their histories.<br>
 <sub><i><u>Verc et haut et svargestent!</i></u></sub><br><br>

@@ -22,6 +22,26 @@
             }
           }
         ]
+      },
+      {
+        "id": "62ca19e64e25b570",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6e3e42d92dafe793",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🗒️ Gists/CAD/Obsidian Publish Documentation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Obsidian Publish Documentation"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,7 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 349.5
   },
   "right": {
     "id": "7dfac3b42341780e",
@@ -186,55 +206,54 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "8cafb33fb70c3314",
+  "active": "dc198fb330743c75",
   "lastOpenFiles": [
+    "🗒️ Gists/CAD/Obsidian Publish Documentation.md",
+    "Home.md",
     "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS/Naissance HGIS.md",
+    "_images/embed_template.png",
+    "_images/embed_template.png.0.pdnSave",
+    "_images/embed_template.pdn",
+    "_images/embed_template.pdn.0.pdnSave",
+    "CAD (Confoederatio, Artistic Division)/Plans/2025.12.07.md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Games/Balance of Power/Balance of Power.md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Games/Balance of Power/BOP Vehicles (Movecraft).md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Games/Balance of Power/BOP Weapons (QualityArmory).md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Games/Balance of Power/BOP Artillery (Cannons).md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Games/Balance of Power/BOP Technology.md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Games/Balance of Power/BOP Food and Nutrition.md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Games/Balance of Power/BOP Configuration.md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Games/Balance of Power/BOP Vanilla Items.md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Games/Balance of Power/I. Preindustrial (Before 1815).md",
+    "CAD (Confoederatio, Artistic Division)/Plans/2025.12.06.md",
+    "CTD (Confoederatio, Technical Division)/Plans/Balance of Power",
+    "_images/ctd/balance_of_power/bop_beta_1_map_europe.png",
+    "_images/ctd/balance_of_power",
+    "_images/ctd/Neuer Ordner",
+    "_images/ctd",
+    "_images/Neuer Ordner",
+    "CRD (Confoederatio, Research Division)/Plans/Naissance/1.5.1b Hatteras Plan.md",
     "CRD (Confoederatio, Research Division)/Documentation/Legacy/Naissance.md",
+    "CRD (Confoederatio, Research Division)/Plans/Naissance/Naissance Label Editor.md",
+    "CRD (Confoederatio, Research Division)/Plans/Naissance",
     "CRD (Confoederatio, Research Division)/Documentation/Datasets/Atlas.md",
     "_images/crd/naissance/naissance_1.5b_rockall.png",
     "_images/crd/naissance",
-    "_images/crd/Neuer Ordner",
-    "_images/crd",
-    "_images/Neuer Ordner",
     "CTD (Confoederatio, Technical Division)/Documentation/Technical (Frontend)/Vercengen/Vercengen.md",
-    "CRD (Confoederatio, Research Division)/Documentation/Software/Constele Red",
-    "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS",
     "CTD (Confoederatio, Technical Division)/Documentation/Technical (Frontend)/Vercengen/Vercengen Releases.md",
-    "Home.md",
     "CTD (Confoederatio, Technical Division)/Documentation/Technical (Frontend)/Vercengen/Vercengen README.md",
     "📰 Blogs/6 December 2025 - The Long Road Ahead.md",
-    "CAD (Confoederatio, Artistic Division)/Plans/2025.12.06.md",
     "FAQs.md",
     "Preservés des Confoederatio/Documentation/Digital Archives.md",
     "Projects.md",
-    "🗒️ Gists/CTD/Midnight Maintenance.md",
-    "🗒️ Gists/CTD",
-    "🗒️ Gists/CAD",
-    "2025-12-06.md",
     "Untitled.canvas",
-    "_images/blogs",
-    "CTD (Confoederatio, Technical Division)/Documentation/Games/Balance of Power/Balance of Power.md",
-    "favicon.ico",
     "confoederatio_icon.png",
-    "CTD (Confoederatio, Technical Division)/Documentation/Legacy (Frontend)/Scriptly IDE.md",
-    "Preservés des Confoederatio/Documentation/Physical Archives.md",
-    "CTD (Confoederatio, Technical Division)/Documentation/Legacy (Backend)/Legacy Geospatiale.md",
-    "CTD (Confoederatio, Technical Division)/Documentation/Technical (Backend)/Universal Framework/UF.md",
-    "CTD (Confoederatio, Technical Division)/Documentation/Legacy (Backend)/Legacy UF.md",
-    "CTD (Confoederatio, Technical Division)/Documentation/Gamechanger/Untitled.md",
-    "CTD (Confoederatio, Technical Division)/Documentation/Legacy (Frontend)/BrowserUI.md",
-    "CTD (Confoederatio, Technical Division)/Documentation/Games/Triumph & Tragedy/Triumph & Tragedy II.md",
-    "CTD (Confoederatio, Technical Division)/Documentation/Games/Triumph & Tragedy/Triumph & Tragedy I.md",
-    "CTD (Confoederatio, Technical Division)/Documentation/Games/11.59/11.59 (AOC3).md",
-    "CTD (Confoederatio, Technical Division)/Documentation/Games/11.59/11.59 (AOC2).md",
     "_images/banners/ctd_games_or_other.png",
     "_images/banners/ctd_analytical_engine.png",
     "_images/banners/ctd_vercengen.png",
     "_images/banners/ctd_banner.png",
     "_images/banners/cad_banner.png",
     "_images/banners/crd_software.png",
-    "_images/banners/crd_datasets.png",
-    "_images/banners/crd_banner.png",
     "Untitled 1.canvas"
   ]
 }

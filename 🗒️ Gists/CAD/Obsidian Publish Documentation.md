@@ -7,6 +7,14 @@ As newer versions of **Confoederatio Docs** use [Obsidian Publish](https://obsid
 - 3. Banner Font: 80pt Karla White
 - 2. Tint: 255 to 0 Alpha (left to right)
 
+**Social Media Banners**
+- Text: Cascadia Mono 32pt Bold/ExtraLight
 ### HTML Compatibility:
 
 - Most HTML elements seem compatible, including `<img>` and `<table>`. It may also be limited to tags that are compatible with GitHub HTML rendering. Since `<table>` is generally easier to use than Markdown table formatting, it is recommended for production use.
+
+### Embed Previews:
+
+Embeds can be changed with the use of YAML configurations [Obsidian Publish Documentation](https://help.obsidian.md/publish/social-share). This has not yet been done for Confoederatio Docs, but should be configured.
+
+Social media banners do not appear to work, only descriptions.

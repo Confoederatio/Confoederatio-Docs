@@ -9,3 +9,10 @@ See also: [[Naissance Issues]], [[Naissance Roadmap]]
 
 ## Core Capabilities
 ## Design Pillars
+
+## Plans
+
+| Plan                       | Status | Date            |
+| -------------------------- | ------ | --------------- |
+| [[1.5.1b Hatteras Plan]]   | WIP    | 7 December 2025 |
+| [[Naissance Label Editor]] | WIP    | 7 December 2025 |
