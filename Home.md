@@ -1,6 +1,6 @@
 ---
 cover: https://i.postimg.cc/qvvmDC6H/embed-template.png
-description: Centralised documentation for all Confoederatio projects.
+description: Centralised documentation for all Confoederatio projects. If this is the homepage, please select the project you are looking for.
 ---
 
 <div align = "center">

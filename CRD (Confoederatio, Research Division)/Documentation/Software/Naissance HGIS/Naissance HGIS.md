@@ -1,4 +1,7 @@
-See also: [[Naissance Issues]], [[Naissance Roadmap]]
+See also: [[History]], [[Naissance Issues]], [[Naissance Roadmap]]
+
+> [!NOTE]
+> For legacy documentation relating to the first version of Naissance, see [[Naissance]].
 
 **Naissance** is a historical GIS (HGIS) for any and all data, including data entry, proxy modelling, processing, visualisation, and simulation while being as frictionless as possible. To avoid UI/UX bloat, user interfaces are planned to take inspiration from game design, especially map-related grand-strategy/economy games.
 
@@ -7,7 +10,15 @@ See also: [[Naissance Issues]], [[Naissance Roadmap]]
 ![[naissance_1.5b_rockall.png]]
 <div align = "center">Naissance 1.5b Rockall (7 December 2025)</div>
 
+Current design considerations are overwhelmingly focused on getting core data entry features down, especially with [[HistoryKeyframe|History Keyframes]] and certain [[Naissance Geometries|Geometries]]/[[Naissance Features|Features]]. If you are looking for simulation/geoprocessing capabilities, these are currently housed separately with [[Constele Red]], which serves as a stopgap GIS solution.
+
+Note that linked documentation is user-facing only, and that technical backend documentation is hosted on a separate site.
 ## Core Capabilities
+
+1. Data Entry
+2. Data Processing
+3. Data Visualisation
+4. Data Simulation
 ## Design Pillars
 
 ## Plans
