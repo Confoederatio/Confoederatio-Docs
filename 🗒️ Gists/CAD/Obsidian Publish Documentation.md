@@ -15,6 +15,9 @@ As newer versions of **Confoederatio Docs** use [Obsidian Publish](https://obsid
 
 ### Embed Previews:
 
+![[embed_template.png]]
+<div align = "center">The embed preview that should show up but doesn't.</div>
+
 Embeds can be changed with the use of YAML configurations [Obsidian Publish Documentation](https://help.obsidian.md/publish/social-share). This has not yet been done for Confoederatio Docs, but should be configured.
 
 Social media banners do not appear to work, only descriptions.

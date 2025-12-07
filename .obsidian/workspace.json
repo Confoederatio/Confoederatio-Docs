@@ -176,13 +176,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md",
+                "file": "🗒️ Gists/CAD/Obsidian Publish Documentation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Home"
+              "title": "Outline of Obsidian Publish Documentation"
             }
           }
         ],
@@ -206,10 +206,10 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "dc198fb330743c75",
+  "active": "6e3e42d92dafe793",
   "lastOpenFiles": [
-    "🗒️ Gists/CAD/Obsidian Publish Documentation.md",
     "Home.md",
+    "🗒️ Gists/CAD/Obsidian Publish Documentation.md",
     "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS/Naissance HGIS.md",
     "_images/embed_template.png",
     "_images/embed_template.png.0.pdnSave",
