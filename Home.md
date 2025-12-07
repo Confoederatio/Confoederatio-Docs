@@ -1,5 +1,5 @@
 ---
-image: https://i.postimg.cc/qvvmDC6H/embed-template.png
+cover: https://i.postimg.cc/qvvmDC6H/embed-template.png
 description: Centralised documentation for all Confoederatio projects.
 ---
 

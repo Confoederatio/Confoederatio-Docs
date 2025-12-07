@@ -16,8 +16,8 @@ As newer versions of **Confoederatio Docs** use [Obsidian Publish](https://obsid
 ### Embed Previews:
 
 ![[embed_template.png]]
-<div align = "center">The embed preview that should show up but doesn't.</div>
+<div align = "center">The embed template preview that should show up but might not immediately.</div>
 
 Embeds can be changed with the use of YAML configurations [Obsidian Publish Documentation](https://help.obsidian.md/publish/social-share). This has not yet been done for Confoederatio Docs, but should be configured.
 
-Social media banners do not appear to work, only descriptions.
+Social media banners take up to 2-4 hours to update, but descriptions update instantly. For stability reasons, embed images should be hosted externally.
