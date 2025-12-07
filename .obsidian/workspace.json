@@ -13,41 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📰 Blogs/6 December 2025 - The Long Road Ahead.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "6 December 2025 - The Long Road Ahead"
-            }
-          },
-          {
-            "id": "9d53bb633d2ac9e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CAD (Confoederatio, Artistic Division)/Plans/2025.12.06.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025.12.06"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "164c80f7816102b5",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "8b19e14f9e649d14",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Home.md",
                 "mode": "source",
                 "source": false
@@ -129,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CAD (Confoederatio, Artistic Division)/Plans/2025.12.06.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2025.12.06"
+              "title": "Backlinks for Home"
             }
           },
           {
@@ -148,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CAD (Confoederatio, Artistic Division)/Plans/2025.12.06.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 2025.12.06"
+              "title": "Outgoing links from Home"
             }
           },
           {
@@ -191,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CAD (Confoederatio, Artistic Division)/Plans/2025.12.06.md",
+                "file": "Home.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025.12.06"
+              "title": "Outline of Home"
             }
           }
         ],
@@ -209,7 +174,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "webpage-html-export:Export as HTML": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -219,15 +183,28 @@
       "bases:Create new base": false,
       "markdown-table-editor:Open Markdown Table Editor": false,
       "iconic:Open rulebook": false,
-      "publish:Publish changes...": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "publish:Publish changes...": false
     }
   },
-  "active": "9d53bb633d2ac9e1",
+  "active": "8cafb33fb70c3314",
   "lastOpenFiles": [
-    "FAQs.md",
+    "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS/Naissance HGIS.md",
+    "CRD (Confoederatio, Research Division)/Documentation/Legacy/Naissance.md",
+    "CRD (Confoederatio, Research Division)/Documentation/Datasets/Atlas.md",
+    "_images/crd/naissance/naissance_1.5b_rockall.png",
+    "_images/crd/naissance",
+    "_images/crd/Neuer Ordner",
+    "_images/crd",
+    "_images/Neuer Ordner",
+    "CTD (Confoederatio, Technical Division)/Documentation/Technical (Frontend)/Vercengen/Vercengen.md",
+    "CRD (Confoederatio, Research Division)/Documentation/Software/Constele Red",
+    "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS",
+    "CTD (Confoederatio, Technical Division)/Documentation/Technical (Frontend)/Vercengen/Vercengen Releases.md",
     "Home.md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Technical (Frontend)/Vercengen/Vercengen README.md",
     "📰 Blogs/6 December 2025 - The Long Road Ahead.md",
+    "CAD (Confoederatio, Artistic Division)/Plans/2025.12.06.md",
+    "FAQs.md",
     "Preservés des Confoederatio/Documentation/Digital Archives.md",
     "Projects.md",
     "🗒️ Gists/CTD/Midnight Maintenance.md",
@@ -238,15 +215,8 @@
     "_images/blogs",
     "CTD (Confoederatio, Technical Division)/Documentation/Games/Balance of Power/Balance of Power.md",
     "favicon.ico",
-    "confoederatio_icon.ico",
-    "confoederatio_icon.ico.0.pdnSave",
     "confoederatio_icon.png",
-    "CAD (Confoederatio, Artistic Division)/Plans/2025.12.06.md",
-    "CTD (Confoederatio, Technical Division)/Documentation/Games/Balance of Power",
     "CTD (Confoederatio, Technical Division)/Documentation/Legacy (Frontend)/Scriptly IDE.md",
-    "CTD (Confoederatio, Technical Division)/Documentation/Legacy (Frontend)",
-    "CTD (Confoederatio, Technical Division)/Documentation/Legacy (Backend)",
-    "CTD (Confoederatio, Technical Division)/Documentation/Technical (Frontend)",
     "Preservés des Confoederatio/Documentation/Physical Archives.md",
     "CTD (Confoederatio, Technical Division)/Documentation/Legacy (Backend)/Legacy Geospatiale.md",
     "CTD (Confoederatio, Technical Division)/Documentation/Technical (Backend)/Universal Framework/UF.md",
@@ -257,12 +227,6 @@
     "CTD (Confoederatio, Technical Division)/Documentation/Games/Triumph & Tragedy/Triumph & Tragedy I.md",
     "CTD (Confoederatio, Technical Division)/Documentation/Games/11.59/11.59 (AOC3).md",
     "CTD (Confoederatio, Technical Division)/Documentation/Games/11.59/11.59 (AOC2).md",
-    "CTD (Confoederatio, Technical Division)/Documentation/Games/Analytical Engine/Analytical Engine.md",
-    "CTD (Confoederatio, Technical Division)/Documentation/Games/Gamechanger/Gamechanger.md",
-    "CRD (Confoederatio, Research Division)/Documentation/Legacy/Project Humanity.md",
-    "CTD (Confoederatio, Technical Division)/Documentation/Technical (Frontend)/Vercengen/Vercengen.md",
-    "CAD (Confoederatio, Artistic Division)/Documentation/Traditional/Traditional Art.md",
-    "CAD (Confoederatio, Artistic Division)/Documentation/Digital/G-Earth.MC.md",
     "_images/banners/ctd_games_or_other.png",
     "_images/banners/ctd_analytical_engine.png",
     "_images/banners/ctd_vercengen.png",
@@ -271,7 +235,6 @@
     "_images/banners/crd_software.png",
     "_images/banners/crd_datasets.png",
     "_images/banners/crd_banner.png",
-    "_images/banners/crd_constele_red.png",
     "Untitled 1.canvas"
   ]
 }

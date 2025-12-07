@@ -28,11 +28,11 @@ All datasets and documents, alongside accompanying research notes and code, are 
 	<tr><td style = "padding:0;border:0;" width = "50%"><img src = "_images/banners/crd_eoscala.png"></td><td style = "padding:0;border:0;padding-left: 0.25rem;" width = "50%"><img src = "_images/banners/crd_sehistoir.png"></td></tr>
 	<tr><td style = "padding:0;border:0;" width = "50%"><img src = "_images/banners/crd_stadester.png"></td><td style = "padding:0;border:0;padding-left: 0.25rem;" width = "50%"><img src = "_images/banners/crd_velkscala.png"></td></tr>
 	<tr><td style = "padding:0;border:0;" width = "50%"><img src = "_images/banners/crd_software.png"></td><td style = "padding:0;border:0;padding-left: 0.25rem;" width = "50%"><img src = "_images/banners/crd_constele_red.png"></td></tr>
-	<tr><td style = "padding:0;border:0;" width = "50%"><img src = "_images/banners/crd_naissance.png"></td><td style = "padding:0;border:0;padding-left: 0.25rem;" width = "50%"><img src = "_images/banners/placeholder.png"></td></tr>
+	<tr><td style = "padding:0;border:0;" width = "50%"><a href = "https://confoederatiodocs.info/CRD+(Confoederatio%2C+Research+Division)/Documentation/Software/Naissance+HGIS/Naissance+HGIS"><img src = "_images/banners/crd_naissance.png"></a></td><td style = "padding:0;border:0;padding-left: 0.25rem;" width = "50%"><img src = "_images/banners/placeholder.png"></td></tr>
 </table>
 
 <table>
-<tr><td style = "padding:0;border:0;" width = "50%"><a href = "/confoederatio/CTD+(Confoederatio%2C+Technical+Division)/Documentation/Vercengen/Vercengen+README"><img src = "_images/banners/ctd_vercengen.png"></a></td><td style = "padding:0;border:0;padding-left: 0.25rem;" width = "50%"><img src = "_images/banners/ctd_banner.png"></td>
+<tr><td style = "padding:0;border:0;" width = "50%"><a href = "https://confoederatiodocs.info/CTD+(Confoederatio%2C+Technical+Division)/Documentation/Technical+(Frontend)/Vercengen/Vercengen"><img src = "_images/banners/ctd_vercengen.png"></a></td><td style = "padding:0;border:0;padding-left: 0.25rem;" width = "50%"><img src = "_images/banners/ctd_banner.png"></td>
 <tr><td style = "padding:0;border:0;" width = "50%"><img src = "_images/banners/ctd_analytical_engine.png"></td><td style = "padding:0;border:0;padding-left: 0.25rem;" width = "50%"><img src = "_images/banners/ctd_games_or_other.png"></td>
 </table>
 
