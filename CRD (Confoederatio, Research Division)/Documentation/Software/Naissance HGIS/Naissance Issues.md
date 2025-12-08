@@ -9,5 +9,5 @@ This is a list of known [[Naissance HGIS]] issues that should be fixed in follow
 - The global settings UI is not fully flushed out.
 
 **Refactoring:**
-- Static `getDefaultLabelSymbol()` implemented by [[naissance.Brush]] to avoid redundancy.
+- Static `getDefaultLabelSymbol()` implemented by [[Brush]] to avoid redundancy.
 - Moving [[Naissance Variables Editor]] to a [[Naissance Geometries|Geometry]] generic.
