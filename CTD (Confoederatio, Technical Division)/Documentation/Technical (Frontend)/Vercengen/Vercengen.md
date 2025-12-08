@@ -1,3 +1,7 @@
+---
+description: An immediate mode UI library built to eliminate frontend work by making UI a subset of state.
+cover: https://i.postimg.cc/J7SgyNxT/embed-template-vercengen.png
+---
 
 <div align = "center">
 	<h3>UI is a subset of State.</h3>
