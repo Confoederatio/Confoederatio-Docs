@@ -32,7 +32,7 @@ I. Stone Age. (Wooden Tools).
         - 2 Logs > 1 Log Pile
 - Hide: 1 (leather) Raw Hide, 1 Stone Knife/3 Flint Knife > 1 Hide (Later knives can be reused multiple times at a Crafting Bench)
 - Peat: Flint Shovel + (4% Random Chance drop from Dirt) > Peat (mud)
-- Peat: (Any) Shovel other than Flint + (8% Random Chance drop from Dirt) > Peat (mud) STOPPED HERE
+- Peat: (Any) Shovel other than Flint + (8% Random Chance drop from Dirt) > Peat (mud) ==STOPPED HERE==
     - Torch: 1 Peat, 1 Fibre Rope, 1 Sticks > 1 Unlit Torches/1 Charcoal, 1 Fibre Rope, 1 Sticks > 2 Unlit Torches
 - Thatch: 4 Straw, 2 Fibre Rope > 1 (hay_bale) Thatch
     - 4 Straw (dropped on ground) > 1 Bundle of Thatch
