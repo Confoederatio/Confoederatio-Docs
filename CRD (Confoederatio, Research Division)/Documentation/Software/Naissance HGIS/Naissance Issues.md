@@ -7,3 +7,7 @@ This is a list of known [[Naissance HGIS]] issues that should be fixed in follow
 **Implementation:**
 - The global settings UI needs a font registry, alongside default options for Features/Geometries.
 - The global settings UI is not fully flushed out.
+
+**Refactoring:**
+- Static `getDefaultLabelSymbol()` implemented by [[naissance.Brush]] to avoid redundancy.
+- Moving [[Naissance Variables Editor]] to a [[Naissance Geometries|Geometry]] generic.
