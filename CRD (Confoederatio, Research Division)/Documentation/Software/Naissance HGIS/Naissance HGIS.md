@@ -23,7 +23,10 @@ Note that linked documentation is user-facing only, and that technical backend d
 
 ## Plans
 
+The following is a list of plans that represent the continuous roadmap for Naissance HGIS.
+
 | Plan                       | Status | Date            |
 | -------------------------- | ------ | --------------- |
-| [[1.5.1b Hatteras Plan]]   | WIP    | 7 December 2025 |
+| [[1.6b Falkland Plan]]     | WIP    | 9 December 2025 |
+| [[1.5.1b Hatteras Plan]]   | DONE   | 7 December 2025 |
 | [[Naissance Label Editor]] | WIP    | 7 December 2025 |
