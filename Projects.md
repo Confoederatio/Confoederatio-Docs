@@ -76,6 +76,9 @@ __Software & Tooling:__
 
 All **Confoederatio Projects**, regardless of recent activity, maintenance, updates, or progress are assigned project numbers upon initialisation to help keep track of them. Currently, all project numbers are identified by a 4-digit numeric code. Legacy duplicates were assigned a prefix `L`.
 
+> [!NOTE]
+> The following is a partial list. You can help by expanding it. 
+
 These project numbers are listed as follows:
 
 | Project Number | Project                         | Status                                                                |
@@ -117,6 +120,7 @@ These project numbers are listed as follows:
 | 1815           | Newmarket                       | Planned; economy game                                                 |
 | 1835           | Naissance Legacy                | Superseded; Historical GIS                                            |
 | 1857           | T&T2 Production                 | Abandoned; separate server instance                                   |
+| 1858           | Gamechanger                     | Ongoing; Node.js, web-based MMO game engine                           |
 | 1859           | T&T2 Development                | Suspended; grand-strategy game                                        |
 | 1880           | Discord Themes                  | Abandoned                                                             |
 | 1912           | G-Earth/MC Netherlands 1:1      | Suspended; Minecraft recreation                                       |
