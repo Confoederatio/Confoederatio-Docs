@@ -1,2 +1,3 @@
-> [!WARNING]
-> Documentation of this nature on Confoederatio Docs are user-facing only. Technical documentation should be assigned their own subdomain in the future.
+> [!NOTE]
+> Point instances here will be referred to by their class name, GeometryPoint, to prevent confusion. In certain contexts, they are also referred to as a Marker.
+
