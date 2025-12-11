@@ -23,9 +23,7 @@ Represents a **naissance.GeometryPoint** type which contains Point in [[GeoJSON]
 **Creating a GeometryPoint:**
 - Right Click on Map > New Point
 **Editing a GeometryPoint:**
-
-> [!WARNING]
-> GeometryPoint coordinates editing has not yet been implemented. See [[1.6b Falkland Plan]] for more details.
+- `Click on the GeometryPoint > Move Marker > Click on the Map` to set its new coordinate.
 
 Prior to editing a GeometryPoint, ensure that it is selected as the [[Brush]]'s primary geometry. An existing point should be draggable when selected and moved elsewhere accordingly.
 

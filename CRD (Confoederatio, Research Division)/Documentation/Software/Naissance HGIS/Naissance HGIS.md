@@ -1,3 +1,8 @@
+---
+cover: https://i.postimg.cc/qvvmDC6H/embed-template.png
+description: A 3D historical GIS with a focus on capabilities and user experience. Geospatial editing for the 21st century.
+---
+
 See also: [[History]], [[Naissance Issues]], [[Naissance Roadmap]]
 #wip
 

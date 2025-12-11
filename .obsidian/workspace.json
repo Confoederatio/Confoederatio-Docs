@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CRD (Confoederatio, Research Division)/Plans/Naissance/1.6b Falkland Plan.md",
+                "file": "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS/Naissance HGIS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.6b Falkland Plan"
+              "title": "Naissance HGIS"
             }
           },
           {
@@ -205,13 +205,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CRD (Confoederatio, Research Division)/Plans/Naissance/1.6b Falkland Plan.md",
+                "file": "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS/Naissance HGIS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 1.6b Falkland Plan"
+              "title": "Outline of Naissance HGIS"
             }
           }
         ],
@@ -235,11 +235,14 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "8cafb33fb70c3314",
+  "active": "dc198fb330743c75",
   "lastOpenFiles": [
-    "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS/User Documentation/Entities/Geometries/GeometryPoint.md",
-    "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS/User Documentation/Entities/Geometries/GeometryLine.md",
     "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS/User Documentation/Entities/Geometries/GeometryPolygon.md",
+    "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS/Naissance HGIS.md",
+    "CRD (Confoederatio, Research Division)/Documentation/Legacy/Naissance/Naissance.md",
+    "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS/User Documentation/Entities/Geometries/GeometryPoint.md",
+    "CRD (Confoederatio, Research Division)/Plans/Naissance/1.6b Falkland Plan.md",
+    "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS/User Documentation/Entities/Geometries/GeometryLine.md",
     "Home.md",
     "_images/crd/naissance/GeometryPoint_1.5b.png",
     "🗒️ Gists/CTD/Midnight Maintenance.md",
@@ -250,7 +253,6 @@
     "_images/crd/constele_red",
     "_images/crd/Neuer Ordner",
     "CRD (Confoederatio, Research Division)/Documentation/Legacy/Project Humanity/Project Humanity.md",
-    "CRD (Confoederatio, Research Division)/Documentation/Legacy/Naissance/Naissance.md",
     "CRD (Confoederatio, Research Division)/Documentation/Datasets/Velkscala/Velkscala.md",
     "CRD (Confoederatio, Research Division)/Documentation/Datasets/Stadestér/Stadestér 1.1.md",
     "CRD (Confoederatio, Research Division)/Documentation/Datasets/Stadestér/Stadestér.md",
@@ -258,7 +260,6 @@
     "CRD (Confoederatio, Research Division)/Documentation/Datasets/Eoscala/Eoscala.md",
     "CRD (Confoederatio, Research Division)/Documentation/Datasets/Atlas/Atlas.md",
     "Projects.md",
-    "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS/Naissance HGIS.md",
     "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS/User Documentation/Entities/Geometries/Naissance Geometries.md",
     "CRD (Confoederatio, Research Division)/Plans/Naissance/Naissance Label Editor.md",
     "_images/crd/naissance/GeometryLine_1.5b.png",
@@ -269,7 +270,6 @@
     "Untitled.md",
     "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS/User Documentation/Entities/Naissance Entities.md",
     "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS/User Documentation/GeoJSON.md",
-    "CRD (Confoederatio, Research Division)/Plans/Naissance/1.6b Falkland Plan.md",
     "CRD (Confoederatio, Research Division)/Documentation/Datasets/Eoscala/Papers",
     "CRD (Confoederatio, Research Division)/Documentation/Datasets/Stadestér/Papers",
     "CRD (Confoederatio, Research Division)/Documentation/Datasets/Velkscala",
