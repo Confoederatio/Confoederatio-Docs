@@ -1,3 +1,8 @@
+---
+cover: https://i.postimg.cc/qvvmDC6H/embed-template.png
+descri: User information on creating and manipulating GeometryLines in Naissance HGIS, which are made of multiple line segments.
+---
+
 > [!NOTE]
 > Line instances here will be referred to by their class name, GeometryLine, to prevent confusion.
 

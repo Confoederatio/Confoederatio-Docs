@@ -1,3 +1,7 @@
+---
+cover: https://i.postimg.cc/qvvmDC6H/embed-template.png
+description: User information on creating and manipulating GeometryPolygons in Naissance HGIS.
+---
 > [!NOTE]
 > Polygon instances here will be referred to by their class name, GeometryPolygon, to prevent confusion.
 
@@ -13,7 +17,7 @@ The line that denotes its outer boundary is traditionally called the **shell**.
 | Class         | naissance.GeometryPolygon             |
 | ------------- | ------------------------------------- |
 | Class Name    | GeometryPolygon                       |
-| GeoJSON  Type | MultiPolygon/Polygon (if no exclaves) |
+| GeoJSON Type  | MultiPolygon/Polygon (if no exclaves) |
 | Semantic Name | Polygon                               |
 | Symbol Name   | Fill                                  |
 | Type          | Geometry                              |
