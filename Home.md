@@ -22,21 +22,21 @@ Confoederatio is a comprehensive R&D studio focused on the production of scienti
 All datasets and documents, alongside accompanying research notes and code, are made available in the public interest even if they may not be fully documented. This website is currently under construction; and as such, some fundamental projects may currently be missing documentation.
 
 ---
-<table>
+<table class = "cd-home nav-table">
 	<tr><td style = "padding:0;border:0;" width = "50%"><img src = "_images/banners/cad_art_design.png"></td><td style = "padding:0;border:0;padding-left: 0.25rem;" width = "50%"><img src = "_images/banners/cad_banner.png"></td></tr>
 	<tr><td style = "padding:0;border:0;" width = "50%"><img src = "_images/banners/cad_gearth_mc.png"></td><td style = "padding:0;border:0;padding-left: 0.25rem;" width = "50%"><a href = "https://www.deviantart.com/australiszero"><img src = "_images/banners/cad_deviantart.png"></a></td></tr>
 	<tr><td style = "padding:0;border:0;" width = "50%"><a href = "https://discord.gg/midnight-548994743925997570"><img src = "_images/banners/cad_discord.png"></a></td><td style = "padding:0;border:0;padding-left: 0.25rem;" width = "50%"><a href = "https://www.youtube.com/@Confoederatio"><img src = "_images/banners/cad_youtube.png"></a></td></tr>
 </table>
 
-<table>
+<table class = "cd-home nav-table">
 	<tr><td style = "padding:0;border:0;" width = "50%"><img src = "_images/banners/crd_banner.png"></td><td style = "padding:0;border:0;padding-left: 0.25rem;" width = "50%"><img src = "_images/banners/crd_datasets.png"></td>
 	<tr><td style = "padding:0;border:0;" width = "50%"><img src = "_images/banners/crd_eoscala.png"></td><td style = "padding:0;border:0;padding-left: 0.25rem;" width = "50%"><img src = "_images/banners/crd_sehistoir.png"></td></tr>
 	<tr><td style = "padding:0;border:0;" width = "50%"><img src = "_images/banners/crd_stadester.png"></td><td style = "padding:0;border:0;padding-left: 0.25rem;" width = "50%"><img src = "_images/banners/crd_velkscala.png"></td></tr>
-	<tr><td style = "padding:0;border:0;" width = "50%"><img src = "_images/banners/crd_software.png"></td><td style = "padding:0;border:0;padding-left: 0.25rem;" width = "50%"><img src = "_images/banners/crd_constele_red.png"></td></tr>
+	<tr><td style = "padding:0;border:0;" width = "50%"><img src = "_images/banners/crd_software.png"></td><td style = "padding:0;border:0;padding-left: 0.25rem;" width = "50%"><a href = "https://confoederatiodocs.info/CRD+(Confoederatio%2C+Research+Division)/Documentation/Software/Constele+Red/Constele+Red"><img src = "_images/banners/crd_constele_red.png"></a></td></tr>
 	<tr><td style = "padding:0;border:0;" width = "50%"><a href = "https://confoederatiodocs.info/CRD+(Confoederatio%2C+Research+Division)/Documentation/Software/Naissance+HGIS/Naissance+HGIS"><img src = "_images/banners/crd_naissance.png"></a></td><td style = "padding:0;border:0;padding-left: 0.25rem;" width = "50%"><img src = "_images/banners/placeholder.png"></td></tr>
 </table>
 
-<table>
+<table class = "cd-home nav-table">
 <tr><td style = "padding:0;border:0;" width = "50%"><a href = "https://confoederatiodocs.info/CTD+(Confoederatio%2C+Technical+Division)/Documentation/Technical+(Frontend)/Vercengen/Vercengen"><img src = "_images/banners/ctd_vercengen.png"></a></td><td style = "padding:0;border:0;padding-left: 0.25rem;" width = "50%"><img src = "_images/banners/ctd_banner.png"></td>
 <tr><td style = "padding:0;border:0;" width = "50%"><img src = "_images/banners/ctd_analytical_engine.png"></td><td style = "padding:0;border:0;padding-left: 0.25rem;" width = "50%"><img src = "_images/banners/ctd_games_or_other.png"></td>
 </table>

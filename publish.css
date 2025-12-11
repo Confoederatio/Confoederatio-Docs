@@ -4,3 +4,18 @@ img {
   margin-right: auto;
 }
 .site-footer { display: none; }
+
+/* -- Homepage -- */
+.cd-home.nav-table {
+	img {
+		filter: grayscale(90%);
+	}
+	a img {
+		filter: grayscale(0%) brightness(1);
+		transition: all 0.25s ease;
+	}
+	a img:hover {
+		filter: grayscale(0%) brightness(1.5);
+		cursor: pointer;
+	}
+}
