@@ -61,12 +61,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CRD (Confoederatio, Research Division)/Plans/Naissance/1.7b Agulhas Plan.md",
+                "file": "🗒️ Gists/CTD/Midnight Maintenance.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.7b Agulhas Plan"
+              "title": "Midnight Maintenance"
             }
           }
         ],
@@ -205,13 +205,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS/Naissance HGIS.md",
+                "file": "🗒️ Gists/CTD/Midnight Maintenance.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Naissance HGIS"
+              "title": "Outline of Midnight Maintenance"
             }
           }
         ],
@@ -231,11 +231,10 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "markdown-table-editor:Open Markdown Table Editor": false,
-      "iconic:Open rulebook": false,
       "publish:Publish changes...": false
     }
   },
-  "active": "dc198fb330743c75",
+  "active": "86c34a04641b19d7",
   "lastOpenFiles": [
     "CRD (Confoederatio, Research Division)/Plans/Naissance/1.7b Agulhas Plan.md",
     "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS/Naissance HGIS.md",
