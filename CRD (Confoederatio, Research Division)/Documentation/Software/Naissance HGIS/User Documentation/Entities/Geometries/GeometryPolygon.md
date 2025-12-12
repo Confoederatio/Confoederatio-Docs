@@ -34,6 +34,9 @@ You can move an existing polygon into the Brush's primary slot by clicking on th
 	- Double click to finish the current lasso.
 	- Pressing `Left Click` to lasso a new shape will add the lasso to the GeometryPolygon upon finishing it.
 	- Pressing `Control + Left Click`  before lassoing a new shape will subtract the lasso from the GeometryPolygon upon finishing it.
+- If using the Fill Bucket:
+	- Left Click a province to fill it.
+	- Ctrl + Left Click a province to remove it.
 
 To edit a polygon at a specific keyframe, `Click on the Geometry Polygon > Keyframes > Jump To Date`, then edit at the new date.
 ## Symbol

@@ -31,8 +31,9 @@ Note that linked documentation is user-facing only, and that technical backend d
 
 The following is a list of plans that represent the continuous roadmap for Naissance HGIS.
 
-| Plan                       | Status | Date            |
-| -------------------------- | ------ | --------------- |
-| [[1.6b Falkland Plan]]     | WIP    | 9 December 2025 |
-| [[1.5.1b Hatteras Plan]]   | DONE   | 7 December 2025 |
-| [[Naissance Label Editor]] | WIP    | 7 December 2025 |
+| Plan                       | Status | Date             |
+| -------------------------- | ------ | ---------------- |
+| [[1.7b Agulhas Plan]]      | WIP    | 12 December 2025 |
+| [[1.6b Falkland Plan]]     | DONE   | 9 December 2025  |
+| [[1.5.1b Hatteras Plan]]   | DONE   | 7 December 2025  |
+| [[Naissance Label Editor]] | WIP    | 7 December 2025  |
