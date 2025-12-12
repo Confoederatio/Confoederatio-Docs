@@ -205,13 +205,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🗒️ Gists/CTD/Midnight Maintenance.md",
+                "file": "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS/Naissance HGIS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Midnight Maintenance"
+              "title": "Outline of Naissance HGIS"
             }
           }
         ],
@@ -234,8 +234,9 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "86c34a04641b19d7",
+  "active": "dc198fb330743c75",
   "lastOpenFiles": [
+    "🗒️ Gists/CTD/Midnight Maintenance.md",
     "CRD (Confoederatio, Research Division)/Plans/Naissance/1.7b Agulhas Plan.md",
     "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS/Naissance HGIS.md",
     "CRD (Confoederatio, Research Division)/Plans/Naissance/Naissance Label Editor.md",
@@ -248,7 +249,6 @@
     "CRD (Confoederatio, Research Division)/Documentation/Legacy/Naissance/Naissance.md",
     "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS/User Documentation/Entities/Geometries/GeometryPoint.md",
     "_images/crd/naissance/GeometryPoint_1.5b.png",
-    "🗒️ Gists/CTD/Midnight Maintenance.md",
     "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS/User Documentation/Entities/Naissance Symbol.md",
     "CTD (Confoederatio, Technical Division)/Documentation/Games/Analytical Engine/Analytical Engine.md",
     "_images/crd/constele_red/constele_red_logo.png",
