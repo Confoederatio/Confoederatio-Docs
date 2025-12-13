@@ -1,5 +1,5 @@
 ---
-cover: https://i.postimg.cc/qvvmDC6H/embed-template.png
+cover: https://i.postimg.cc/Rhp5GKJS/embed-template-naissance.png
 description: A 3D historical GIS with a focus on capabilities and user experience. Geospatial editing for the 21st century.
 ---
 
@@ -18,7 +18,7 @@ See also: [[History]], [[Naissance Issues]], [[Naissance Roadmap]]
 
 Current design considerations are overwhelmingly focused on getting core data entry features down, especially with [[HistoryKeyframe|History Keyframes]] and certain [[Naissance Geometries|Geometries]]/[[Naissance Features|Features]]. If you are looking for simulation/geoprocessing capabilities, these are currently housed separately with [[Constele Red]], which serves as a stopgap GIS solution.
 
-Note that linked documentation is user-facing only, and that technical backend documentation is hosted on a separate site.
+Note that linked documentation is user-facing only, and that technical backend documentation is hosted on a separate site. To turn Dev Tools on/off for debugging purposes, press `Ctrl + Shift + I`.
 ## Core Capabilities
 
 1. Data Entry

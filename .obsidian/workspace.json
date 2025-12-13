@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS/User Documentation/Entities/Geometries/GeometryLine.md",
+                "file": "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS/Naissance HGIS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GeometryLine"
+              "title": "Naissance HGIS"
             }
           },
           {
@@ -34,42 +34,13 @@
               "icon": "lucide-file",
               "title": "FeatureLayer"
             }
-          },
-          {
-            "id": "1861cfc8faebd5ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS/User Documentation/Entities/Features/FeatureSketchMap.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "FeatureSketchMap"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "62ca19e64e25b570",
         "type": "tabs",
         "children": [
-          {
-            "id": "6e3e42d92dafe793",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CRD (Confoederatio, Research Division)/Documentation/Software/Constele Red/Constele Red.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Constele Red"
-            }
-          },
           {
             "id": "c61fd99b50eb76ba",
             "type": "leaf",
@@ -97,23 +68,9 @@
               "icon": "lucide-file",
               "title": "FeatureSketchMap"
             }
-          },
-          {
-            "id": "d62763c68be16cda",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS/User Documentation/Entities/Features/FeatureTileLayer.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "FeatureTileLayer"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -145,7 +102,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "projects",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -248,13 +205,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS/User Documentation/Entities/Features/FeatureTileLayer.md",
+                "file": "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS/Naissance HGIS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of FeatureTileLayer"
+              "title": "Outline of Naissance HGIS"
             }
           }
         ],
@@ -277,15 +234,24 @@
       "publish:Publish changes...": false
     }
   },
-  "active": "d62763c68be16cda",
+  "active": "8cafb33fb70c3314",
   "lastOpenFiles": [
-    "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS/User Documentation/Entities/Features/FeatureSketchMap.md",
+    "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS/User Documentation/Entities/Geometries/GeometryLine.md",
     "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS/User Documentation/Entities/Features/FeatureLayer.md",
+    "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS/User Documentation/Entities/Features/FeatureSketchMap.md",
+    "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS/User Documentation/Entities/Geometries/Naissance Geometries.md",
+    "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS/User Documentation/Entities/Naissance Entities.md",
+    "🗒️ Gists/CAD/Obsidian Publish Documentation.md",
+    "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS/Naissance HGIS.md",
+    "_images/embed_template_naissance.png",
+    "_images/embed_template_naissance.png.0.pdnSave",
+    "_images/embed_template_naissance.pdn",
+    "_images/embed_template_naissance.pdn.0.pdnSave",
+    "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS/User Documentation/Map/Base Layer.md",
     "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS/User Documentation/Entities/Features/FeatureTileLayer.md",
     "_images/crd/naissance/FeatureTileLayer_1.6b.png",
     "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS/User Documentation/Entities/Geometries/GeometryPolygon.md",
     "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS/User Documentation/Entities/Features/FeatureGroup.md",
-    "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS/User Documentation/Entities/Geometries/GeometryLine.md",
     "CRD (Confoederatio, Research Division)/Documentation/Software/Constele Red/Constele Red.md",
     "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS/User Documentation/UI/Leftbar Hierarchy.md",
     "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS/User Documentation/Entities/Geometries/GeometryPoint.md",
@@ -293,7 +259,6 @@
     "CTD (Confoederatio, Technical Division)/Documentation/Technical (Frontend)/Vercengen/Vercengen.md",
     "🗒️ Gists/CTD/Midnight Maintenance.md",
     "CRD (Confoederatio, Research Division)/Plans/Naissance/1.7b Agulhas Plan.md",
-    "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS/Naissance HGIS.md",
     "CRD (Confoederatio, Research Division)/Plans/Naissance/Naissance Label Editor.md",
     "CRD (Confoederatio, Research Division)/Plans/Naissance/1.6b Falkland Plan.md",
     "Home.md",
@@ -306,9 +271,6 @@
     "_images/crd/Neuer Ordner",
     "CRD (Confoederatio, Research Division)/Documentation/Legacy/Project Humanity/Project Humanity.md",
     "CRD (Confoederatio, Research Division)/Documentation/Datasets/Velkscala/Velkscala.md",
-    "CRD (Confoederatio, Research Division)/Documentation/Datasets/Stadestér/Stadestér 1.1.md",
-    "CRD (Confoederatio, Research Division)/Documentation/Datasets/Stadestér/Stadestér.md",
-    "CRD (Confoederatio, Research Division)/Documentation/Datasets/Sehistoir/Sehistoir.md",
     "_images/crd/naissance/GeometryLine_1.5b.png",
     "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance HGIS/User Documentation/UI",
     "_images/crd/naissance/GeometryPolygon_1.5b.png",
@@ -317,13 +279,9 @@
     "CRD (Confoederatio, Research Division)/Documentation/Datasets/Stadestér/Papers",
     "CRD (Confoederatio, Research Division)/Documentation/Datasets/Velkscala",
     "CRD (Confoederatio, Research Division)/Documentation/Datasets/Sehistoir",
-    "CRD (Confoederatio, Research Division)/Documentation/Datasets/Eoscala",
-    "CRD (Confoederatio, Research Division)/Documentation/Datasets/Atlas",
-    "CRD (Confoederatio, Research Division)/Documentation/Datasets/Stadestér",
     "_images/blogs/naissance_09.12.2025.png",
     "_images/embed_template_vercengen.png",
     "_images/embed_template.png",
-    "_images/ctd/balance_of_power/bop_beta_1_map_europe.png",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
