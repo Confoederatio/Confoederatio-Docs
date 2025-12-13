@@ -14,8 +14,8 @@ The visibility of sketch maps can be toggled on and off, and they render over ot
 | ------------- | -------------------------- |
 | Class Name    | FeatureSketchMap           |
 | GeoJSON Type  | None                       |
-| Is Group      | Yes                        |
-| Semantic Name | Layer                      |
+| Is Group      | No                         |
+| Semantic Name | Sketch Map                 |
 | Symbol Name   | None                       |
 
 **Creating a FeatureSketchMap**:
