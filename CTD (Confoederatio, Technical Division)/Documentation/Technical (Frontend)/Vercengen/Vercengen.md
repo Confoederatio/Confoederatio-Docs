@@ -45,13 +45,14 @@ Vercengen supports built-in file explorers, nested hierarchies, delta action und
 
 The framework is batteries included and supports a range of Features (which encapsulate Components), and Components. UIs are built by simply including Vercengen variable types in your data structures - the reflection engine is in charge of parsing everything.
 
+Current **Locales** include:
+- EN-GB (British English: Default), FR (French), DE (German)
+
 Default **Features** include:
 - Confirm, ContextMenu, Modal, Navbar, PageMenuWindow, Scene, Toast, Tooltip, Window
 
 Default **Components** include:
 - BIUF (Rich Text), Button, Checkbox, Colour, Datalist, Date, DateLength, File, FileExplorer, HTML, Hierarchy, HierarchyDatatype, Interface, List, Map, MultiTag, Number, PageMenu, Password, Radio, Range, RawInterface, ScriptManager, ScriptManagerBlockly, ScriptManagerCodemirror, Select, Table, Telephone, Text, Time, Toggle, URL, UndoRedo, WYSIWYG
-
-<br>
 <img src = "https://confoederatio.org/Vercengen/autodoc/images/undo_redo_preview.png">
 <div align = "center"><b>Note.</b> Undo/Redo supports both a Timeline view as well as a graphical Tree view.</div>
 
