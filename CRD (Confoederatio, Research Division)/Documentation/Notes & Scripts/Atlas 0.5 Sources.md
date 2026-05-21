@@ -5,6 +5,8 @@ This is a log of changes made to the `.naissance` file since the original video 
 	- Fixed Iceland belonging to Sweden prior to the Kalmar Union (this was due to an accidental date range transfer).
 - Era 3 (1356AD-1815AD):
 	- Fixed Electoral Palatinate naming. 
+- Era 4 (1815AD-1991AD):
+	- Fixed State of Malta name after decolonisation.
 
 **Text Sources:**
 - General Sources: Großer Atlas zur Weltgeschichte (Westermann), Großer Historischer Weltatlas (Bayerischer), Tübingen Atlas des Vorderen Orients (TAVO). Cliopatria used as a base source. Encyclopaedia Britannica used for common knowledge dates.
