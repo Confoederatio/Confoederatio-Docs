@@ -1,3 +1,14 @@
+> [!NOTE]
+> We are currently working on upgrades to our map editor to allow for larger datasets. See the roadmap below for more details.
+## Roadmap:
+
+1. June 7: Hierarchy overhaul, with search for real-life locations via Nominatim/Google Maps. Shared between ST/MT.
+2. June 14: veTimeline component, Timelapse Controls for both ST/MT. This update will be pushed to Naissance ST as 1.9 Leyte.
+3. June 21: Stencils for applying and templating operations across layers. This work will be done on the MT app only.
+4. June 28-30: Finishing equivalent business logic, backporting mapmodes from ST to MT.
+
+By the beginning of July 2026, we plan to have a Naissance 2.0 out for the public to use, and after finishing Layer merge operations and beta testing, will get back to working on Atlas polities by late July.
+
 **Errata since video publication:**
 
 This is a log of changes made to the `.naissance` file since the original video was published.
