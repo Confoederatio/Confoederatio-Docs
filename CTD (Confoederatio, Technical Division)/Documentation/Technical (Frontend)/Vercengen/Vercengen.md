@@ -19,25 +19,19 @@ Vercengen is an immediate mode frontend software engine developed for Confoedera
 Vercengen supports built-in file explorers, nested hierarchies, delta action undo/redo trees, searchable lists, sortable lists, word processors, spreadsheet editors, IDEs, recursive context menus and tooltips, window management, and much more. For a list of all available components, please reference the documentation [here](https://confoederatio.org/Vercengen). It also comes shipped with [[UF|Universal Framework]], which we use for backend utils.
 
 <table>
-  <tr>
-    <td colspan = "2"><img src = "https://i.postimg.cc/Syt0JjZr/vercengen-script-manager.png">
-      <div align = "center">(Scriptly IDE)</div></td>
+   <tr>
+    <td colspan = "2"><img src = "https://i.postimg.cc/ZT5y1wYy/vercengen-scriptly-ide-02.png"><div align = "center">(Scriptly IDE)</div></td>
   </tr>
   <tr>
-    <td width = "50%"> <img src = "https://i.postimg.cc/7xQvfbBW/naissance-01.png">
-      <div align = "center">(Naissance GIS)</div></td>
-    <td width = "50%"><img src = "https://i.postimg.cc/HpPGVjSb/constele-red-01.png">
-      <div align = "center">(Constele Red/Eoscala)</div></td>
+    <td width = "50%"><img src = "https://i.postimg.cc/3wYyfwcB/vercengen-naissance-hgis.png"><div align = "center">(Naissance GIS)</div></td>
+    <td width = "50%"><img src = "https://i.postimg.cc/HpPGVjSb/constele-red-01.png"><div align = "center">(Constele Red/Eoscala)</div></td>
   </tr>
   <tr>
-    <td><img src = "https://i.postimg.cc/2CGNN0n5/constele-red-02.png">
-      <div align = "center">(Constele Red/Stadestér)</div></td>
-    <td><img src = "https://i.postimg.cc/D2YV8mjT/naissance-02.png">
-      <div align = "center">(SketchMap Editor)</div></td>
+    <td><img src = "https://i.postimg.cc/2CGNN0n5/constele-red-02.png"><div align = "center">(Constele Red/Stadestér)</div></td>
+    <td><img src = "https://i.postimg.cc/bvy0MPCY/vercengen-datavis-suite-02.png"><div align = "center">(DatavisSuite)</div></td>
   </tr>
   <tr>
-    <td colspan = "2"><img src = "https://i.postimg.cc/zq7YYxTv/constele-red-03.png">
-      <div align = "center">(Node-based distributed compute DAG)</div></td>
+    <td colspan = "2"><img src = "https://i.postimg.cc/hGcJZG5T/vercengen-node-editor.png"><div align = "center">(3-way DAG editor; Blocks &lt;-&gt; Code &lt;-&gt; Nodes)</div></td>
   </tr>
 </table>
 
