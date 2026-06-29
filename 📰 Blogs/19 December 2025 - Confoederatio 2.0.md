@@ -32,7 +32,7 @@ All dates are prospective and given as deadlines, rather than when they commence
 	- Renaming Vercengen components
 - 31 March 2026:  [[Stadestér 1.1 Cusco]] Release
 - 31 April 2026: [[Velkscala 1.0]] Release
-- 31 July 2026: [[Naissance HGIS]] 1.0 Release
+- 31 July 2026: [[CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Naissance]] 1.0 Release
 - 31 August 2026: Web infrastructure work
 	- https://confoederatio.org/ modernisation work
 	- Confoederatio Docs completeness

@@ -46,7 +46,7 @@ Dates are specified as being when projects end, i.e. deadlines, not when they st
 		    - Polish work for ve.WordProcessor
 - 31 March 2026:  [[Stadestér 1.1 Cusco]] Release - Historical Urban Database
 - 31 April 2026: [[Velkscala 1.0]] Release - Historical Demographic Database
-- 31 July 2026: [[Naissance HGIS]] 1.0 Release - 4D Integrated Research Environment (IRE)
+- 31 July 2026: [[CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Naissance]] 1.0 Release - 4D Integrated Research Environment (IRE)
 - 31 August 2026: Web infrastructure work
     - https://confoederatio.org/ modernisation work
     - Confoederatio Docs completeness

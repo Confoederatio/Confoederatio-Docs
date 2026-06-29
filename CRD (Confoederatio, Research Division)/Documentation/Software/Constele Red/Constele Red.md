@@ -19,7 +19,7 @@ See Also: [Constele Red on GitHub](https://github.com/Confoederatio/Constele-Red
   </tr>
 </table>
 
-This application is mainly split into a node-based dataflow editor and a map visualiser, where multiple mapmodes may be saved and switched between. Mapmodes are scriptable, as are individual function/command calls from within nodes. **Constele Red** is built as a supplement to [[Naissance HGIS]], a 3D HGIS used by <ins>Confoederatio</ins>. Statistical integration and data visualisation suites have also been added on via D3.js compatibility.
+This application is mainly split into a node-based dataflow editor and a map visualiser, where multiple mapmodes may be saved and switched between. Mapmodes are scriptable, as are individual function/command calls from within nodes. **Constele Red** is built as a supplement to [[CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Naissance]], a 3D HGIS used by <ins>Confoederatio</ins>. Statistical integration and data visualisation suites have also been added on via D3.js compatibility.
 ## Dependencies.
 
 - BaklavaJS (Browser-build, no Vue)

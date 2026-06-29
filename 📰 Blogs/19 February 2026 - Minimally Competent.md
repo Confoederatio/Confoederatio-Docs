@@ -40,7 +40,7 @@ Additionally, beta tooling suites whose security has not been proven have also b
 **Software.**
 - [[Vercengen]]. Software engine.
 	- [[Vercengen Blacktraffic]]. Multi-agent orchestration suite with agentic toolcall, Selenium/Puppeteer, DOM extraction and data cleaning capabilities.
-- [[Naissance HGIS]]. 4D geospatial data editor with both histmap/livemap capabilities.
+- [[CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Naissance]]. 4D geospatial data editor with both histmap/livemap capabilities.
 	- Mesh warp capabilities for arbitrary projections.\*
 - [[Endesnaht]]\*. Remote-control app using Cloudflare tunnels that can be remotely ported between social media platforms as well as VLAN protocols.
 
@@ -86,7 +86,7 @@ Knowing what we know now, what can we do? The most important thing is to retain 
 **What does this mean in practice?**
 
 1. We must get a Livemap up as soon as possible, regardless of elegance. The sooner we can start recording and artefacting data, the less catch-up we have to do in the future. It will additionally attract public interest.
-2. SVEA (Stadestér, Velkscala, Eoscala, Atlas) must be ported to [[Naissance HGIS]] as soon as possible underneath a reproducible architecture.
+2. SVEA (Stadestér, Velkscala, Eoscala, Atlas) must be ported to [[CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Naissance]] as soon as possible underneath a reproducible architecture.
 3. All databases within SVEA must be made to be robust and to improve on their database accuracy. Current accuracy stands around 70-80% according to validation reports; whilst far above the rates seen in peer databases (i.e. HYDE, Reba et al., Maddison), it must exceed 95% to be considered research-grade. 
    Actionable plans have already been drafted at this stage, all that remains is their execution.
 4. Data visualisation, animation, and publication. This must be pursued concurrently with livemap iteration and improvement. Investments in the attention economy have to be made to attract and onboard new Confoederatio members.

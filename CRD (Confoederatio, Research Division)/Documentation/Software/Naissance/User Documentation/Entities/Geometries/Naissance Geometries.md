@@ -1,6 +1,6 @@
 ## Abstract
 
-**Geometries** in [[Naissance HGIS]] refer to on-map [[Naissance Entities|Entities]] that encapsulate a [[History|History]] with multiple keyframes. This distinguishes them from [[Naissance Features|Features]], which can be more abstract and do not necessarily contain a `.history` field. They are also not the same as Maptalks Geometries, which are principally used for rendering.
+**Geometries** in [[CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Naissance]] refer to on-map [[Naissance Entities|Entities]] that encapsulate a [[History|History]] with multiple keyframes. This distinguishes them from [[Naissance Features|Features]], which can be more abstract and do not necessarily contain a `.history` field. They are also not the same as Maptalks Geometries, which are principally used for rendering.
 
 Current types of Geometries include:
 

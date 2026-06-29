@@ -2,7 +2,7 @@
 cover: https://i.postimg.cc/Rhp5GKJS/embed-template-naissance.png
 description: The current TODO list and roadmap for Naissance HGIS and any supporting Vercengen Components and features.
 ---
-S+00 is needed to prepare both [[Vercengen]] and [[Naissance HGIS]] for future work on Mapmode Scripting and other basic features.
+S+00 is needed to prepare both [[Vercengen]] and [[CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Naissance]] for future work on Mapmode Scripting and other basic features.
 
 S+00: Preparation Work
 - Masks:

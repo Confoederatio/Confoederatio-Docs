@@ -3,7 +3,7 @@ cover: https://i.postimg.cc/qvvmDC6H/embed-template.png
 description: Centralised documentation for all Confoederatio projects. If this is the homepage, please select the project you are looking for.
 ---
 
-<h2 align="right"><b><!-- COUNT_START -->175<!-- COUNT_END --></b> Pages</h2>
+<h2 align="right"><b><!-- COUNT_START -->174<!-- COUNT_END --></b> Pages</h2>
 
 <div align = "center">
 An ongoing project on the full documentation of all projects managed by Confoederatio and their histories.<br>
@@ -35,7 +35,7 @@ All datasets and documents, alongside accompanying research notes and code, are 
 	<tr><td style = "padding:0;border:0;" width = "50%"><img src = "_images/banners/crd_eoscala.png"></td><td style = "padding:0;border:0;padding-left: 0.25rem;" width = "50%"><img src = "_images/banners/crd_sehistoir.png"></td></tr>
 	<tr><td style = "padding:0;border:0;" width = "50%"><a href = "https://confoederatiodocs.info/CRD+(Confoederatio%2C+Research+Division)/Documentation/Datasets/Stadest%C3%A9r/Stadest%C3%A9r"><img src = "_images/banners/crd_stadester.png"></a></td><td style = "padding:0;border:0;padding-left: 0.25rem;" width = "50%"><img src = "_images/banners/crd_velkscala.png"></td></tr>
 	<tr><td style = "padding:0;border:0;" width = "50%"><img src = "_images/banners/crd_software.png"></td><td style = "padding:0;border:0;padding-left: 0.25rem;" width = "50%"><a href = "https://confoederatiodocs.info/CRD+(Confoederatio%2C+Research+Division)/Documentation/Software/Constele+Red/Constele+Red"><img src = "_images/banners/crd_constele_red.png"></a></td></tr>
-	<tr><td style = "padding:0;border:0;" width = "50%"><a href = "https://confoederatiodocs.info/CRD+(Confoederatio%2C+Research+Division)/Documentation/Software/Naissance+HGIS/Naissance+HGIS"><img src = "_images/banners/crd_naissance.png"></a></td><td style = "padding:0;border:0;padding-left: 0.25rem;" width = "50%"><img src = "_images/banners/placeholder.png"></td></tr>
+	<tr><td style = "padding:0;border:0;" width = "50%"><a href = "https://confoederatiodocs.info/CRD+(Confoederatio%2C+Research+Division)/Documentation/Software/Naissance/Naissance"><img src = "_images/banners/crd_naissance.png"></a></td><td style = "padding:0;border:0;padding-left: 0.25rem;" width = "50%"><img src = "_images/banners/placeholder.png"></td></tr>
 </table>
 
 <table class = "cd-home nav-table">
@@ -52,8 +52,8 @@ All datasets and documents, alongside accompanying research notes and code, are 
 
 **CRD**:
 - Datasets: [[Atlas]] | [[Eoscala]] | [[Sehistoir]] | [[Stadestér]] | [[Velkscala]]
-- Software: [[Constele Red]] | [[Naissance HGIS]] 
-- Legacy (Software): [[Naissance]] | [[Project Humanity]]
+- Software: [[Constele Red]] | [[CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Naissance]] 
+- Legacy (Software): [[CRD (Confoederatio, Research Division)/Documentation/Legacy/Naissance/Naissance]] | [[Project Humanity]]
 
 **CTD**:
 - Game Engines: [[Analytical Engine]] | [[Gamechanger]]

@@ -1,7 +1,7 @@
 > [!WARNING]
 > Documentation of this nature on Confoederatio Docs are user-facing only. Technical documentation should be assigned their own subdomain in the future.
 
-The **Variables Editor** in [[Naissance HGIS]] determines when variables are mutated to a specific keyframe. This relies on a spreadsheet editor in which the `A` Column is always reserved for a date string, and the rest of the row for any potential variable names that they may contain.
+The **Variables Editor** in [[CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Naissance]] determines when variables are mutated to a specific keyframe. This relies on a spreadsheet editor in which the `A` Column is always reserved for a date string, and the rest of the row for any potential variable names that they may contain.
 
 Variables in the keyframe display should update instantly and be reflective of changes in the editor.
 ## Special Columns/Rows:

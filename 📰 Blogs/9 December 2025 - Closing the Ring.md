@@ -10,9 +10,9 @@ Aust Kätzchen
 ![[naissance_09.12.2025.png]]
 <div align = "center">All basic Geometry features for Naissance have been achieved.</div>
 
-That's right! The recode for [[Naissance]], which needed the construction of an entire [[Vercengen]] immediate mode framework for use is nearly complete in terms of basic features. Much remains to be achieved in terms of advanced features and stability, specifically regarding mapmode scripting and masking, but this is a pretty big achievement for just making maps.
+That's right! The recode for [[CRD (Confoederatio, Research Division)/Documentation/Legacy/Naissance/Naissance]], which needed the construction of an entire [[Vercengen]] immediate mode framework for use is nearly complete in terms of basic features. Much remains to be achieved in terms of advanced features and stability, specifically regarding mapmode scripting and masking, but this is a pretty big achievement for just making maps.
 
-[[Naissance HGIS]] is now fully operational for such tasks, even if [[Constele Red]] is still needed for use when it comes to geoprocessing. This means that in theory, basic work on [[Atlas]] can begin, although we would still like to add better customization options and the [[Naissance Label Editor]] before we think about it in full, since we don't want our naming to be restricted. That means we have to press ahead with [[1.6b Falkland Plan|1.6b]] as quickly as possible.
+[[CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Naissance]] is now fully operational for such tasks, even if [[Constele Red]] is still needed for use when it comes to geoprocessing. This means that in theory, basic work on [[Atlas]] can begin, although we would still like to add better customization options and the [[Naissance Label Editor]] before we think about it in full, since we don't want our naming to be restricted. That means we have to press ahead with [[1.6b Falkland Plan|1.6b]] as quickly as possible.
 
 ## The Mapmode Editor
 

@@ -16,7 +16,7 @@ Even so, I do not think that the **Lone Ranger** path which we had decided to go
 If this post appears incoherent in any way, rest assured that I have just come back from exams and so in keeping with the theme of Confoederatio 1.0's planning, my cognition is not exactly at the height of its abilities.
 ## What now?
 
-Infrastructure. Specifically, what needs to be done is to work on **[[Vercengen]]** until it is stable and released, eliminating frontend work across all [[Electron]] and web-bound contexts entirely. Next, **[[Naissance HGIS]]** must take the shape of an Integrated Research Environment (IRE) in which office suite data, visualisation, and simulation are bound to spatiotemporally-aware environments.
+Infrastructure. Specifically, what needs to be done is to work on **[[Vercengen]]** until it is stable and released, eliminating frontend work across all [[Electron]] and web-bound contexts entirely. Next, **[[CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Naissance]]** must take the shape of an Integrated Research Environment (IRE) in which office suite data, visualisation, and simulation are bound to spatiotemporally-aware environments.
 
 These developments, alongside the digitisation of the Preservés, would ideally allow for rapid iterations in dataset quality, rounding out [[Eoscala]], [[Sehistoir]], [[Stadestér]], and [[Velkscala]], in addition to seving as a potential rallying point for future prospective communities, though I believe its superapp prospect to still be so niche that few people would be willing to take up that offer.
 

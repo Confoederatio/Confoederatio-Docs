@@ -1,7 +1,7 @@
 > [!WARNING]
 > This example may be too complex for readers to follow. Consider shortening it if possible.
 
-The following code snippet shows a demonstration on how to add a [[Vercengen]] scene tree with proper type creation and DALS integration. This example is taken from [[Naissance HGIS]] 1.6b Falkland.
+The following code snippet shows a demonstration on how to add a [[Vercengen]] scene tree with proper type creation and DALS integration. This example is taken from [[CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Naissance]] 1.6b Falkland.
 
 ```js
 global.UI_LeftbarHierarchy = class { 

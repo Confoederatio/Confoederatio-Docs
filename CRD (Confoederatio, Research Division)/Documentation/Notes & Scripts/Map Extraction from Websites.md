@@ -8,7 +8,7 @@ Individual Websites:
 - [[Get Leaflet Map Objects - Tampermonkey]]
 - [[Get MarineTraffic Naval Vessels]]
 - [[Get Phersu Atlas Data (OpenLayers)]]
-- [Get Liveuamap Data](github.com/ConfoederatioVF/Collation/) - This is an external link.
+- [Get Liveuamap Data](https://github.com/ConfoederatioVF/Collation/) - This is an external link.
 
 **Deck.gl (React):**
 

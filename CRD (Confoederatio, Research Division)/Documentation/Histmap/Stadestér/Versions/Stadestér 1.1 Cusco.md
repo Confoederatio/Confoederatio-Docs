@@ -11,7 +11,7 @@
 
 **Stadestér 1.1** should be a complete overhaul of [[Stadestér 1.0 Edo]] as it currently stands since there turned out to be major errors with [Reba et al.](https://www.nature.com/articles/sdata201634), whose work should generally be treated with extreme caution due to issues with transcription. As a result, future plans should generally exclude Chandler/Modelski digitalisations that come from there.
 
-Until [[Naissance HGIS]] fully matures, Stadestér 1.1 would be built as an independent [[Vercengen]] app to aid in data visualisation and graph production or viewing. [[Echarts]] would be used for visualisation. This would also help with creating a public data portal for Stadestér that would make sense as a stopgap until Naissance is capable of exporting data portals to a browser view.
+Until [[CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Naissance]] fully matures, Stadestér 1.1 would be built as an independent [[Vercengen]] app to aid in data visualisation and graph production or viewing. [[Echarts]] would be used for visualisation. This would also help with creating a public data portal for Stadestér that would make sense as a stopgap until Naissance is capable of exporting data portals to a browser view.
 ## Methodology
 
 The planned methodology behind Stadestér 1.1 is a complete reset of merging and processing logic to make it more clear and reproducible with public ground-truthing benchmarks and automated testing against known comparisons.

@@ -3,7 +3,7 @@ cover: https://i.postimg.cc/qvvmDC6H/embed-template.png
 description: A list of known issues with Naissance HGIS that are currently being worked on.
 ---
 
-This is a list of known [[Naissance HGIS]] issues that should be fixed in following development cycles.
+This is a list of known [[CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Naissance]] issues that should be fixed in following development cycles.
 
 **Bugs:**
 - Geospatiale.planarOverlay can lead to degenerate polygons due to floating-point imprecision. The solution to this is to buffer polygons beforehand with turf.buffer (1-metre precision).
