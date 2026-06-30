@@ -86,11 +86,13 @@ The editor, and all corresponding data and projects are open-source and free to 
 </td>
 <td><b>Integrations</b>
 <ul>
-	<li>Blacktraffic/Collation</li>
+	<li>Collation</li>
 	<li>geojson.io</li>
 	<li>Importing Other Datasets</li>
+	<li>LMStudio</li>
 	<li>Naissance World Model</li>
 	<li>QGIS</li>
+	<li>R/Python</li>
 </ul>
 </td>
 </tr><tr>
