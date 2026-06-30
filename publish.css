@@ -1,3 +1,6 @@
+td, ul { 
+	white-space: normal !important;
+}
 img {
   display: block;
   margin-left: auto;
@@ -38,6 +41,7 @@ img {
 }
 
 /* -- Page Content -- */
+.el-table > table { width: 100%; }
 .internal-embed.markdown-embed.is-loaded {
 	padding-left: 0.5rem;
 }

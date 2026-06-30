@@ -1,10 +1,10 @@
 [
   "editing-toolbar",
   "obsidian-charts",
-  "sheets",
   "markdown-table-editor",
   "image-captions",
   "templater-obsidian",
   "dataview",
-  "novel-word-count"
+  "novel-word-count",
+  "sheets"
 ]

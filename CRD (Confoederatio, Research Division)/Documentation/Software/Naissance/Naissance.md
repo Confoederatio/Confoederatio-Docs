@@ -2,39 +2,124 @@
 cover: https://i.postimg.cc/Rhp5GKJS/embed-template-naissance.png
 description: A 3D historical GIS with a focus on capabilities and user experience. Geospatial editing for the 21st century.
 ---
+---
 
-See also: [[History]], [[Naissance Issues]], [[Naissance Roadmap]]
-#wip
+<div align = "center" style = "display: flex; align-items: center; justify-content: center;">
+<img src = "https://i.postimg.cc/W47txMqX/naissance-logo-square.png" style = "margin: 0; height:5dvh;">&nbsp;&nbsp;<img src = "https://i.postimg.cc/0NCrhpK4/naissance-logo.png" style = "margin: 0;height:5dvh;">
+</div><br>
+<div align = "center">
+About &bull; <a href = "https://discord.gg/9KKgZgpGHM" target = "_blank">Discord</a> &bull; Getting Started &bull; <a href = "https://github.com/ConfoederatioVF/Naissance" target = "_blank">GitHub</a> &bull; <a href = "https://www.youtube.com/@Confoederatio" target = "_blank">YouTube</a>
+</div>
 
-> [!NOTE]
-> For legacy documentation relating to the first version of Naissance, see [[CRD (Confoederatio, Research Division)/Documentation/Legacy/Naissance/Naissance]].
-> [Download Naissance HGIS 1.6](https://drive.google.com/file/d/1EOlYJIlfkR0MV5wcqGoxb-g--5gkRKKx/view?usp=sharing)
+**Naissance** is a full-spectrum GIS developed by [[Confoederatio]] for editing historical and contemporary maps over time. Base data is provided by the <ins>Naissance World Model</ins>.
 
-**Naissance** is a historical GIS (HGIS) for any and all data, including data entry, proxy modelling, processing, visualisation, and simulation while being as frictionless as possible. To avoid UI/UX bloat, user interfaces are planned to take inspiration from game design, especially map-related grand-strategy/economy games.
+The editor, and all corresponding data and projects are open-source and free to use with attribution.
 
-**Naissance HGIS** is planned to remain in beta until it gains rough feature parity with the superset of CARTO, ESRI ArcGIS, QGIS, and Vensim, after which it will be used for the iteration and construction of new datasets such as [[Atlas]], [[Eoscala]], [[Sehistoir]], [[Stadestér]], or [[Velkscala]].
+---
 
-![[naissance_1.5b_rockall.png]]
-<div align = "center">Naissance 1.5b Rockall (7 December 2025)</div>
+<table><tr>
+<td style = "padding:2px;"><a href = "https://i.postimg.cc/T1WJG76J/gallery-full-01.png" target = "_blank"><img src = "https://i.postimg.cc/nzWGy86v/gallery-01.png"></a></td>
+<td style = "padding:2px;"><a href = "https://i.postimg.cc/tJVNySjz/gallery-full-02.png" target = "_blank"><img src = "https://i.postimg.cc/1tdrkxLG/gallery-02.png"></a></td>
+<td style = "padding:2px;"><a href = "https://i.postimg.cc/L5Z3RCpT/gallery-full-03.png" target = "_blank"><img src = "https://i.postimg.cc/RFYLkrj1/gallery-03.png"></a></td>
+<td style = "padding:2px;"><a href = "https://i.postimg.cc/cC8BZ9Sh/gallery-full-04.png" target  ="_blank"><img src = "https://i.postimg.cc/k4Hv0rky/gallery-04.png"></a></td>
+</tr><tr>
+<td style = "padding:2px;"><a href = "https://i.postimg.cc/wMsQHfp0/gallery-full-05.png" target = "_blank"><img src = "https://i.postimg.cc/QtzJ2LRS/gallery-05.png"></a></td>
+<td style = "padding:2px;"><a href = "https://i.postimg.cc/PJ8Qh3jR/gallery-full-06.png" target = "_blank"><img src = "https://i.postimg.cc/Hn79HZgQ/gallery-06.png"></a></td>
+<td style = "padding:2px;"><a href = "https://i.postimg.cc/prnJxGHg/gallery-full-07.png"><img src = "https://i.postimg.cc/D0bPFjTQ/gallery-07.png"></a></td>
+<td style = "padding:2px;"><a href = "https://i.postimg.cc/Bb1BsY0z/gallery-full-08.png
+" target = "_blank"><img src = "https://i.postimg.cc/PJ8Qh3jW/gallery-08.png"></a></td>
+</tr></table>
 
-Current design considerations are overwhelmingly focused on getting core data entry features down, especially with [[HistoryKeyframe|History Keyframes]] and certain [[Naissance Geometries|Geometries]]/[[Naissance Features|Features]]. If you are looking for simulation/geoprocessing capabilities, these are currently housed separately with [[Constele Red]], which serves as a stopgap GIS solution.
+<div align = "center">
+1.9.2b Skeleton <a href = "https://github.com/ConfoederatioVF/Naissance/releases/latest">[Latest Update]</a> | [Update History]
+</div>
+<hr>
+<div align = "center"><h3>Datasets</h3></div><table class = "cd-home nav-table"><tr>
+<td style = "padding:0;border:0;"><img src = "https://i.postimg.cc/yxXts8Bn/crd-atlas.png"></td>
+<td style = "padding:0;border:0;padding-left: 0.25rem;"><img src = "https://i.postimg.cc/PJz9T5hS/crd-eoscala.png"></td>
+</tr><tr>
+<td style = "padding:0;border:0;"><img src = "https://i.postimg.cc/d3mpwVv4/crd-stadester.png"></td>
+<td style = "padding:0;border:0;padding-left: 0.25rem;"><img src = "https://i.postimg.cc/Bbck4nsV/crd-velkscala.png"></td>
+</tr><tr>
+<td style = "padding:0;border:0;"><img src = "https://i.postimg.cc/NF7SBjYC/crd-collation.png"></td>
+<td style = "padding:0;border:0;padding-left: 0.25rem;"><img src = "https://i.postimg.cc/Kjrwx8FV/placeholder.png"></td>
+</tr></table>
+<hr>
+<div align = "center"><h3>Using the Software</h3></div>
 
-Note that linked documentation is user-facing only, and that technical backend documentation is hosted on a separate site. To turn Dev Tools on/off for debugging purposes, press `Ctrl + Shift + I`.
-## Core Capabilities
+<table style = "width:calc(100%);"><tr>
+<td style = "padding-right:1rem;"><b>Beginner's Help</b>
+<ul>
+	<li>Getting Started</li>
+	<li>Saving &amp; Loading</li>
+	<li>Features/Geometries</li>
+	<li>Time/Keyframes</li>
+	<li>Tools</li>
+	<br>
+	<li>Relations and Tags</li>
+	<li>Timelapses</li>
+	<li>Frequently Asked Questions</li>
+</ul>
+</td>
+<td style = "padding-right:1rem;"><b>Entities</b>
+<ul>
+	<li>Features<ul>
+		<li>Groups</li>
+		<li>Layers</li>
+		<li>Other Features</li>
+	</ul></li>
+	<li>Geometries<ul>
+		<li>Polygons</li>
+		<li>Lines</li>
+		<li>Points</li>
+	</ul></li>
+</ul>
+</td>
+<td style = "padding-right:1rem;"><b>Actions</b>
+<ul>
+	<li>Actions Palette</li>
+	<li>Mapmode Templates</li>
+	<li>Operations</li>
+	<li>Raster Geoprocessing</li>
+	<li>Undo/Redo Trees</li>
+</ul>
+</td>
+<td><b>Integrations</b>
+<ul>
+	<li>Blacktraffic/Collation</li>
+	<li>geojson.io</li>
+	<li>Importing Other Datasets</li>
+	<li>Naissance World Model</li>
+	<li>QGIS</li>
+</ul>
+</td>
+</tr><tr>
+<td style = "padding-right:1rem;"><b>Scripting</b>
+<ul>
+	<li>Mapmode Files</li>
+	<li>Model Builder</li>
+	<li>Scriptly IDE</li>
+	<li>Vercengen (Custom UIs)</li>
+</ul>
+</td>
+<td style = "padding-right:1rem;"><b>Modding</b>
+<ul>
+	<li>Installing the Dev Build</li>
+	<li>File Structure</li>
+	<li>Naissance MT</li>
+</ul>
+</td>
+<td colspan = "2"><b>Miscellaneous</b>
+<ul>
+	<li>Creating Livemaps</li>
+	<li>Custom Projections</li>
+	<li>MacOS/Linux Installation</li>
+	<li>Ontology Feeds</li>
+	<li>Scraping Websites</li>
+	<li>Universal Framework</li>
+</ul>
+</td>
+</tr></table>
 
-1. Data Entry
-2. Data Processing
-3. Data Visualisation
-4. Data Simulation
-## Design Pillars
-
-## Plans
-
-The following is a list of plans that represent the continuous roadmap for Naissance HGIS.
-
-| Plan                       | Status | Date             |
-| -------------------------- | ------ | ---------------- |
-| [[1.7b Agulhas Plan]]      | WIP    | 12 December 2025 |
-| [[1.6b Falkland Plan]]     | DONE   | 9 December 2025  |
-| [[1.5.1b Hatteras Plan]]   | DONE   | 7 December 2025  |
-| [[Naissance Label Editor]] | WIP    | 7 December 2025  |
+> [!WARNING]
+> **Disclaimer: Incomplete**. This wiki is run by the Naissance community, with vetting from the developers, and articles may not always be up to date. If you're interested in helping out, check our [Discord](https://discord.gg/9KKgZgpGHM).
