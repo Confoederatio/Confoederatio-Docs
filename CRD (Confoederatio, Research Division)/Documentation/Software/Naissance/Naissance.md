@@ -31,7 +31,7 @@ The editor, and all corresponding data and projects are open-source and free to 
 </tr></table>
 
 <div align = "center">
-1.9.2b Skeleton <a href = "https://github.com/ConfoederatioVF/Naissance/releases/latest">[Latest Update]</a> | [Update History]
+1.9.2b Skeleton <a href = "https://github.com/ConfoederatioVF/Naissance/releases/latest">[Latest Update]</a> | <a href = "https://confoederatiodocs.info/CRD+(Confoederatio%2C+Research+Division)/Documentation/Software/Naissance/Update+History">[Update History]</a>
 </div>
 <hr>
 <div align = "center"><h3>Datasets</h3></div><table class = "cd-home nav-table"><tr>
@@ -125,3 +125,4 @@ The editor, and all corresponding data and projects are open-source and free to 
 
 > [!WARNING]
 > **Disclaimer: Incomplete**. This wiki is run by the Naissance community, with vetting from the developers, and articles may not always be up to date. If you're interested in helping out, check our [Discord](https://discord.gg/9KKgZgpGHM).
+

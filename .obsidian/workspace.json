@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f770ce8556089ecc",
+        "id": "126c86770d3e82fb",
         "type": "tabs",
         "children": [
           {
-            "id": "12f81ed388240afb",
+            "id": "c91bc3bb6aa3b707",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,6 +19,40 @@
               },
               "icon": "lucide-file",
               "title": "Naissance"
+            }
+          },
+          {
+            "id": "f96036ee64c10006",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CTD (Confoederatio, Technical Division)/Documentation/Technical (Frontend)/Vercengen/Vercengen Releases.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Vercengen Releases"
+            }
+          }
+        ]
+      },
+      {
+        "id": "f770ce8556089ecc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "12f81ed388240afb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Update History.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Update History"
             }
           }
         ]
@@ -53,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "vercengen releases",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Naissance.md",
+                "file": "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Update History.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +138,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rückverweise auf Naissance"
+              "title": "Rückverweise auf Update History"
             }
           },
           {
@@ -185,13 +219,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8cafb33fb70c3314",
+  "active": "12f81ed388240afb",
   "lastOpenFiles": [
+    "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Naissance.md",
+    "Home.md",
+    "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Update History.md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Technical (Frontend)/Vercengen/Vercengen Releases.md",
+    "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/General/Unbenannt.md",
+    "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/General",
+    "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/User Documentation/GeoJSON.md",
     "Unbenannt.base",
     "Unbenannt 1.base",
     "Unbenannt 2.base",
-    "Home.md",
-    "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Naissance.md",
     "_images/crd/naissance/landing_page/gallery_01.png",
     "_images/crd/naissance/landing_page/gallery_full_08.png",
     "_images/crd/naissance/landing_page/gallery_full_07.png",
@@ -208,7 +247,6 @@
     "_images/crd/naissance/landing_page/gallery_05.png.0.pdnSave",
     "_images/crd/naissance/landing_page/gallery_04.png.0.pdnSave",
     "_images/crd/naissance/landing_page/gallery_03.png.0.pdnSave",
-    "_images/crd/naissance/landing_page/gallery_02.png.0.pdnSave",
     "📰 Blogs/9 December 2025 - Closing the Ring.md",
     "Projects.md",
     "Confoederatio.md",
@@ -221,7 +259,6 @@
     "CTD (Confoederatio, Technical Division)/CTD Style Guide.md",
     "CRD (Confoederatio, Research Division)/Documentation/Notes & Scripts/Collation Libraries.md",
     "CRD (Confoederatio, Research Division)/Documentation/Notes & Scripts/Geometry Extraction - Points.md",
-    "CTD (Confoederatio, Technical Division)/Documentation/Technical (Frontend)/Vercengen/Vercengen Releases.md",
     "github.com/juliusbrussee/caveman.md",
     "CRD (Confoederatio, Research Division)/Plans/Naissance/1.9b Leyte (PROJECT ESCHER).md",
     "CTD (Confoederatio, Technical Division)/Documentation/Technical (Frontend)/Vercengen/Vercengen.md",
@@ -230,8 +267,6 @@
     "📰 Blogs/26 March 2026 - Trace Italienne.md",
     "CRD (Confoederatio, Research Division)/Documentation/Notes & Scripts/Get Leaflet Map Objects - Tampermonkey.md",
     "CRD (Confoederatio, Research Division)/Documentation/Notes & Scripts/Get GlobalFishingWatch Data.md",
-    "CRD (Confoederatio, Research Division)/Documentation/Notes & Scripts/Get MarineTraffic Naval Vessels.md",
-    "🔵 Confoederatio/Confoederatio26-2.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
