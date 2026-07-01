@@ -6658,20 +6658,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 2255,
+      "wordCount": 2301,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 7.516666666666667,
-      "characterCount": 39525,
-      "nonWhitespaceCharacterCount": 18227,
-      "newlineCount": 47,
-      "readingTimeInMinutes": 8.50943396226415,
-      "linkCount": 3,
+      "pageCount": 7.67,
+      "characterCount": 39827,
+      "nonWhitespaceCharacterCount": 18484,
+      "newlineCount": 48,
+      "readingTimeInMinutes": 8.683018867924527,
+      "linkCount": 5,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1782817440100,
-      "modifiedDate": 1782818922869,
-      "sizeInBytes": 39698,
+      "modifiedDate": 1782819167435,
+      "sizeInBytes": 40000,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -6683,6 +6683,33 @@
       "frontmatter": {
         "cover": "https://i.postimg.cc/Rhp5GKJS/embed-template-naissance.png",
         "description": "The current update history for Naissance. Check GitHub Releases for more information."
+      }
+    },
+    "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Beginner's Help/Getting Started.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1782872121265,
+      "modifiedDate": 1782872121265,
+      "sizeInBytes": 0,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
       }
     }
   }

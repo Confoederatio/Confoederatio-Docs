@@ -47,12 +47,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Update History.md",
+                "file": "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Beginner's Help/Getting Started.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Update History"
+              "title": "Getting Started"
             }
           }
         ]
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Update History.md",
+                "file": "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Beginner's Help/Getting Started.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rückverweise auf Update History"
+              "title": "Rückverweise auf Getting Started"
             }
           },
           {
@@ -221,9 +221,11 @@
   },
   "active": "12f81ed388240afb",
   "lastOpenFiles": [
+    "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Update History.md",
+    "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Beginner's Help/Getting Started.md",
+    "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Beginner's Help",
     "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Naissance.md",
     "Home.md",
-    "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Update History.md",
     "CTD (Confoederatio, Technical Division)/Documentation/Technical (Frontend)/Vercengen/Vercengen Releases.md",
     "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/General/Unbenannt.md",
     "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/General",
@@ -246,7 +248,6 @@
     "_images/crd/naissance/landing_page/gallery_06.png.0.pdnSave",
     "_images/crd/naissance/landing_page/gallery_05.png.0.pdnSave",
     "_images/crd/naissance/landing_page/gallery_04.png.0.pdnSave",
-    "_images/crd/naissance/landing_page/gallery_03.png.0.pdnSave",
     "📰 Blogs/9 December 2025 - Closing the Ring.md",
     "Projects.md",
     "Confoederatio.md",
@@ -266,7 +267,6 @@
     "CRD (Confoederatio, Research Division)/Documentation/Notes & Scripts/Get AIS Friends Naval Vessels.md",
     "📰 Blogs/26 March 2026 - Trace Italienne.md",
     "CRD (Confoederatio, Research Division)/Documentation/Notes & Scripts/Get Leaflet Map Objects - Tampermonkey.md",
-    "CRD (Confoederatio, Research Division)/Documentation/Notes & Scripts/Get GlobalFishingWatch Data.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
