@@ -8,7 +8,7 @@ description: A 3D historical GIS with a focus on capabilities and user experienc
 <img src = "https://i.postimg.cc/W47txMqX/naissance-logo-square.png" style = "margin: 0; height:5dvh;">&nbsp;&nbsp;<img src = "https://i.postimg.cc/0NCrhpK4/naissance-logo.png" style = "margin: 0;height:5dvh;">
 </div><br>
 <div align = "center">
-About &bull; <a href = "https://discord.gg/9KKgZgpGHM" target = "_blank">Discord</a> &bull; Getting Started &bull; <a href = "https://github.com/ConfoederatioVF/Naissance" target = "_blank">GitHub</a> &bull; <a href = "https://www.youtube.com/@Confoederatio" target = "_blank">YouTube</a>
+About &bull; <a href = "https://discord.gg/9KKgZgpGHM" target = "_blank">Discord</a> &bull; <a href = "https://confoederatiodocs.info/CRD+(Confoederatio%2C+Research+Division)/Documentation/Software/Naissance/Beginner's+Help/Getting+Started">Getting Started</a> &bull; <a href = "https://github.com/ConfoederatioVF/Naissance" target = "_blank">GitHub</a> &bull; <a href = "https://www.youtube.com/@Confoederatio" target = "_blank">YouTube</a>
 </div>
 
 **Naissance** is a full-spectrum GIS developed by [[Confoederatio]] for editing historical and contemporary maps over time. Base data is provided by the <ins>Naissance World Model</ins>.
@@ -50,7 +50,7 @@ The editor, and all corresponding data and projects are open-source and free to 
 <table style = "width:calc(100%);"><tr>
 <td style = "padding-right:1rem;"><b>Beginner's Help</b>
 <ul>
-	<li>Getting Started</li>
+	<li><a href = "https://confoederatiodocs.info/CRD+(Confoederatio%2C+Research+Division)/Documentation/Software/Naissance/Beginner's+Help/Getting+Started">Getting Started</a></li>
 	<li>Saving &amp; Loading</li>
 	<li>Features/Geometries</li>
 	<li>Time/Keyframes</li>
