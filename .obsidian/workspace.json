@@ -74,12 +74,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Update Website.md",
+                "file": "Templates/Obsidian Publish.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Update Website"
+              "title": "Obsidian Publish"
             }
           }
         ],
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/Update Website.md",
+                "file": "Templates/Obsidian Publish.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Update Website"
+              "title": "Backlinks for Obsidian Publish"
             }
           },
           {
@@ -250,28 +250,30 @@
   },
   "active": "7994e26e54937027",
   "lastOpenFiles": [
-    "docs/site-lib/styles/obsidian.css",
-    "docs/site-lib/styles/obsidian - Kopie.css",
-    "docs/site-lib/scripts/publish.js",
-    "docs/site-lib/styles/publish.css",
-    "docs/site-lib/styles/publish.js",
+    "_website/CTD (Confoederatio, Technical Division)/Documentation/Technical (Backend)/External Dependencies/Echarts/Symbols/Echarts Tooltip Symbol.html",
+    "_website/CTD (Confoederatio, Technical Division)/Documentation/Technical (Backend)/External Dependencies/Echarts/Symbols/Echarts Title Symbol.html",
+    "_website/CTD (Confoederatio, Technical Division)/Documentation/Technical (Backend)/External Dependencies/Echarts/Symbols/Echarts Text Symbol.html",
+    "_website/CTD (Confoederatio, Technical Division)/Documentation/Technical (Backend)/External Dependencies/Echarts/Symbols/Echarts Stroke Symbol.html",
+    "_website/CTD (Confoederatio, Technical Division)/Documentation/Technical (Backend)/External Dependencies/Echarts/Symbols/Echarts Point Symbol.html",
+    "_website/CTD (Confoederatio, Technical Division)/Documentation/Technical (Backend)/External Dependencies/Echarts/Symbols/Echarts Label Symbol.html",
+    "_website/CTD (Confoederatio, Technical Division)/Documentation/Technical (Backend)/External Dependencies/Echarts/Symbols/Echarts Fill Symbol.html",
+    "_website/CTD (Confoederatio, Technical Division)/Documentation/Technical (Backend)/External Dependencies/Echarts/Scripts/Echarts Ease Animations.html",
+    "_website/CTD (Confoederatio, Technical Division)/Documentation/Technical (Backend)/External Dependencies/Echarts/Graph Symbols/Echarts Treemap.html",
+    "_website/CTD (Confoederatio, Technical Division)/Documentation/Technical (Backend)/External Dependencies/Echarts/Graph Symbols/Echarts Tree.html",
+    "_website/CTD (Confoederatio, Technical Division)/Documentation/Technical (Backend)/External Dependencies/Echarts/Graph Symbols/Echarts Scatterplot.html",
+    "_website/_images/crd/naissance/logos/naissance_logo_square.png",
+    "_website/_images/crd/naissance/logos/naissance_logo.png",
+    "_website/_images/crd/naissance/logos/collation_logo_square.png",
+    "_website/_images/crd/naissance/logos/collation_logo.png",
+    "_website/_images/crd/naissance/landing_page/gallery_full_08.png",
+    "_website/_images/crd/naissance/landing_page/gallery_full_07.png",
+    "_website/_images/crd/naissance/landing_page/gallery_full_06.png",
+    "_website/_images/crd/naissance/landing_page/gallery_full_05.png",
+    "_website/_images/crd/naissance/landing_page/gallery_full_04.png",
+    "_website/_images/crd/naissance/landing_page/gallery_full_03.png",
+    "Templates/Update Website.md",
+    "Templates/Obsidian Publish.md",
     "CRD (Confoederatio, Research Division)/Documentation/Histmap/Stadestér/Stadestér Organisation.md",
-    "docs/_images/blogs/naissance_09.12.2025.png",
-    "docs/_images/crd/collation/lab_space_knn_binning.png",
-    "docs/_images/crd/atlas/atlas_01.png",
-    "docs/_images/banners/crd_eoscala.pdn",
-    "docs/_images/banners/plain_banner_template.pdn",
-    "docs/_images/banners/ctd_games_or_other.png",
-    "docs/_images/banners/placeholder.png",
-    "docs/_images/banners/ctd_banner.png",
-    "docs/_images/banners/crd_velkscala.png",
-    "docs/_images/banners/ctd_vercengen.png",
-    "docs/_images/banners/ctd_analytical_engine.png",
-    "docs/_images/banners/crd_stadester.png",
-    "docs/_images/banners/crd_datasets.pdn",
-    "docs/_images/banners/cad_youtube.pdn",
-    "docs/_images/banners/crd_banner.pdn",
-    "docs/_images/banners/cad_discord.pdn",
     "CTD (Confoederatio, Technical Division)/Documentation/Technical (Backend)/External Dependencies/Echarts/Axis Symbols/Echarts Polar Axis Symbol.md",
     "CTD (Confoederatio, Technical Division)/Documentation/Technical (Backend)/Universal Framework/UF Documentation.md",
     "CTD (Confoederatio, Technical Division)/Documentation/Technical (Backend)/Universal Framework/UF.md",
@@ -294,8 +296,6 @@
     "CTD (Confoederatio, Technical Division)/Documentation/Technical (Backend)/External Dependencies/Echarts/Echarts Bindings.md",
     "CTD (Confoederatio, Technical Division)/Documentation/Technical (Frontend)/Vercengen/Examples/NodeEditor Example.md",
     "📰 Blogs/23 January 2026 - Build First, Explain Later.md",
-    "CTD (Confoederatio, Technical Division)/Documentation/Technical (Frontend)/Vercengen/Archives/ComponentNodeEditor.js (23 January 2026).md",
-    "CTD (Confoederatio, Technical Division)/Documentation/Technical (Frontend)/Vercengen/Archives/ComponentNodeEditorDatatype.js (23 January 2026).md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
