@@ -10,9 +10,21 @@
     "postProcess": true,
     "displayProgress": true,
     "inlineHTML": false,
-    "exportPath": "D:\\Project 1755 - Confoederatio Docs\\docs",
+    "exportPath": "D:\\Project 1755 - Confoederatio Docs\\_website",
     "filesToExport": [
-      "all"
+      "_images",
+      "📰 Blogs",
+      "🔵 Confoederatio",
+      "🗒️ Gists",
+      "CAD (Confoederatio, Artistic Division)",
+      "CRD (Confoederatio, Research Division)",
+      "CTD (Confoederatio, Technical Division)",
+      "Preservés des Confoederatio",
+      "Templates",
+      "Confoederatio.md",
+      "FAQs.md",
+      "Home.md",
+      "Projects.md"
     ],
     "useFallbackRenderer": false,
     "addBodyClasses": true,
@@ -94,7 +106,7 @@
       "alwaysEnabled": false,
       "hideSettingsButton": false,
       "featurePlacement": {
-        "selector": "#left-sidebar .topbar-content",
+        "selector": "#center-content.leaf",
         "type": "start"
       },
       "displayTitle": "Search..."
@@ -156,8 +168,8 @@
       "hideSettingsButton": false,
       "allowResizing": true,
       "allowCollapsing": true,
-      "rightDefaultWidth": "20em",
-      "leftDefaultWidth": "20em"
+      "rightDefaultWidth": "20rem",
+      "leftDefaultWidth": "20rem"
     },
     "customHeadOptions": {
       "featureId": "custom-head",
@@ -180,11 +192,11 @@
       "hideSettingsButton": false,
       "allowFoldingLists": true,
       "allowFoldingHeadings": true,
-      "documentWidth": "40em"
+      "documentWidth": "60rem"
     },
     "rssOptions": {
       "featureId": "rss",
-      "enabled": true,
+      "enabled": false,
       "unavailable": false,
       "alwaysEnabled": false,
       "hideSettingsButton": false,
@@ -207,7 +219,7 @@
     "inlineFonts": false,
     "inlineOther": false,
     "combineAsSingleFile": false,
-    "offlineResources": false,
+    "offlineResources": true,
     "themeName": "",
     "slugifyPaths": false,
     "flattenExportPaths": false,

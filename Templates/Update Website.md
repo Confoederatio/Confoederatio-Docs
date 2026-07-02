@@ -31,8 +31,8 @@ async function runUpdate() {
                     const depth = path.relative(path.dirname(filePath), exportPath);
                     const relPrefix = depth ? depth.replace(/\\/g, '/') + "/" : "./";
                     
-                    const cssTag = `<link rel="stylesheet" href="${relPrefix}site-lib/styles/publish.css">`;
-                    const jsTag = `<script src="${relPrefix}site-lib/scripts/publish.js" defer></script>`;
+                    const cssTag = `<link rel="stylesheet" href="${relPrefix}publish/publish.css">`;
+                    const jsTag = `<script src="${relPrefix}publish/publish.js" defer></script>`;
                     
                     const newContent = content.replace('</head>', `${cssTag}\n${jsTag}\n</head>`);
                     

@@ -27,16 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTD (Confoederatio, Technical Division)/Documentation/Technical (Frontend)/Vercengen/Vercengen Releases.md",
+                "file": "CTD (Confoederatio, Technical Division)/Documentation/Technical (Frontend)/Vercengen/Vercengen.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vercengen Releases"
+              "title": "Vercengen"
+            }
+          },
+          {
+            "id": "d11121fadcf5565e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Naissance.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Naissance"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "f770ce8556089ecc",
@@ -55,35 +69,21 @@
             }
           },
           {
-            "id": "3854ea7aef7b66bf",
+            "id": "af915a22039bc174",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Beginner's Help/Getting Started.md",
+                "file": "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Update History.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Getting Started"
-            }
-          },
-          {
-            "id": "7994e26e54937027",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Templates/Obsidian Publish.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Obsidian Publish"
+              "title": "Update History"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -115,7 +115,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "vercengen releases",
+                "query": "update history",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -123,7 +123,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Suchen"
+              "title": "Search"
             }
           },
           {
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/Obsidian Publish.md",
+                "file": "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Update History.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +166,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Obsidian Publish"
+              "title": "Backlinks for Update History"
             }
           },
           {
@@ -248,54 +248,54 @@
       "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "7994e26e54937027",
+  "active": "af915a22039bc174",
   "lastOpenFiles": [
-    "Textdokument (neu).txt",
-    "Microsoft Publisher Document (neu).pub",
-    "_website/README.md",
-    "_website/CTD (Confoederatio, Technical Division)/Documentation/Technical (Backend)/External Dependencies/Echarts/Symbols/Echarts Tooltip Symbol.html",
-    "_website/CTD (Confoederatio, Technical Division)/Documentation/Technical (Backend)/External Dependencies/Echarts/Symbols/Echarts Title Symbol.html",
-    "_website/CTD (Confoederatio, Technical Division)/Documentation/Technical (Backend)/External Dependencies/Echarts/Symbols/Echarts Text Symbol.html",
-    "_website/CTD (Confoederatio, Technical Division)/Documentation/Technical (Backend)/External Dependencies/Echarts/Symbols/Echarts Stroke Symbol.html",
-    "_website/CTD (Confoederatio, Technical Division)/Documentation/Technical (Backend)/External Dependencies/Echarts/Symbols/Echarts Point Symbol.html",
-    "_website/CTD (Confoederatio, Technical Division)/Documentation/Technical (Backend)/External Dependencies/Echarts/Symbols/Echarts Label Symbol.html",
-    "_website/CTD (Confoederatio, Technical Division)/Documentation/Technical (Backend)/External Dependencies/Echarts/Symbols/Echarts Fill Symbol.html",
-    "_website/CTD (Confoederatio, Technical Division)/Documentation/Technical (Backend)/External Dependencies/Echarts/Scripts/Echarts Ease Animations.html",
-    "_website/CTD (Confoederatio, Technical Division)/Documentation/Technical (Backend)/External Dependencies/Echarts/Graph Symbols/Echarts Treemap.html",
-    "_website/_images/crd/naissance/logos/naissance_logo_square.png",
-    "_website/_images/crd/naissance/logos/naissance_logo.png",
-    "_website/_images/crd/naissance/logos/collation_logo_square.png",
-    "_website/_images/crd/naissance/logos/collation_logo.png",
-    "_website/_images/crd/naissance/landing_page/gallery_full_08.png",
-    "_website/_images/crd/naissance/landing_page/gallery_full_07.png",
-    "_website/_images/crd/naissance/landing_page/gallery_full_06.png",
-    "_website/_images/crd/naissance/landing_page/gallery_full_05.png",
-    "_website/_images/crd/naissance/landing_page/gallery_full_04.png",
-    "_website/_images/crd/naissance/landing_page/gallery_full_03.png",
     "Templates/Update Website.md",
     "Templates/Obsidian Publish.md",
-    "CRD (Confoederatio, Research Division)/Documentation/Histmap/Stadestér/Stadestér Organisation.md",
-    "CTD (Confoederatio, Technical Division)/Documentation/Technical (Backend)/External Dependencies/Echarts/Axis Symbols/Echarts Polar Axis Symbol.md",
-    "CTD (Confoederatio, Technical Division)/Documentation/Technical (Backend)/Universal Framework/UF Documentation.md",
-    "CTD (Confoederatio, Technical Division)/Documentation/Technical (Backend)/Universal Framework/UF.md",
-    "CTD (Confoederatio, Technical Division)/Documentation/Technical (Backend)/External Dependencies/Echarts/Scripts/Echarts Ease Animations.md",
-    "CTD (Confoederatio, Technical Division)/Documentation/Technical (Backend)/External Dependencies/Echarts/Symbols/Echarts Label Symbol.md",
-    "📰 Blogs/1 January 2026 - Splendid Isolation.md",
-    "CTD (Confoederatio, Technical Division)/Documentation/Technical (Frontend)/Vercengen/Plans/Vercengen ScriptManager.md",
-    "CTD (Confoederatio, Technical Division)/Plans/2025.12.31.md",
-    "CTD (Confoederatio, Technical Division)/Plans/2026.01.18.md",
-    "CTD (Confoederatio, Technical Division)/Documentation/Technical (Backend)/External Dependencies/Echarts/Axis Symbols/Echarts Y Axis Symbol.md",
-    "CTD (Confoederatio, Technical Division)/Documentation/Technical (Backend)/External Dependencies/Echarts/Axis Symbols/Echarts X Axis Symbol.md",
-    "CTD (Confoederatio, Technical Division)/Documentation/Technical (Frontend)/Vercengen/Documentation/Vercengen Components Documentation.md",
-    "CTD (Confoederatio, Technical Division)/Documentation/Technical (Frontend)/Vercengen/Documentation/Vercengen Features Documentation.md",
-    "CTD (Confoederatio, Technical Division)/Documentation/Technical (Frontend)/Vercengen/Plans/Vercengen ObjectEditor.md",
-    "CTD (Confoederatio, Technical Division)/Documentation/Technical (Backend)/External Dependencies/Echarts/Symbols/Echarts Tooltip Symbol.md",
-    "CTD (Confoederatio, Technical Division)/Plans/2026.01.21.md",
-    "CTD (Confoederatio, Technical Division)/Plans/2026.01.16.md",
-    "CTD (Confoederatio, Technical Division)/List of CTD Plans.md",
-    "CTD (Confoederatio, Technical Division)/Documentation/Technical (Backend)/External Dependencies/Echarts/Symbols/Echarts Title Symbol.md",
-    "CTD (Confoederatio, Technical Division)/Documentation/Technical (Backend)/External Dependencies/Echarts/Echarts Bindings.md",
-    "CTD (Confoederatio, Technical Division)/Documentation/Technical (Frontend)/Vercengen/Examples/NodeEditor Example.md",
+    "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Beginner's Help/Getting Started.md",
+    "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Naissance.md",
+    "Home.md",
+    "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Update History.md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Technical (Frontend)/Vercengen/Vercengen.md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Technical (Frontend)/Vercengen/Vercengen Releases.md",
+    "_website/publish.html",
+    "_website/Textdokument (neu).txt",
+    "_website/_images/blogs/naissance_09.12.2025.png",
+    "_website/_images/crd/naissance/landing_page/gallery_full_07.png",
+    "_website/_images/crd/naissance/naissance_1.7b_chukchi.png",
+    "_website/_images/crd/naissance/landing_page/gallery_07.png",
+    "_website/_images/ctd/vercengen/vercengen_preview_01.png",
+    "_website/_images/crd/naissance/GeometryLine_1.5b.png",
+    "_website/_images/ctd/balance_of_power/bop_beta_1_map_europe.png",
+    "_website/_images/crd/naissance/landing_page/gallery_06.png",
+    "_website/_images/crd/naissance/naissance_1.5b_rockall.png",
+    "_website/_images/crd/naissance/landing_page/gallery_full_06.png",
+    "_website/_images/embed_template_naissance.pdn",
+    "_website/_images/embed_template_vercengen.pdn",
+    "_website/_images/embed_template.pdn",
+    "_website/_images/banner_template.pdn",
+    "_website/_images/banners/crd_eoscala.pdn",
+    "_website/site-lib/fonts/MathJax_Zero.woff",
+    "_website/site-lib/fonts/MathJax_Vector-Regular.woff",
+    "_website/site-lib/fonts/MathJax_Vector-Bold.woff",
+    "CAD (Confoederatio, Artistic Division)/Documentation/Web/Confoederatio Website.md",
+    "CAD (Confoederatio, Artistic Division)/Documentation/Digital/Graphic Design.md",
+    "CAD (Confoederatio, Artistic Division)/Documentation/Digital/Icons and Assets.md",
+    "CAD (Confoederatio, Artistic Division)/Documentation/Traditional/Traditional Art.md",
+    "CAD (Confoederatio, Artistic Division)/Documentation/Digital/G-Earth.MC.md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Games/Gamechanger/Gamechanger.md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Games/11.59/11.59 (AOC2).md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Games/11.59/11.59 (AOC3).md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Games/Triumph & Tragedy/Triumph & Tragedy I.md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Games/Triumph & Tragedy/Triumph & Tragedy II.md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Legacy (Backend)/Legacy UF.md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Legacy (Frontend)/BrowserUI.md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Legacy (Backend)/Legacy Geospatiale.md",
+    "Preservés des Confoederatio/Documentation/Physical Archives.md",
+    "Preservés des Confoederatio/Documentation/Digital Archives.md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Legacy (Frontend)/Scriptly IDE.md",
+    "CAD (Confoederatio, Artistic Division)/Plans/2025.12.06.md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Games/Balance of Power/BOP Vanilla Items.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
