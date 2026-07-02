@@ -6,5 +6,6 @@
   "templater-obsidian",
   "dataview",
   "novel-word-count",
-  "sheets"
+  "sheets",
+  "webpage-html-export"
 ]

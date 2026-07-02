@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Beginner's Help/Saving & Loading.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Saving & Loading"
+              "title": "Home"
             }
           },
           {
@@ -35,7 +35,8 @@
               "title": "Vercengen Releases"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "f770ce8556089ecc",
@@ -91,7 +92,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Dateiexplorer"
+              "title": "Files"
             }
           },
           {
@@ -141,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Beginner's Help/Saving & Loading.md",
+                "file": "CTD (Confoederatio, Technical Division)/Documentation/Technical (Frontend)/Vercengen/Vercengen Releases.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +152,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rückverweise auf Saving & Loading"
+              "title": "Backlinks for Vercengen Releases"
             }
           },
           {
@@ -220,66 +221,67 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Schnellauswahl öffnen": false,
-      "graph:Graph-Ansicht öffnen": false,
-      "canvas:Neuen Canvas erstellen": false,
-      "daily-notes:Heutige Notiz öffnen": false,
-      "templates:Vorlage einfügen": false,
-      "command-palette:Befehlspalette öffnen": false,
-      "publish:Änderungen veröffentlichen": false,
-      "bases:Neue Base erstellen": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "publish:Publish changes...": false,
+      "bases:Create new base": false,
       "markdown-table-editor:Open Markdown Table Editor": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "webpage-html-export:Export as HTML": false
     }
   },
-  "active": "c91bc3bb6aa3b707",
+  "active": "f96036ee64c10006",
   "lastOpenFiles": [
-    "_images/crd/naissance/images/getting_started_startup_screen.png.0.pdnSave",
-    "_images/crd/naissance/images/getting_started_brussels.png.0.pdnSave",
-    "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Beginner's Help/Getting Started.md",
-    "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Beginner's Help/Saving & Loading.md",
-    "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Naissance.md",
-    "_images/crd/naissance/images/getting_started_timeline.png",
-    "_images/crd/naissance/images/getting_started_belgium.png",
-    "_images/crd/naissance/images/getting_started_wallonia_1.png",
-    "_images/crd/naissance/images/getting_started_wallonia_2.png",
-    "_images/crd/naissance/images/getting_started_brussels.png",
-    "CTD (Confoederatio, Technical Division)/Documentation/Technical (Frontend)/Vercengen/Vercengen Releases.md",
-    "_images/crd/naissance/images/getting_started_brush.png",
-    "_images/crd/naissance/images/getting_started_change_basemap.png",
-    "_images/crd/naissance/images/getting_started_startup_screen.png",
-    "_images/crd/naissance/images",
-    "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Update History.md",
-    "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/Beginner's Help",
-    "Home.md",
-    "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/General/Unbenannt.md",
-    "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/General",
-    "CRD (Confoederatio, Research Division)/Documentation/Software/Naissance/User Documentation/GeoJSON.md",
-    "Unbenannt.base",
-    "Unbenannt 1.base",
-    "Unbenannt 2.base",
-    "_images/crd/naissance/landing_page/gallery_01.png",
-    "_images/crd/naissance/landing_page/gallery_full_08.png",
-    "_images/crd/naissance/landing_page/gallery_08.png.0.pdnSave",
-    "_images/crd/naissance/landing_page/gallery_07.png.0.pdnSave",
-    "_images/crd/naissance/landing_page/gallery_06.png.0.pdnSave",
-    "📰 Blogs/9 December 2025 - Closing the Ring.md",
-    "Projects.md",
-    "Confoederatio.md",
-    "CRD (Confoederatio, Research Division)/Documentation/Legacy/Naissance/Naissance.md",
-    "CRD (Confoederatio, Research Division)/Documentation/Notes & Scripts/Map Extraction from Websites.md",
-    "CTD (Confoederatio, Technical Division)/Documentation/Technical (Frontend)/Vercengen/Vercengen Plans.md",
-    "CRD (Confoederatio, Research Division)/Plans/Naissance/1.9 Leyte (LEGACY).md",
-    "CRD (Confoederatio, Research Division)/Plans/Atlas/Videomapping Resources.md",
-    "CRD (Confoederatio, Research Division)/Documentation/Notes & Scripts/Self-hosting Webstudio.md",
-    "CTD (Confoederatio, Technical Division)/CTD Style Guide.md",
-    "CRD (Confoederatio, Research Division)/Documentation/Notes & Scripts/Collation Libraries.md",
-    "CRD (Confoederatio, Research Division)/Documentation/Notes & Scripts/Geometry Extraction - Points.md",
-    "github.com/juliusbrussee/caveman.md",
-    "CRD (Confoederatio, Research Division)/Plans/Naissance/1.9b Leyte (PROJECT ESCHER).md",
-    "CTD (Confoederatio, Technical Division)/Documentation/Technical (Frontend)/Vercengen/Vercengen.md",
-    "CRD (Confoederatio, Research Division)/Documentation/Notes & Scripts/Atlas 0.5 Sources.md",
-    "CRD (Confoederatio, Research Division)/Documentation/Notes & Scripts/Get AIS Friends Naval Vessels.md",
+    "_website/_images/blogs/naissance_09.12.2025.png",
+    "_website/_images/crd/naissance/landing_page/gallery_full_07.png",
+    "_website/_images/crd/naissance/naissance_1.7b_chukchi.png",
+    "_website/_images/crd/naissance/landing_page/gallery_07.png",
+    "_website/_images/ctd/vercengen/vercengen_preview_01.png",
+    "_website/_images/crd/naissance/GeometryLine_1.5b.png",
+    "_website/_images/crd/naissance/landing_page/gallery_06.png",
+    "_website/_images/ctd/balance_of_power/bop_beta_1_map_europe.png",
+    "_website/_images/crd/naissance/naissance_1.5b_rockall.png",
+    "_website/_images/crd/naissance/landing_page/gallery_full_06.png",
+    "_website/_images/crd/naissance/landing_page/gallery_03.png",
+    "_website/_images/embed_template_naissance.pdn",
+    "_website/_images/embed_template_vercengen.pdn",
+    "_website/_images/embed_template.pdn",
+    "_website/_images/banner_template.pdn",
+    "_website/_images/banners/crd_eoscala.pdn",
+    "_website/_images/banners/banner_template.pdn",
+    "_website/publish.css",
+    "_website/publish.js",
+    "_website/_images/banner_social_media_template.pdn",
+    "_website/favicon.ico",
+    "CAD (Confoederatio, Artistic Division)/Documentation/Web/Confoederatio Website.md",
+    "CAD (Confoederatio, Artistic Division)/Documentation/Digital/Graphic Design.md",
+    "CAD (Confoederatio, Artistic Division)/Documentation/Digital/Icons and Assets.md",
+    "CAD (Confoederatio, Artistic Division)/Documentation/Traditional/Traditional Art.md",
+    "CAD (Confoederatio, Artistic Division)/Documentation/Digital/G-Earth.MC.md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Games/Gamechanger/Gamechanger.md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Games/11.59/11.59 (AOC2).md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Games/11.59/11.59 (AOC3).md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Games/Triumph & Tragedy/Triumph & Tragedy I.md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Games/Triumph & Tragedy/Triumph & Tragedy II.md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Legacy (Backend)/Legacy UF.md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Legacy (Frontend)/BrowserUI.md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Legacy (Backend)/Legacy Geospatiale.md",
+    "Preservés des Confoederatio/Documentation/Physical Archives.md",
+    "Preservés des Confoederatio/Documentation/Digital Archives.md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Legacy (Frontend)/Scriptly IDE.md",
+    "CAD (Confoederatio, Artistic Division)/Plans/2025.12.06.md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Games/Balance of Power/BOP Vanilla Items.md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Games/Balance of Power/BOP Configuration.md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Games/Balance of Power/BOP Food and Nutrition.md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Games/Balance of Power/BOP Technology.md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Games/Balance of Power/BOP Artillery (Cannons).md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Games/Balance of Power/BOP Weapons (QualityArmory).md",
+    "CTD (Confoederatio, Technical Division)/Documentation/Games/Balance of Power/BOP Vehicles (Movecraft).md",
+    "CAD (Confoederatio, Artistic Division)/Plans/2025.12.07.md",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

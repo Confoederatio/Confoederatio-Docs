@@ -1,0 +1,1145 @@
+<!DOCTYPE html> <html lang="en-gb"><head>
+<title>Deepscript Conditionals</title>
+<base href="../../../../..">
+<meta name="pathname" content="CTD (Confoederatio, Technical Division)/Documentation/Games/Analytical Engine/External/Deepscript Conditionals.html">
+<meta name="description" content="Confoederatio Docs - Deepscript Conditionals">
+<meta property="og:title" content="Deepscript Conditionals">
+<meta property="og:description" content="Confoederatio Docs - Deepscript Conditionals">
+<meta property="og:type" content="website">
+<meta property="og:url" content="CTD (Confoederatio, Technical Division)/Documentation/Games/Analytical Engine/External/Deepscript Conditionals.html">
+<meta property="og:image" content="undefined">
+<meta charset="UTF-8"><meta property="og:site_name" content="Confoederatio Docs"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0"><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="site-lib/rss.xml"><script async="" id="webpage-script" src="site-lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-wasm-script" src="site-lib/scripts/graph-wasm.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-render-worker-script" src="site-lib/scripts/graph-render-worker.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="site-lib/media/favicon.ico"><link rel="preload" href="site-lib/styles/snippets.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/snippets.css"></noscript><link rel="stylesheet" href="site-lib/styles/obsidian.css"><link rel="preload" href="site-lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="site-lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/main-styles.css"></noscript><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-vertical-spacing:1.3em;--sidebar-margin:12px}:root{background-color:#202124}.sidebar{height:100%;font-size:14px;z-index:10;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));position:relative;overflow:hidden;overflow:clip;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}#left-sidebar{left:0}#right-sidebar{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}.sidebar.floating{position:absolute}.sidebar .leaf-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .leaf-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}#left-sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}#right-sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar #left-sidebar-content,.sidebar #right-sidebar-content{contain:none!important;container-type:normal!important;animation:none!important}.sidebar:has(.leaf-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:calc(2.3em + 2 * var(--sidebar-margin));width:var(--sidebar-width);padding:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}#left-sidebar .sidebar-topbar{left:0;flex-direction:row;border-top-right-radius:var(--radius-l)}#right-sidebar .sidebar-topbar{right:0;flex-direction:row-reverse;border-top-left-radius:var(--radius-l)}#left-sidebar .topbar-content{margin-right:calc(2.3em + var(--sidebar-margin));flex-direction:row}#right-sidebar .topbar-content{margin-left:calc(2.3em + var(--sidebar-margin));flex-direction:row-reverse}.topbar-content{overflow:hidden visible;overflow:clip visible;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:2px!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}#left-sidebar .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}#right-sidebar .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.feature-title{margin-left:1px;text-transform:uppercase;letter-spacing:.06em;margin-top:.75em;margin-bottom:.75em}.feature-header{display:flex;align-items:center;padding-top:0;font-size:1em;padding-left:0}body.floating-sidebars .sidebar{position:absolute}body{transition:background-color var(--color-fade-speed) ease-in-out}#navbar:not(:empty){display:flex;align-items:center;justify-content:space-between;padding:.5em 1em;width:100%}#main{display:flex;flex-direction:column;height:100%;width:100%;align-items:stretch;justify-content:center}#main-horizontal{display:flex;flex-direction:row;flex-grow:1;width:100%;align-items:stretch;justify-content:center}#center-content{flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0!important;transition:opacity .2s ease-in-out;pointer-events:none}#center-content>.obsidian-document{padding-left:2em;padding-right:1em;margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}body #center-content>.obsidian-document>.markdown-preview-sizer{padding-bottom:80vh;width:100%;max-width:var(--line-width);flex-basis:var(--line-width);transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}#center-content>.obsidian-document>div{width:100%!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}#center-content>.obsidian-document:not([data-type=markdown]).embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}#center-content>.obsidian-document:not([data-type=markdown]).embed>*{max-width:100%;max-height:100%;object-fit:contain}:not(h1,h2,h3,h4,h5,h6,li):has(> :is(.math,table)){overflow-x:auto!important}#center-content>.obsidian-document:not([data-type=markdown]){overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.obsidian-document[data-type=attachment]{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;width:100%}.obsidian-document[data-type=attachment]>*{outline:0;border:none;box-shadow:none}.obsidian-document[data-type=attachment] :is(img){max-width:90%;max-height:90%;object-fit:contain}.obsidian-document[data-type=attachment]>:is(audio){width:100%;max-width:min(90%,var(--line-width))}.obsidian-document[data-type=attachment]>:is(embed,iframe,video){width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain}.canvas-wrapper>:is(.header,.footer){z-index:100;position:absolute;display:flex;justify-content:center;flex-direction:column;width:100%;align-items:center}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){let e=document.querySelectorAll("link[itemprop='include']");for(const t of e){let e=t.getAttribute("href");try{let o="";if(e.startsWith("https:")||e.startsWith("http:")||"file:"!=window.location.protocol){const n=await fetch(e);if(!n.ok){console.log("Could not include file: "+e),t?.remove();continue}o=await n.text()}else{const t=document.getElementById(btoa(encodeURI(e)));if(t){const e=JSON.parse(decodeURI(atob(t.getAttribute("value")??"")));o=e?.data??""}}let n=document.createRange().createContextualFragment(o);t.before(n),t.remove(),console.log("Included text: "+o),console.log("Included file: "+e)}catch(o){t?.remove(),console.log("Could not include file: "+e,o);continue}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script")));!function e(n){let l=o[n],c=n+1;l?(l&&"true"!=l.getAttribute("loaded")||n<o.length&&e(c),n<o.length&&l.addEventListener("load",(()=>e(c)))):n<o.length?e(c):t()}(0)}</script></head><body class="publish css-settings-manager styled-scrollbars show-inline-title show-ribbon is-focused"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="parsed-feature-container" style="display: contents;"><link itemprop="include" href="site-lib/html/custom-head-content-content.html"></div><div id="main"><div id="navbar"></div><div id="main-horizontal"><div id="left-content" class="leaf" style="--sidebar-width: var(--sidebar-width-left);"><div id="left-sidebar" class="sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><div id="search-container"><div id="search-wrapper"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..."><div aria-label="Clear search" id="search-clear-button"></div></div></div></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content-wrapper"><div id="left-sidebar-content" class="leaf-content"><link itemprop="include" href="site-lib/html/file-tree-content.html"></div></div><script defer="">let ls = document.querySelector("#left-sidebar"); ls.classList.toggle("is-collapsed", window.innerWidth < 768); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div></div><div id="center-content" class="leaf"><div class="obsidian-document markdown-preview-view markdown-rendered node-insert-event is-readable-line-width allow-fold-headings allow-fold-lists show-indentation-guide show-properties" data-type="markdown"><style id="MJX-CHTML-styles">mjx-container[jax=CHTML]{line-height:0}mjx-container [space="1"]{margin-left:.111em}mjx-container [space="2"]{margin-left:.167em}mjx-container [space="3"]{margin-left:.222em}mjx-container [space="4"]{margin-left:.278em}mjx-container [space="5"]{margin-left:.333em}mjx-container [rspace="1"]{margin-right:.111em}mjx-container [rspace="2"]{margin-right:.167em}mjx-container [rspace="3"]{margin-right:.222em}mjx-container [rspace="4"]{margin-right:.278em}mjx-container [rspace="5"]{margin-right:.333em}mjx-container [size="s"]{font-size:70.7%}mjx-container [size=ss]{font-size:50%}mjx-container [size=Tn]{font-size:60%}mjx-container [size=sm]{font-size:85%}mjx-container [size=lg]{font-size:120%}mjx-container [size=Lg]{font-size:144%}mjx-container [size=LG]{font-size:173%}mjx-container [size=hg]{font-size:207%}mjx-container [size=HG]{font-size:249%}mjx-container [width=full]{width:100%}mjx-box{display:inline-block}mjx-block{display:block}mjx-itable{display:inline-table}mjx-row{display:table-row}mjx-row>*{display:table-cell}mjx-mtext{display:inline-block}mjx-mstyle{display:inline-block}mjx-merror{display:inline-block;color:red;background-color:#ff0}mjx-mphantom{visibility:hidden}mjx-assistive-mml{top:0;left:0;clip:rect(1px,1px,1px,1px);user-select:none;position:absolute!important;padding:1px 0 0!important;border:0!important;display:block!important;width:auto!important;overflow:hidden!important}mjx-assistive-mml[display=block]{width:100%!important}mjx-math{display:inline-block;text-align:left;line-height:0;text-indent:0;font-style:normal;font-weight:400;font-size:100%;font-size-adjust:none;letter-spacing:normal;border-collapse:collapse;overflow-wrap:normal;word-spacing:normal;white-space:nowrap;direction:ltr;padding:1px 0}mjx-container[jax=CHTML][display=true]{display:block;text-align:center;margin:1em 0}mjx-container[jax=CHTML][display=true][width=full]{display:flex}mjx-container[jax=CHTML][display=true] mjx-math{padding:0}mjx-container[jax=CHTML][justify=left]{text-align:left}mjx-container[jax=CHTML][justify=right]{text-align:right}mjx-mi{display:inline-block;text-align:left}mjx-c{display:inline-block}mjx-utext{display:inline-block;padding:.75em 0 .2em}mjx-mo{display:inline-block;text-align:left}mjx-stretchy-h{display:inline-table;width:100%}mjx-stretchy-h>*{display:table-cell;width:0}mjx-stretchy-h>*>mjx-c{display:inline-block;transform:scaleX(1)}mjx-stretchy-h>*>mjx-c::before{display:inline-block;width:initial}mjx-stretchy-h>mjx-ext{overflow:clip visible;width:100%}mjx-stretchy-h>mjx-ext>mjx-c::before{transform:scaleX(500)}mjx-stretchy-h>mjx-ext>mjx-c{width:0}mjx-stretchy-h>mjx-beg>mjx-c{margin-right:-.1em}mjx-stretchy-h>mjx-end>mjx-c{margin-left:-.1em}mjx-stretchy-v{display:inline-block}mjx-stretchy-v>*{display:block}mjx-stretchy-v>mjx-beg{height:0}mjx-stretchy-v>mjx-end>mjx-c{display:block}mjx-stretchy-v>*>mjx-c{transform:scaleY(1);transform-origin:left center;overflow:hidden}mjx-stretchy-v>mjx-ext{display:block;height:100%;box-sizing:border-box;border:0 solid transparent;overflow:visible clip}mjx-stretchy-v>mjx-ext>mjx-c::before{width:initial;box-sizing:border-box}mjx-stretchy-v>mjx-ext>mjx-c{transform:scaleY(500) translateY(.075em);overflow:visible}mjx-mark{display:inline-block;height:0}mjx-c::before{display:block;width:0}.MJX-TEX{font-family:MJXZERO,MJXTEX}.TEX-B{font-family:MJXZERO,MJXTEX-B}.TEX-I{font-family:MJXZERO,MJXTEX-I}.TEX-MI{font-family:MJXZERO,MJXTEX-MI}.TEX-BI{font-family:MJXZERO,MJXTEX-BI}.TEX-S1{font-family:MJXZERO,MJXTEX-S1}.TEX-S2{font-family:MJXZERO,MJXTEX-S2}.TEX-S3{font-family:MJXZERO,MJXTEX-S3}.TEX-S4{font-family:MJXZERO,MJXTEX-S4}.TEX-A{font-family:MJXZERO,MJXTEX-A}.TEX-C{font-family:MJXZERO,MJXTEX-C}.TEX-CB{font-family:MJXZERO,MJXTEX-CB}.TEX-FR{font-family:MJXZERO,MJXTEX-FR}.TEX-FRB{font-family:MJXZERO,MJXTEX-FRB}.TEX-SS{font-family:MJXZERO,MJXTEX-SS}.TEX-SSB{font-family:MJXZERO,MJXTEX-SSB}.TEX-SSI{font-family:MJXZERO,MJXTEX-SSI}.TEX-SC{font-family:MJXZERO,MJXTEX-SC}.TEX-T{font-family:MJXZERO,MJXTEX-T}.TEX-V{font-family:MJXZERO,MJXTEX-V}.TEX-VB{font-family:MJXZERO,MJXTEX-VB}mjx-stretchy-h mjx-c,mjx-stretchy-v mjx-c{font-family:MJXZERO,MJXTEX-S1,MJXTEX-S4,MJXTEX,MJXTEX-A!important}@font-face{font-family:MJXZERO;src:url("site-lib/fonts/MathJax_Zero.woff") format("woff")}@font-face{font-family:MJXTEX;src:url("site-lib/fonts/MathJax_Main-Regular.woff") format("woff")}@font-face{font-family:MJXTEX-B;src:url("site-lib/fonts/MathJax_Main-Bold.woff") format("woff")}@font-face{font-family:MJXTEX-I;src:url("site-lib/fonts/MathJax_Math-Italic.woff") format("woff")}@font-face{font-family:MJXTEX-MI;src:url("site-lib/fonts/MathJax_Main-Italic.woff") format("woff")}@font-face{font-family:MJXTEX-BI;src:url("site-lib/fonts/MathJax_Math-BoldItalic.woff") format("woff")}@font-face{font-family:MJXTEX-S1;src:url("site-lib/fonts/MathJax_Size1-Regular.woff") format("woff")}@font-face{font-family:MJXTEX-S2;src:url("site-lib/fonts/MathJax_Size2-Regular.woff") format("woff")}@font-face{font-family:MJXTEX-S3;src:url("site-lib/fonts/MathJax_Size3-Regular.woff") format("woff")}@font-face{font-family:MJXTEX-S4;src:url("site-lib/fonts/MathJax_Size4-Regular.woff") format("woff")}@font-face{font-family:MJXTEX-A;src:url("site-lib/fonts/MathJax_AMS-Regular.woff") format("woff")}@font-face{font-family:MJXTEX-C;src:url("site-lib/fonts/MathJax_Calligraphic-Regular.woff") format("woff")}@font-face{font-family:MJXTEX-CB;src:url("site-lib/fonts/MathJax_Calligraphic-Bold.woff") format("woff")}@font-face{font-family:MJXTEX-FR;src:url("site-lib/fonts/MathJax_Fraktur-Regular.woff") format("woff")}@font-face{font-family:MJXTEX-FRB;src:url("site-lib/fonts/MathJax_Fraktur-Bold.woff") format("woff")}@font-face{font-family:MJXTEX-SS;src:url("site-lib/fonts/MathJax_SansSerif-Regular.woff") format("woff")}@font-face{font-family:MJXTEX-SSB;src:url("site-lib/fonts/MathJax_SansSerif-Bold.woff") format("woff")}@font-face{font-family:MJXTEX-SSI;src:url("site-lib/fonts/MathJax_SansSerif-Italic.woff") format("woff")}@font-face{font-family:MJXTEX-SC;src:url("site-lib/fonts/MathJax_Script-Regular.woff") format("woff")}@font-face{font-family:MJXTEX-T;src:url("site-lib/fonts/MathJax_Typewriter-Regular.woff") format("woff")}@font-face{font-family:MJXTEX-V;src:url("site-lib/fonts/MathJax_Vector-Regular.woff") format("woff")}@font-face{font-family:MJXTEX-VB;src:url("site-lib/fonts/MathJax_Vector-Bold.woff") format("woff")}mjx-c.mjx-c1D437.TEX-I::before{padding:.683em .828em 0 0;content:"D"}mjx-c.mjx-c3D::before{padding:.583em .778em .082em 0;content:"="}mjx-c.mjx-c1D456.TEX-I::before{padding:.661em .345em .011em 0;content:"i"}</style><div class="markdown-preview-sizer markdown-preview-section"><div class="header"><h1 class="page-title heading inline-title" id="Deepscript_Conditionals_0">Deepscript Conditionals</h1><div class="data-bar"></div></div><div class="markdown-preview-pusher" style="width: 1px; height: 0.1px; margin-bottom: 0px;"></div><div class="el-p"><p dir="auto"><strong>Logic (Conditionals).</strong></p></div><div class="el-p"><p dir="auto"><strong>Abstract.</strong></p></div><div class="el-p"><p dir="auto"><strong>Conditional Functions</strong> utilise a standard functional Nashorn scope-based nomenclature. They may be placed within named scopes or other logic fields for firing items such as in-game events.</p></div><div class="el-p"><p dir="auto"><strong>Custom Checks.</strong></p></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>declareCustomCivilisationDiplomaticValueCheck(arg0_options)  
+<ul class="has-list-bullet">
+<li data-line="1" dir="auto"><span class="list-bullet"></span>base_name: (String) - The base function name.  </li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span>array_resolve_function: (Function) - The resolution function that resolves the left-hand comparison value. (Parameter 1)  </li>
+<li data-line="3" dir="auto"><span class="list-bullet"></span>value_function: (Function) - The resolution function that resolves the right-hand comparison value. (Parameter 0)  </li>
+</ul>
+</li>
+<li data-line="4" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>declareCustomCivilisationValueCheck(arg0_options)  
+<ul class="has-list-bullet">
+<li data-line="5" dir="auto"><span class="list-bullet"></span>base_name: (String) - The base function name.  </li>
+<li data-line="6" dir="auto"><span class="list-bullet"></span>array_resolve_function: (Function) - The resolution function that resolves the left-hand comparison value. (Parameter 1)  </li>
+<li data-line="7" dir="auto"><span class="list-bullet"></span>value_function: (Function) - The resolution function that resolves the right-hand comparison value. (Parameter 0)  </li>
+</ul>
+</li>
+<li data-line="8" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>declareCustomProvinceValueCheck(arg0_options)  
+<ul class="has-list-bullet">
+<li data-line="9" dir="auto"><span class="list-bullet"></span>base_name: (String) - The base function name.  </li>
+<li data-line="10" dir="auto"><span class="list-bullet"></span>array_resolve_function: (Function) - The resolution function that resolves the left-hand comparison value. (Parameter 1)  </li>
+<li data-line="11" dir="auto"><span class="list-bullet"></span>value_function: (Function) - The resolution function that resolves the right-hand comparison value. (Parameter 0)</li>
+</ul>
+</li>
+</ul></div><div class="el-p"><p dir="auto"><strong>Meta Scope Conditions.</strong><br>
+getCivilisationFlag(arg0_civ_tag, arg1_flag_key)<br>
+getCivilisationVariable(arg0_civ_tag, arg1_variable_key)<br>
+getProvinceFlag(arg0_province, arg1_flag_key)<br>
+getProvinceVariable(arg0_province, arg1_variable_key)</p></div><div class="el-p"><p dir="auto"><strong>Gamestate Scope Conditions.</strong></p></div><div class="el-ol"><ol>
+<li data-line="0" dir="auto"><strong>Global Scope Conditions.</strong>  
+<strong>Meta.</strong><br>
+Civilisation.  </li>
+</ol></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span>anyCivilisationDoesNotExist(arg0_civ_tags)  </li>
+<li data-line="1" dir="auto"><span class="list-bullet"></span>anyCivilisationExists(arg0_civ_tags)  </li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span>civilisationDoesNotExist(arg0_civ_tags)  </li>
+<li data-line="3" dir="auto"><span class="list-bullet"></span>civilisationExists(arg0_civ_tags)  
+Time.  </li>
+<li data-line="6" dir="auto"><span class="list-bullet"></span>dateIs(arg0_date_string) - DD.MM.YYYY format.  </li>
+<li data-line="7" dir="auto"><span class="list-bullet"></span>dateIsGEQ(arg0_date_string)  </li>
+<li data-line="8" dir="auto"><span class="list-bullet"></span>dateIsGreaterThan(arg0_date_string)  </li>
+<li data-line="9" dir="auto"><span class="list-bullet"></span>dateIsLEQ(arg0_date_string)  </li>
+<li data-line="10" dir="auto"><span class="list-bullet"></span>dateIsLessThan(arg0_date_string)  </li>
+<li data-line="11" dir="auto"><span class="list-bullet"></span>hourIs(arg0_number)  </li>
+<li data-line="12" dir="auto"><span class="list-bullet"></span>hourIsGEQ(arg0_number)  </li>
+<li data-line="13" dir="auto"><span class="list-bullet"></span>hourIsGreaterThan(arg0_number)  </li>
+<li data-line="14" dir="auto"><span class="list-bullet"></span>hourIsLEQ(arg0_number)  </li>
+<li data-line="15" dir="auto"><span class="list-bullet"></span>hourIsLessThan(arg0_number)<br>
+</li>
+</ul></div><div class="el-ol"><ol>
+<li data-line="0" dir="auto">
+<p><strong>International Organisation Scope Conditions.</strong>  </p>
+</li>
+<li data-line="1" dir="auto">
+<p><strong>Resource Scope Conditions. WIP.</strong></p>
+<p><strong>Meta.</strong>  </p>
+</li>
+</ol></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span>
+<p>resourceIs(arg0_resource_names, arg1_resource_names)  </p>
+</li>
+<li data-line="1" dir="auto"><span class="list-bullet"></span>
+<p>resourceIsNot(arg0_resource_names, arg1_resource_names)</p>
+</li>
+<li data-line="4" dir="auto"><span class="list-bullet"></span>
+<p>resourcePriceIs(arg0_resource_names, arg1_value)  </p>
+</li>
+<li data-line="5" dir="auto"><span class="list-bullet"></span>
+<p>resourcePriceIsGEQ(arg0_resource_names, arg1_value)  </p>
+</li>
+<li data-line="6" dir="auto"><span class="list-bullet"></span>
+<p>resourcePriceIsGreaterThan(arg0_resource_names, arg1_value)  </p>
+</li>
+<li data-line="7" dir="auto"><span class="list-bullet"></span>
+<p>resourcePriceIsLEQ(arg0_resource_names, arg1_value)  </p>
+</li>
+<li data-line="8" dir="auto"><span class="list-bullet"></span>
+<p>resourcePriceIsLessThan(arg0_resource_names, arg1_value)</p>
+<p><strong>Production.</strong></p>
+</li>
+<li data-line="13" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p>resourceCivilisationsHaveMarketShare(arg0_resource_names, arg1_options)  </p>
+<ul class="has-list-bullet">
+<li data-line="14" dir="auto"><span class="list-bullet"></span>civilisations: (Number/List&lt;String, CivTag&gt;)  </li>
+<li data-line="15" dir="auto"><span class="list-bullet"></span>value: (Number)  </li>
+</ul>
+</li>
+<li data-line="16" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p>resourceCivilisationsHaveMarketShareGEQ(arg0_resource_names, arg1_options)  </p>
+<ul class="has-list-bullet">
+<li data-line="17" dir="auto"><span class="list-bullet"></span>civilisations: (Number/List&lt;String, CivTag&gt;)  </li>
+<li data-line="18" dir="auto"><span class="list-bullet"></span>value: (Number)  </li>
+</ul>
+</li>
+<li data-line="19" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p>resourceCivilisationsHaveMarketShareGreaterThan(arg0_resource_names, arg1_options)  </p>
+<ul class="has-list-bullet">
+<li data-line="20" dir="auto"><span class="list-bullet"></span>civilisations: (Number/List&lt;String, CivTag&gt;)  </li>
+<li data-line="21" dir="auto"><span class="list-bullet"></span>value: (Number)  </li>
+</ul>
+</li>
+<li data-line="22" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p>resourceCivilisationsHaveMarketShareLEQ(arg0_resource_names, arg1_options)  </p>
+<ul class="has-list-bullet">
+<li data-line="23" dir="auto"><span class="list-bullet"></span>civilisations: (Number/List&lt;String, CivTag&gt;)  </li>
+<li data-line="24" dir="auto"><span class="list-bullet"></span>value: (Number)  </li>
+</ul>
+</li>
+<li data-line="25" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p>resourceCivilisationsHaveMarketShareLessThan(arg0_resource_names, arg1_options)  </p>
+<ul class="has-list-bullet">
+<li data-line="26" dir="auto"><span class="list-bullet"></span>civilisations: (Number/List&lt;String, CivTag&gt;)  </li>
+<li data-line="27" dir="auto"><span class="list-bullet"></span>value: (Number)  </li>
+</ul>
+</li>
+<li data-line="28" dir="auto"><span class="list-bullet"></span>
+<p>resourceGlobalProductionIs(arg0_resource_names, arg1_value)  </p>
+</li>
+<li data-line="29" dir="auto"><span class="list-bullet"></span>
+<p>resourceGlobalProductionIsGEQ(arg0_resource_names, arg1_value)  </p>
+</li>
+<li data-line="30" dir="auto"><span class="list-bullet"></span>
+<p>resourceGlobalProductionisGreaterThan(arg0_resource_names, arg1_value)  </p>
+</li>
+<li data-line="31" dir="auto"><span class="list-bullet"></span>
+<p>resourceGlobalProductionIsLEQ(arg0_resource_names, arg1_value)  </p>
+</li>
+<li data-line="32" dir="auto"><span class="list-bullet"></span>
+<p>resourceGlobalProductionIsLessThan(arg0_resource_names, arg1_value)  </p>
+</li>
+<li data-line="33" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p>resourceProductionIs(arg0_resource_names, arg1_options)  </p>
+<ul class="has-list-bullet">
+<li data-line="34" dir="auto"><span class="list-bullet"></span>civilisations: (Number/List&lt;String, CivTag&gt;)  </li>
+<li data-line="35" dir="auto"><span class="list-bullet"></span>value: (Number)  </li>
+</ul>
+</li>
+<li data-line="36" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p>resourceProductionIsGEQ(arg0_resource_names, arg1_options)  </p>
+<ul class="has-list-bullet">
+<li data-line="37" dir="auto"><span class="list-bullet"></span>civilisations: (Number/List&lt;String, CivTag&gt;)  </li>
+<li data-line="38" dir="auto"><span class="list-bullet"></span>value: (Number)  </li>
+</ul>
+</li>
+<li data-line="39" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p>resourceProductionIsGreaterThan(arg0_resource_names, arg1_options)  </p>
+<ul class="has-list-bullet">
+<li data-line="40" dir="auto"><span class="list-bullet"></span>civilisations: (Number/List&lt;String, CivTag&gt;)  </li>
+<li data-line="41" dir="auto"><span class="list-bullet"></span>value: (Number)  </li>
+</ul>
+</li>
+<li data-line="42" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p>resourceProductionIsLEQ(arg0_resource_names, arg1_options)  </p>
+<ul class="has-list-bullet">
+<li data-line="43" dir="auto"><span class="list-bullet"></span>civilisations: (Number/List&lt;String, CivTag&gt;)  </li>
+<li data-line="44" dir="auto"><span class="list-bullet"></span>value: (Number)  </li>
+</ul>
+</li>
+<li data-line="45" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p>resourceProductionIsLessThan(arg0_resource_names, arg1_options)  </p>
+<ul class="has-list-bullet">
+<li data-line="46" dir="auto"><span class="list-bullet"></span>civilisations: (Number/List&lt;String, CivTag&gt;)  </li>
+<li data-line="47" dir="auto"><span class="list-bullet"></span>value: (Number)</li>
+</ul>
+</li>
+</ul></div><div class="el-ol"><ol start="2">
+<li data-line="0" dir="auto"><strong>Civilisation Scope Conditions.</strong>  
+<strong>Economy (Buildings).</strong>  </li>
+</ol></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span>
+<p>civilisationBuildingCategoryConstructedIs(arg0_civ_tags, arg1_building_category_names, arg2_value)  </p>
+</li>
+<li data-line="1" dir="auto"><span class="list-bullet"></span>
+<p>civilisationBuildingCategoryConstructedIsGEQ(arg0_civ_tags, arg1_building_category_names, arg2_value)  </p>
+</li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span>
+<p>civilisationBuildingCategoryConstructedIsGreaterThan(arg0_civ_tags, arg1_building_category_names, arg2_value)  </p>
+</li>
+<li data-line="3" dir="auto"><span class="list-bullet"></span>
+<p>civilisationBuildingCategoryConstructedIsLEQ(arg0_civ_tags, arg1_building_category_names, arg2_value)  </p>
+</li>
+<li data-line="4" dir="auto"><span class="list-bullet"></span>
+<p>civilisationBuildingCategoryConstructedIsLessThan(arg0_civ_tags, arg1_building_category_names, arg2_value)  </p>
+</li>
+<li data-line="5" dir="auto"><span class="list-bullet"></span>
+<p>civilisationBuildingConstructedIs(arg0_civ_tags, arg1_building_names, arg2_value)  </p>
+</li>
+<li data-line="6" dir="auto"><span class="list-bullet"></span>
+<p>civilisationBuildingConstructedIsGEQ(arg0_civ_tags, arg1_building_names, arg2_value)  </p>
+</li>
+<li data-line="7" dir="auto"><span class="list-bullet"></span>
+<p>civilisationBuildingConstructedIsGreaterThan(arg0_civ_tags, arg1_building_names, arg2_value)  </p>
+</li>
+<li data-line="8" dir="auto"><span class="list-bullet"></span>
+<p>civilisationBuildingConstructedIsLEQ(arg0_civ_tags, arg1_building_names, arg2_value)  </p>
+</li>
+<li data-line="9" dir="auto"><span class="list-bullet"></span>
+<p>civilisationBuildingConstructedIsLessThan(arg0_civ_tags, arg1_building_names, arg2_value)  </p>
+</li>
+<li data-line="10" dir="auto"><span class="list-bullet"></span>
+<p>civilisationBuildingGroupConstructedIs(arg0_civ_tags, arg1_building_group_names, arg2_value)  </p>
+</li>
+<li data-line="11" dir="auto"><span class="list-bullet"></span>
+<p>civilisationBuildingGroupConstructedIsGEQ(arg0_civ_tags, arg1_building_group_names, arg2_value)  </p>
+</li>
+<li data-line="12" dir="auto"><span class="list-bullet"></span>
+<p>civilisationBuildingGroupConstructedIsGreaterThan(arg0_civ_tags, arg1_building_group_names, arg2_value)  </p>
+</li>
+<li data-line="13" dir="auto"><span class="list-bullet"></span>
+<p>civilisationBuildingGroupConstructedIsLEQ(arg0_civ_tags, arg1_building_group_names, arg2_value)  </p>
+</li>
+<li data-line="14" dir="auto"><span class="list-bullet"></span>
+<p>civilisationBuildingGroupConstructedIsLessThan(arg0_civ_tags, arg1_building_group_names, arg2_value)</p>
+</li>
+<li data-line="16" dir="auto"><span class="list-bullet"></span>
+<p>civilisationUniqueCapitalBuildingsConstructedIs(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="17" dir="auto"><span class="list-bullet"></span>
+<p>civilisationUniqueCapitalBuildingsConstructedIsGEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="18" dir="auto"><span class="list-bullet"></span>
+<p>civilisationUniqueCapitalBuildingsConstructedIsGreaterThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="19" dir="auto"><span class="list-bullet"></span>
+<p>civilisationUniqueCapitalBuildingsConstructedIsLEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="20" dir="auto"><span class="list-bullet"></span>
+<p>civilisationUniqueCapitalBuildingsConstructedIsLessThan(arg0_civ_tags, arg1_value)  </p>
+<p><strong>Economy (Civilisation).</strong>  </p>
+</li>
+<li data-line="23" dir="auto"><span class="list-bullet"></span>
+<p>civilisationEconomyIncomeIs(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="24" dir="auto"><span class="list-bullet"></span>
+<p>civilisationEconomyIncomeIsGEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="25" dir="auto"><span class="list-bullet"></span>
+<p>civilisationEconomyIncomeIsGreaterThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="26" dir="auto"><span class="list-bullet"></span>
+<p>civilisationEconomyIncomeIsLEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="27" dir="auto"><span class="list-bullet"></span>
+<p>civilisationEconomyIncomeIsLessThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="28" dir="auto"><span class="list-bullet"></span>
+<p>civilisationEconomyIs(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="29" dir="auto"><span class="list-bullet"></span>
+<p>civilisationEconomyIsGEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="30" dir="auto"><span class="list-bullet"></span>
+<p>civilisationEconomyIsGreaterThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="31" dir="auto"><span class="list-bullet"></span>
+<p>civilisationEconomyIsLEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="32" dir="auto"><span class="list-bullet"></span>
+<p>civilisationEconomyIsLessThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="33" dir="auto"><span class="list-bullet"></span>
+<p>civilisationProductionIs(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="34" dir="auto"><span class="list-bullet"></span>
+<p>civilisationProductionIsGEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="35" dir="auto"><span class="list-bullet"></span>
+<p>civilisationProductionIsGreaterThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="36" dir="auto"><span class="list-bullet"></span>
+<p>civilisationProductionIsLEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="37" dir="auto"><span class="list-bullet"></span>
+<p>civilisationProductionIsLessThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="38" dir="auto"><span class="list-bullet"></span>
+<p>civilisationTaxationIs(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="39" dir="auto"><span class="list-bullet"></span>
+<p>civilisationTaxationIsGEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="40" dir="auto"><span class="list-bullet"></span>
+<p>civilisationTaxationIsGreaterThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="41" dir="auto"><span class="list-bullet"></span>
+<p>civilisationTaxationIsLEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="42" dir="auto"><span class="list-bullet"></span>
+<p>civilisationTaxationIsLessThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="43" dir="auto"><span class="list-bullet"></span>
+<p>civilisationTotalIncomeIs(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="44" dir="auto"><span class="list-bullet"></span>
+<p>civilisationTotalIncomeIsGEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="45" dir="auto"><span class="list-bullet"></span>
+<p>civilisationTotalIncomeIsGreaterThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="46" dir="auto"><span class="list-bullet"></span>
+<p>civilisationTotalIncomeIsLEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="47" dir="auto"><span class="list-bullet"></span>
+<p>civilisationTotalIncomeIsLessThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="48" dir="auto"><span class="list-bullet"></span>
+<p>civilisationMoneyIs(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="49" dir="auto"><span class="list-bullet"></span>
+<p>civilisationMoneyIsGEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="50" dir="auto"><span class="list-bullet"></span>
+<p>civilisationMoneyIsGreaterThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="51" dir="auto"><span class="list-bullet"></span>
+<p>civilisationMoneyIsLEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="52" dir="auto"><span class="list-bullet"></span>
+<p>civilisationMoneyIsLessThan(arg0_civ_tags, arg1_value)</p>
+<p><strong>Economy (Goods/Resources).</strong>  </p>
+</li>
+<li data-line="55" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasResource(arg0_civ_tags, arg1_resource_names)  </p>
+</li>
+<li data-line="56" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p>civilisationHasResourceProvinces(arg0_civ_tags, arg1_options)  </p>
+<ul class="has-list-bullet">
+<li data-line="57" dir="auto"><span class="list-bullet"></span>provinces: (String, ProvinceID/Array&lt;String, ProvinceID&gt;) - Optional. Selects Province IDs based on value criteria. All provinces civilisation owns by default.  </li>
+<li data-line="58" dir="auto"><span class="list-bullet"></span>resources: (List&lt;String, ResourceTag&gt;)  </li>
+<li data-line="59" dir="auto"><span class="list-bullet"></span>value: (Number/String, Value) - Optional. The number of provinces needed that meet the criteria. 1 by default.  </li>
+</ul>
+</li>
+<li data-line="60" dir="auto"><span class="list-bullet"></span>
+<p>civilisationIsLargestProducerOf(arg0_civ_tags, arg1_resource_names)  </p>
+</li>
+<li data-line="61" dir="auto"><span class="list-bullet"></span>
+<p>civilisationIsLargestProducerOfNumberOfResources(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="62" dir="auto"><span class="list-bullet"></span>
+<p>civilisationLargestResourceProducedIs(arg0_civ_tags, arg1_resource_names)  </p>
+</li>
+<li data-line="63" dir="auto"><span class="list-bullet"></span>
+<p>civilisationResourceProductionIs(arg0_civ_tags, arg1_resource_names, arg2_value)  </p>
+</li>
+<li data-line="64" dir="auto"><span class="list-bullet"></span>
+<p>civilisationResourceProductionIsGEQ(arg0_civ_tags, arg1_resource_names, arg2_value)  </p>
+</li>
+<li data-line="65" dir="auto"><span class="list-bullet"></span>
+<p>civilisationResourceProductionIsGreaterThan(arg0_civ_tags, arg1_resource_names, arg2_value)  </p>
+</li>
+<li data-line="66" dir="auto"><span class="list-bullet"></span>
+<p>civilisationResourceProductionIsLEQ(arg0_civ_tags, arg1_resource_names, arg2_value)  </p>
+</li>
+<li data-line="67" dir="auto"><span class="list-bullet"></span>
+<p>civilisationResourceProductionIsLessThan(arg0_civ_tags, arg1_resource_names, arg2_value)  </p>
+<p><strong>Economy (Pops).</strong>  </p>
+</li>
+<li data-line="70" dir="auto"><span class="list-bullet"></span>
+<p>civilisationAverageGrowthRateIs(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="71" dir="auto"><span class="list-bullet"></span>
+<p>civilisationAverageGrowthRateIsGEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="72" dir="auto"><span class="list-bullet"></span>
+<p>civilisationAverageGrowthRateIsGreaterThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="73" dir="auto"><span class="list-bullet"></span>
+<p>civilisationAverageGrowthRateIsLEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="74" dir="auto"><span class="list-bullet"></span>
+<p>civilisationAverageGrowthRateIsLessThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="75" dir="auto"><span class="list-bullet"></span>
+<p>civilisationIncreasedGrowthRateIs(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="76" dir="auto"><span class="list-bullet"></span>
+<p>civilisationIncreasedGrowthRateIsGEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="77" dir="auto"><span class="list-bullet"></span>
+<p>civilisationIncreasedGrowthRateIsGreaterThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="78" dir="auto"><span class="list-bullet"></span>
+<p>civilisationIncreasedGrowthRateIsLEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="79" dir="auto"><span class="list-bullet"></span>
+<p>civilisationIncreasedGrowthRateIsLessThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="80" dir="auto"><span class="list-bullet"></span>
+<p>civilisationPopulationIs(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="81" dir="auto"><span class="list-bullet"></span>
+<p>civilisationPopulationIsGEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="82" dir="auto"><span class="list-bullet"></span>
+<p>civilisationPopulationIsGreaterThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="83" dir="auto"><span class="list-bullet"></span>
+<p>civilisationPopulationIsLEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="84" dir="auto"><span class="list-bullet"></span>
+<p>civilisationPopulationIsLessThan(arg0_civ_tags, arg1_value)  </p>
+<p><strong>Economy (Provinces).</strong>  </p>
+</li>
+<li data-line="87" dir="auto"><span class="list-bullet"></span>
+<p>civilisationDevelopedInfrastructureIs(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="88" dir="auto"><span class="list-bullet"></span>
+<p>civilisationDevelopedInfrastructureIsGEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="89" dir="auto"><span class="list-bullet"></span>
+<p>civilisationDevelopedInfrastructureIsGreaterThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="90" dir="auto"><span class="list-bullet"></span>
+<p>civilisationDevelopedInfrastructureIsLEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="91" dir="auto"><span class="list-bullet"></span>
+<p>civilisationDevelopedInfrastructureIsLessThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="92" dir="auto"><span class="list-bullet"></span>
+<p>civilisationIncreasedManpowerIs(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="93" dir="auto"><span class="list-bullet"></span>
+<p>civilisationIncreasedManpowerIsGEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="94" dir="auto"><span class="list-bullet"></span>
+<p>civilisationIncreasedManpowerIsGreaterThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="95" dir="auto"><span class="list-bullet"></span>
+<p>civilisationIncreasedManpowerIsLEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="96" dir="auto"><span class="list-bullet"></span>
+<p>civilisationIncreasedManpowerIsLessThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="97" dir="auto"><span class="list-bullet"></span>
+<p>civilisationIncreasedTaxEfficiencyIs(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="98" dir="auto"><span class="list-bullet"></span>
+<p>civilisationIncreasedTaxEfficiencyIsGEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="99" dir="auto"><span class="list-bullet"></span>
+<p>civilisationIncreasedTaxEfficiencyIsGreaterThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="100" dir="auto"><span class="list-bullet"></span>
+<p>civilisationIncreasedTaxEfficiencyIsLEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="101" dir="auto"><span class="list-bullet"></span>
+<p>civilisationIncreasedTaxEfficiencyIsLessThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="102" dir="auto"><span class="list-bullet"></span>
+<p>civilisationInvestedInEconomyIs(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="103" dir="auto"><span class="list-bullet"></span>
+<p>civilisationInvestedInEconomyIsGEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="104" dir="auto"><span class="list-bullet"></span>
+<p>civilisationInvestedInEconomyIsGreaterThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="105" dir="auto"><span class="list-bullet"></span>
+<p>civilisationInvestedInEconomyIsLEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="106" dir="auto"><span class="list-bullet"></span>
+<p>civilisationInvestedInEconomyIsLessThan(arg0_civ_tags, arg1_value)  </p>
+<p><strong>Economy (Technology).</strong>  </p>
+</li>
+<li data-line="109" dir="auto"><span class="list-bullet"></span>
+<p>civilisationResearchPerMonthIs(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="110" dir="auto"><span class="list-bullet"></span>
+<p>civilisationResearchPerMonthIsGEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="111" dir="auto"><span class="list-bullet"></span>
+<p>civilisationResearchPerMonthIsGreaterThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="112" dir="auto"><span class="list-bullet"></span>
+<p>civilisationResearchPerMonthIsLEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="113" dir="auto"><span class="list-bullet"></span>
+<p>civilisationResearchPerMonthIsLessThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="114" dir="auto"><span class="list-bullet"></span>
+<p>civilisationResearchedTechnologiesIs(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="115" dir="auto"><span class="list-bullet"></span>
+<p>civilisationResearchedTechnologiesIsGEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="116" dir="auto"><span class="list-bullet"></span>
+<p>civilisationResearchedTechnologiesIsGreaterThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="117" dir="auto"><span class="list-bullet"></span>
+<p>civilisationResearchedTechnologiesIsLEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="118" dir="auto"><span class="list-bullet"></span>
+<p>civilisationResearchedTechnologiesIsLessThan(arg0_civ_tags, arg1_value)</p>
+</li>
+<li data-line="120" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasTechnology(arg0_civ_tags, arg1_technology_names)  </p>
+<p><strong>Military.</strong>  </p>
+</li>
+<li data-line="123" dir="auto"><span class="list-bullet"></span>
+<p>civilisationBattleWidthIs(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="124" dir="auto"><span class="list-bullet"></span>
+<p>civilisationBattleWidthIsGEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="125" dir="auto"><span class="list-bullet"></span>
+<p>civilisationBattleWidthIsGreaterThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="126" dir="auto"><span class="list-bullet"></span>
+<p>civilisationBattleWidthIsLEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="127" dir="auto"><span class="list-bullet"></span>
+<p>civilisationBattleWidthIsLessThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="128" dir="auto"><span class="list-bullet"></span>
+<p>civilisationManpowerIs(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="129" dir="auto"><span class="list-bullet"></span>
+<p>civilisationManpowerIsGEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="130" dir="auto"><span class="list-bullet"></span>
+<p>civilisationManpowerIsGreaterThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="131" dir="auto"><span class="list-bullet"></span>
+<p>civilisationManpowerIsLEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="132" dir="auto"><span class="list-bullet"></span>
+<p>civilisationManpowerIsLessThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="133" dir="auto"><span class="list-bullet"></span>
+<p>civilisationManpowerPercentageIs(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="134" dir="auto"><span class="list-bullet"></span>
+<p>civilisationManpowerPercentageIsGEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="135" dir="auto"><span class="list-bullet"></span>
+<p>civilisationManpowerPercentageIsGreaterThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="136" dir="auto"><span class="list-bullet"></span>
+<p>civilisationManpowerPercentageIsLEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="137" dir="auto"><span class="list-bullet"></span>
+<p>civilisationManpowerPercentageIsLessThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="138" dir="auto"><span class="list-bullet"></span>
+<p>civilisationMaximumManpowerIs(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="139" dir="auto"><span class="list-bullet"></span>
+<p>civilisationMaximumManpowerIsGEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="140" dir="auto"><span class="list-bullet"></span>
+<p>civilisationMaximumManpowerIsGreaterThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="141" dir="auto"><span class="list-bullet"></span>
+<p>civilisationMaximumManpowerIsLEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="142" dir="auto"><span class="list-bullet"></span>
+<p>civilisationMaximumManpowerIsLessThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="143" dir="auto"><span class="list-bullet"></span>
+<p>civilisationRegimentsIs(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="144" dir="auto"><span class="list-bullet"></span>
+<p>civilisationRegimentsIsGEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="145" dir="auto"><span class="list-bullet"></span>
+<p>civilisationRegimentsIsGreaterThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="146" dir="auto"><span class="list-bullet"></span>
+<p>civilisationRegimentsIsLEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="147" dir="auto"><span class="list-bullet"></span>
+<p>civilisationRegimentsIsLessThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="148" dir="auto"><span class="list-bullet"></span>
+<p>civilisationRegimentsLimitIs(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="149" dir="auto"><span class="list-bullet"></span>
+<p>civilisationRegimentsLimitIsGEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="150" dir="auto"><span class="list-bullet"></span>
+<p>civilisationRegimentsLimitIsGreaterThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="151" dir="auto"><span class="list-bullet"></span>
+<p>civilisationRegimentsLimitIsLEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="152" dir="auto"><span class="list-bullet"></span>
+<p>civilisationRegimentsLimitIsLessThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="153" dir="auto"><span class="list-bullet"></span>
+<p>civilisationRegimentsOverLimitIs(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="154" dir="auto"><span class="list-bullet"></span>
+<p>civilisationRegimentsOverLimitIsGEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="155" dir="auto"><span class="list-bullet"></span>
+<p>civilisationRegimentsOverLimitIsGreaterThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="156" dir="auto"><span class="list-bullet"></span>
+<p>civilisationRegimentsOverLimitIsLEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="157" dir="auto"><span class="list-bullet"></span>
+<p>civilisationRegimentsOverLimitIsLessThan(arg0_civ_tags, arg1_value)  </p>
+<p><strong>Politics (External [Diplomacy]).</strong>  </p>
+</li>
+<li data-line="160" dir="auto"><span class="list-bullet"></span>
+<p>civilisationIsAI(arg0_civ_tags)  </p>
+</li>
+<li data-line="161" dir="auto"><span class="list-bullet"></span>
+<p>civilisationIsPlayer(arg0_civ_tags)</p>
+</li>
+<li data-line="163" dir="auto"><span class="list-bullet"></span>
+<p>civilisationAggressiveExpansionIs(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="164" dir="auto"><span class="list-bullet"></span>
+<p>civilisationAggressiveExpansionIsGEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="165" dir="auto"><span class="list-bullet"></span>
+<p>civilisationAggressiveExpansionIsGreaterThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="166" dir="auto"><span class="list-bullet"></span>
+<p>civilisationAggressiveExpansionIsLEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="167" dir="auto"><span class="list-bullet"></span>
+<p>civilisationAggressiveExpansionIsLessThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="168" dir="auto"><span class="list-bullet"></span>
+<p>civilisationAtWarDaysIs(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="169" dir="auto"><span class="list-bullet"></span>
+<p>civilisationAtWarDaysIsGEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="170" dir="auto"><span class="list-bullet"></span>
+<p>civilisationAtWarDaysIsGreaterThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="171" dir="auto"><span class="list-bullet"></span>
+<p>civilisationAtWarDaysIsLEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="172" dir="auto"><span class="list-bullet"></span>
+<p>civilisationAtWarDaysIsLessThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="173" dir="auto"><span class="list-bullet"></span>
+<p>civilisationGuarantorsAre(arg0_civ_tags, arg1_civ_tags)  </p>
+</li>
+<li data-line="174" dir="auto"><span class="list-bullet"></span>
+<p>civilisationGuarantorsAreNot(arg0_civ_tags, arg1_civ_tags)  </p>
+</li>
+<li data-line="175" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasAlliancesWith(arg0_civ_tags, arg1_civ_tags)  </p>
+</li>
+<li data-line="176" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasDefensivePactsWith(arg0_civ_tags, arg1_civ_tags)  </p>
+</li>
+<li data-line="177" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasMilitaryAccessWith(arg0_civ_tags, arg1_civ_tags)  </p>
+</li>
+<li data-line="178" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasNoAllies(arg0_civ_tags)  </p>
+</li>
+<li data-line="179" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasNoDefensivePacts(arg0_civ_tags)  </p>
+</li>
+<li data-line="180" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasNoGuarantees(arg0_civ_tags)  </p>
+</li>
+<li data-line="181" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasNoGuarantors(arg0_civ_tags)  </p>
+</li>
+<li data-line="182" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasNoMilitaryAccess(arg0_civ_tags)  </p>
+</li>
+<li data-line="183" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasNonAggressionPacts(arg0_civ_tags, arg1_civ_tags)  </p>
+</li>
+<li data-line="184" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasNoNeighbours(arg0_civ_tags)  </p>
+</li>
+<li data-line="185" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasNoNonAggressionPacts(arg0_civ_tags)  </p>
+</li>
+<li data-line="186" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasNoRivals(arg0_civ_tags)  </p>
+</li>
+<li data-line="187" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasNoTruces(arg0_civ_tags)  </p>
+</li>
+<li data-line="188" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasTruces(arg0_civ_tags, arg1_civ_tags)  </p>
+</li>
+<li data-line="189" dir="auto"><span class="list-bullet"></span>
+<p>civilisationIsAtWar(arg0_civ_tags)  </p>
+</li>
+<li data-line="190" dir="auto"><span class="list-bullet"></span>
+<p>civilisationIsAtWarWith(arg0_civ_tags, arg1_civ_tags)  </p>
+</li>
+<li data-line="191" dir="auto"><span class="list-bullet"></span>
+<p>civilisationIsGuaranteeing(arg0_civ_tags, arg1_civ_tags)  </p>
+</li>
+<li data-line="192" dir="auto"><span class="list-bullet"></span>
+<p>civilisationIsNeighboursWith(arg0_civ_tags, arg1_civ_tags)	  </p>
+</li>
+<li data-line="193" dir="auto"><span class="list-bullet"></span>
+<p>civilisationIsNotAlliedWith(arg0_civ_tags, arg1_civ_tags)  </p>
+</li>
+<li data-line="194" dir="auto"><span class="list-bullet"></span>
+<p>civilisationIsNotAtWar(arg0_civ_tags)  </p>
+</li>
+<li data-line="195" dir="auto"><span class="list-bullet"></span>
+<p>civilisationIsNotAtWarWith(arg0_civ_tags, arg1_civ_tags)  </p>
+</li>
+<li data-line="196" dir="auto"><span class="list-bullet"></span>
+<p>civilisationIsNotRivalsWith(arg0_civ_tags, arg1_civ_tags)  </p>
+</li>
+<li data-line="197" dir="auto"><span class="list-bullet"></span>
+<p>civilisationIsRivalWith(arg0_civ_tags, arg1_civ_tags)  </p>
+</li>
+<li data-line="198" dir="auto"><span class="list-bullet"></span>
+<p>civilisationIsVassal(arg0_civ_tags)  </p>
+</li>
+<li data-line="199" dir="auto"><span class="list-bullet"></span>
+<p>civilisationIsVassalOf(arg0_civ_tags, arg1_civ_tags)</p>
+</li>
+<li data-line="201" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasAlliesEqualTo(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="202" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasAlliesGEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="203" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasAlliesGreaterThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="204" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasAlliesLEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="205" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasAlliesLessThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="206" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasDefensivePactsEqualTo(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="207" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasDefensivePactsGEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="208" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasDefensivePactsGreaterThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="209" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasDefensivePactsLEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="210" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasDefensivePactsLessThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="211" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasNeighboursEqualTo(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="212" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasNeighboursGEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="213" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasNeighboursGreaterThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="214" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasNeighboursLEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="215" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasNeighboursLessThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="216" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasNonAggressionPactsEqualTo(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="217" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasNonAggressionPactsGEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="218" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasNonAggressionPactsGreaterThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="219" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasNonAggressionPactsLEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="220" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasNonAggressionPactsLessThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="221" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasTotalWarsEqualTo(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="222" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasTotalWarsGEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="223" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasTotalWarsGreaterThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="224" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasTotalWarsLEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="225" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasTotalWarsLessThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="226" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasVassalsEqualTo(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="227" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasVassalsGEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="228" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasVassalsGreaterThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="229" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasVassalsLEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="230" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasVassalsLessThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="231" dir="auto"><span class="list-bullet"></span>
+<p>civilisationRankingIs(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="232" dir="auto"><span class="list-bullet"></span>
+<p>civilisationRankingIsGEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="233" dir="auto"><span class="list-bullet"></span>
+<p>civilisationRankingIsGreaterThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="234" dir="auto"><span class="list-bullet"></span>
+<p>civilisationRankingIsLEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="235" dir="auto"><span class="list-bullet"></span>
+<p>civilisationRankingIsLessThan(arg0_civ_tags, arg1_value)</p>
+</li>
+<li data-line="237" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p>civilisationOpinionIs(arg0_civ_tags, arg1_options)  </p>
+<ul class="has-list-bullet">
+<li data-line="238" dir="auto"><span class="list-bullet"></span>tag: (List&lt;String, CivTag&gt;)  </li>
+<li data-line="239" dir="auto"><span class="list-bullet"></span>value: (Number)  </li>
+</ul>
+</li>
+<li data-line="240" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p>civilisationOpinionIsGEQ(arg0_civ_tags, arg1_options)  </p>
+<ul class="has-list-bullet">
+<li data-line="241" dir="auto"><span class="list-bullet"></span>tag: (List&lt;String, CivTag&gt;)  </li>
+<li data-line="242" dir="auto"><span class="list-bullet"></span>value: (Number)  </li>
+</ul>
+</li>
+<li data-line="243" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p>civilisationOpinionIsGreaterThan(arg0_civ_tags, arg1_options)  </p>
+<ul class="has-list-bullet">
+<li data-line="244" dir="auto"><span class="list-bullet"></span>tag: (List&lt;String, CivTag&gt;)  </li>
+<li data-line="245" dir="auto"><span class="list-bullet"></span>value: (Number)  </li>
+</ul>
+</li>
+<li data-line="246" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p>civilisationOpinionIsLEQ(arg0_civ_tags, arg1_options)  </p>
+<ul class="has-list-bullet">
+<li data-line="247" dir="auto"><span class="list-bullet"></span>tag: (List&lt;String, CivTag&gt;)  </li>
+<li data-line="248" dir="auto"><span class="list-bullet"></span>value: (Number)  </li>
+</ul>
+</li>
+<li data-line="249" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p>civilisationOpinionIsLessThan(arg0_civ_tags, arg1_options)  </p>
+<ul class="has-list-bullet">
+<li data-line="250" dir="auto"><span class="list-bullet"></span>tag: (List&lt;String, CivTag&gt;)  </li>
+<li data-line="251" dir="auto"><span class="list-bullet"></span>value: (Number)</li>
+</ul>
+<p><strong>Politics (Internal).</strong></p>
+</li>
+<li data-line="256" dir="auto"><span class="list-bullet"></span>
+<p>civilisationDoesNotHaveGovernmentType(arg0_civ_tags, arg1_government_names)  </p>
+</li>
+<li data-line="257" dir="auto"><span class="list-bullet"></span>
+<p>civilisationDoesNotHaveReligion(arg0_civ_tags, arg1_religion_names)  </p>
+</li>
+<li data-line="258" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasGovernmentType(arg0_civ_tags, arg1_government_names)  </p>
+</li>
+<li data-line="259" dir="auto"><span class="list-bullet"></span>
+<p>civilisationHasReligion(arg0_civ_tags, arg1_religion_names)</p>
+</li>
+<li data-line="261" dir="auto"><span class="list-bullet"></span>
+<p>civilisationAdvisorSkillIs(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="262" dir="auto"><span class="list-bullet"></span>
+<p>civilisationAdvisorSkillIsGEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="263" dir="auto"><span class="list-bullet"></span>
+<p>civilisationAdvisorSkillIsGreaterThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="264" dir="auto"><span class="list-bullet"></span>
+<p>civilisationAdvisorSkillIsLEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="265" dir="auto"><span class="list-bullet"></span>
+<p>civilisationAdvisorSkillIsLessThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="266" dir="auto"><span class="list-bullet"></span>
+<p>civilisationLegacyIs(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="267" dir="auto"><span class="list-bullet"></span>
+<p>civilisationLegacyIsGEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="268" dir="auto"><span class="list-bullet"></span>
+<p>civilisationLegacyIsGreaterThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="269" dir="auto"><span class="list-bullet"></span>
+<p>civilisationLegacyIsLEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="270" dir="auto"><span class="list-bullet"></span>
+<p>civilisationLegacyIsLessThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="271" dir="auto"><span class="list-bullet"></span>
+<p>civilisationLegacyPerMonthIs(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="272" dir="auto"><span class="list-bullet"></span>
+<p>civilisationLegacyPerMonthIsGEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="273" dir="auto"><span class="list-bullet"></span>
+<p>civilisationLegacyPerMonthIsGreaterThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="274" dir="auto"><span class="list-bullet"></span>
+<p>civilisationLegacyPerMonthIsLEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="275" dir="auto"><span class="list-bullet"></span>
+<p>civilisationLegacyPerMonthIsLessThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="276" dir="auto"><span class="list-bullet"></span>
+<p>civilisationPrestigeIs(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="277" dir="auto"><span class="list-bullet"></span>
+<p>civilisationPrestigeIsGEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="278" dir="auto"><span class="list-bullet"></span>
+<p>civilisationPrestigeIsGreaterThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="279" dir="auto"><span class="list-bullet"></span>
+<p>civilisationPrestigeIsLEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="280" dir="auto"><span class="list-bullet"></span>
+<p>civilisationPrestigeIsLessThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="281" dir="auto"><span class="list-bullet"></span>
+<p>civilisationRecruitedAdvisorsIs(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="282" dir="auto"><span class="list-bullet"></span>
+<p>civilisationRecruitedAdvisorsIsGEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="283" dir="auto"><span class="list-bullet"></span>
+<p>civilisationRecruitedAdvisorsIsGreaterThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="284" dir="auto"><span class="list-bullet"></span>
+<p>civilisationRecruitedAdvisorsIsLEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="285" dir="auto"><span class="list-bullet"></span>
+<p>civilisationRecruitedAdvisorsIsLessThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="286" dir="auto"><span class="list-bullet"></span>
+<p>civilisationUnlockedAdvantagesIs(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="287" dir="auto"><span class="list-bullet"></span>
+<p>civilisationUnlockedAdvantagesIsGEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="288" dir="auto"><span class="list-bullet"></span>
+<p>civilisationUnlockedAdvantagesIsGreaterThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="289" dir="auto"><span class="list-bullet"></span>
+<p>civilisationUnlockedAdvantagesIsLEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="290" dir="auto"><span class="list-bullet"></span>
+<p>civilisationUnlockedAdvantagesIsLessThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="291" dir="auto"><span class="list-bullet"></span>
+<p>civilisationUnlockedLegaciesIsGEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="292" dir="auto"><span class="list-bullet"></span>
+<p>civilisationUnlockedLegaciesIsGreaterThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="293" dir="auto"><span class="list-bullet"></span>
+<p>civilisationUnlockedLegaciesIsLEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="294" dir="auto"><span class="list-bullet"></span>
+<p>civilisationUnlockedLegaciesIsLessThan(arg0_civ_tags, arg1_value)  </p>
+<p><strong>Provinces.</strong>  </p>
+</li>
+<li data-line="297" dir="auto"><span class="list-bullet"></span>
+<p>civilisationNumberOfProvincesIs(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="298" dir="auto"><span class="list-bullet"></span>
+<p>civilisationNumberOfProvincesIsGEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="299" dir="auto"><span class="list-bullet"></span>
+<p>civilisationNumberOfProvincesIsGreaterThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="300" dir="auto"><span class="list-bullet"></span>
+<p>civilisationNumberOfProvincesIsLEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="301" dir="auto"><span class="list-bullet"></span>
+<p>civilisationNumberOfProvincesIsLessThan(arg0_civ_tags, arg1_value)</p>
+</li>
+<li data-line="303" dir="auto"><span class="list-bullet"></span>
+<p>civilisationCapitalBuildingTypeIs(arg0_civ_tags, arg1_capital_building_types, arg2_value)  </p>
+</li>
+<li data-line="304" dir="auto"><span class="list-bullet"></span>
+<p>civilisationCapitalBuildingTypeIsGEQ(arg0_civ_tags, arg1_capital_building_types, arg2_value)  </p>
+</li>
+<li data-line="305" dir="auto"><span class="list-bullet"></span>
+<p>civilisationCapitalBuildingTypeIsGreaterThan(arg0_civ_tags, arg1_capital_building_types, arg2_value)  </p>
+</li>
+<li data-line="306" dir="auto"><span class="list-bullet"></span>
+<p>civilisationCapitalBuildingTypeIsLEQ(arg0_civ_tags, arg1_capital_building_types, arg2_value)  </p>
+</li>
+<li data-line="307" dir="auto"><span class="list-bullet"></span>
+<p>civilisationCapitalBuildingTypeIsLessThan(arg0_civ_tags, arg1_capital_building_types, arg2_value)<br>
+</p>
+</li>
+<li data-line="309" dir="auto"><span class="list-bullet"></span>
+<p>civilisationConqueredProvincesIs(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="310" dir="auto"><span class="list-bullet"></span>
+<p>civilisationConqueredProvincesIsGEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="311" dir="auto"><span class="list-bullet"></span>
+<p>civilisationConqueredProvincesIsGreaterThan(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="312" dir="auto"><span class="list-bullet"></span>
+<p>civilisationConqueredProvincesIsLEQ(arg0_civ_tags, arg1_value)  </p>
+</li>
+<li data-line="313" dir="auto"><span class="list-bullet"></span>
+<p>civilisationConqueredProvincesIsLessThan(arg0_civ_tags, arg1_value)</p>
+</li>
+</ul></div><div class="el-ol"><ol start="3">
+<li data-line="0" dir="auto"><strong>Province Scope Conditions.</strong><br>
+<strong>Economy (Buildings).</strong>  </li>
+</ol></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span>provinceDoesNotHaveBuilding(arg0_provinces, arg1_building_names)  </li>
+<li data-line="1" dir="auto"><span class="list-bullet"></span>provinceHasBuilding(arg0_provinces, arg1_building_names)<br>
+</li>
+<li data-line="3" dir="auto"><span class="list-bullet"></span>provinceBuildingConstructedIs(arg0_provinces, arg1_building_names, arg2_value)  </li>
+<li data-line="4" dir="auto"><span class="list-bullet"></span>provinceBuildingConstructedIsGEQ(arg0_provinces, arg1_building_names, arg2_value)  </li>
+<li data-line="5" dir="auto"><span class="list-bullet"></span>provinceBuildingConstructedIsGreaterThan(arg0_provinces, arg1_building_names, arg2_value)  </li>
+<li data-line="6" dir="auto"><span class="list-bullet"></span>provinceBuildingConstructedIsLEQ(arg0_provinces, arg1_building_names, arg2_value)  </li>
+<li data-line="7" dir="auto"><span class="list-bullet"></span>provinceBuildingConstructedIsLessThan(arg0_provinces, arg1_building_names, arg2_value)  </li>
+<li data-line="8" dir="auto"><span class="list-bullet"></span>provinceBuildingsIs(arg0_provinces, arg1_value)  </li>
+<li data-line="9" dir="auto"><span class="list-bullet"></span>provinceBuildingsIsGEQ(arg0_provinces, arg1_value)  </li>
+<li data-line="10" dir="auto"><span class="list-bullet"></span>provinceBuildingsIsGreaterThan(arg0_provinces, arg1_value)  </li>
+<li data-line="11" dir="auto"><span class="list-bullet"></span>provinceBuildingsIsLEQ(arg0_provinces, arg1_value)  </li>
+<li data-line="12" dir="auto"><span class="list-bullet"></span>provinceBuildingsIsLessThan(arg0_provinces, arg1_value)  </li>
+<li data-line="13" dir="auto"><span class="list-bullet"></span>provinceBuildingLimitIs(arg0_provinces, arg1_value)  </li>
+<li data-line="14" dir="auto"><span class="list-bullet"></span>provinceBuildingLimitIsGEQ(arg0_provinces, arg1_value)  </li>
+<li data-line="15" dir="auto"><span class="list-bullet"></span>provinceBuildingLimitIsGreaterThan(arg0_provinces, arg1_value)  </li>
+<li data-line="16" dir="auto"><span class="list-bullet"></span>provinceBuildingLimitIsLEQ(arg0_provinces, arg1_value)  </li>
+<li data-line="17" dir="auto"><span class="list-bullet"></span>provinceBuildingLimitIsLessThan(arg0_provinces, arg1_value)  
+<strong>Economy (Development).</strong>  </li>
+<li data-line="20" dir="auto"><span class="list-bullet"></span>provinceEconomyIs(arg0_provinces, arg1_value)  </li>
+<li data-line="21" dir="auto"><span class="list-bullet"></span>provinceEconomyIsGEQ(arg0_provinces, arg1_value)  </li>
+<li data-line="22" dir="auto"><span class="list-bullet"></span>provinceEconomyIsGreaterThan(arg0_provinces, arg1_value)  </li>
+<li data-line="23" dir="auto"><span class="list-bullet"></span>provinceEconomyIsLEQ(arg0_provinces, arg1_value)  </li>
+<li data-line="24" dir="auto"><span class="list-bullet"></span>provinceEconomyIsLessThan(arg0_provinces, arg1_value)  </li>
+<li data-line="25" dir="auto"><span class="list-bullet"></span>provinceIncomeIs(arg0_provinces, arg1_value)  </li>
+<li data-line="26" dir="auto"><span class="list-bullet"></span>provinceIncomeIsGEQ(arg0_provinces, arg1_value)  </li>
+<li data-line="27" dir="auto"><span class="list-bullet"></span>provinceIncomeIsGreaterThan(arg0_provinces, arg1_value)  </li>
+<li data-line="28" dir="auto"><span class="list-bullet"></span>provinceIncomeIsLEQ(arg0_provinces, arg1_value)  </li>
+<li data-line="29" dir="auto"><span class="list-bullet"></span>provinceIncomeIsLessThan(arg0_provinces, arg1_value)  </li>
+<li data-line="30" dir="auto"><span class="list-bullet"></span>provinceInfrastructureIs(arg0_provinces, arg1_value)  </li>
+<li data-line="31" dir="auto"><span class="list-bullet"></span>provinceInfrastructureIsGEQ(arg0_provinces, arg1_value)  </li>
+<li data-line="32" dir="auto"><span class="list-bullet"></span>provinceInfrastructureIsGreaterThan(arg0_provinces, arg1_value)  </li>
+<li data-line="33" dir="auto"><span class="list-bullet"></span>provinceInfrastructureIsLEQ(arg0_provinces, arg1_value)  </li>
+<li data-line="34" dir="auto"><span class="list-bullet"></span>provinceInfrastructureIsLessThan(arg0_provinces, arg1_value)  </li>
+<li data-line="35" dir="auto"><span class="list-bullet"></span>provinceTaxEfficiencyIs(arg0_provinces, arg1_value)  </li>
+<li data-line="36" dir="auto"><span class="list-bullet"></span>provinceTaxEfficiencyIsGEQ(arg0_provinces, arg1_value)  </li>
+<li data-line="37" dir="auto"><span class="list-bullet"></span>provinceTaxEfficiencyIsGreaterThan(arg0_provinces, arg1_value)  </li>
+<li data-line="38" dir="auto"><span class="list-bullet"></span>provinceTaxEfficiencyIsLEQ(arg0_provinces, arg1_value)  </li>
+<li data-line="39" dir="auto"><span class="list-bullet"></span>provinceTaxEfficiencyIsLessThan(arg0_provinces, arg1_value)  
+<strong>Economy (Pops).</strong>  </li>
+<li data-line="42" dir="auto"><span class="list-bullet"></span>provinceGrowthRateIs(arg0_provinces, arg1_value)  </li>
+<li data-line="43" dir="auto"><span class="list-bullet"></span>provinceGrowthRateIsGEQ(arg0_provinces, arg1_value)  </li>
+<li data-line="44" dir="auto"><span class="list-bullet"></span>provinceGrowthRateIsGreaterThan(arg0_provinces, arg1_value)  </li>
+<li data-line="45" dir="auto"><span class="list-bullet"></span>provinceGrowthRateIsLEQ(arg0_provinces, arg1_value)  </li>
+<li data-line="46" dir="auto"><span class="list-bullet"></span>provinceGrowthRateIsLessThan(arg0_provinces, arg1_value)  </li>
+<li data-line="47" dir="auto"><span class="list-bullet"></span>provincePopulationIs(arg0_provinces, arg1_value)  </li>
+<li data-line="48" dir="auto"><span class="list-bullet"></span>provincePopulationIsGEQ(arg0_provinces, arg1_value)  </li>
+<li data-line="49" dir="auto"><span class="list-bullet"></span>provincePopulationIsGreaterThan(arg0_provinces, arg1_value)  </li>
+<li data-line="50" dir="auto"><span class="list-bullet"></span>provincePopulationIsLEQ(arg0_provinces, arg1_value)  </li>
+<li data-line="51" dir="auto"><span class="list-bullet"></span>provincePopulationIsLessThan(arg0_provinces, arg1_value)  </li>
+<li data-line="52" dir="auto"><span class="list-bullet"></span>provinceReligionIs(arg0_provinces, arg1_religion_names)  </li>
+<li data-line="53" dir="auto"><span class="list-bullet"></span>provinceReligionIsNot(arg0_provinces, arg2_religion_names)  
+<strong>Meta.</strong>  </li>
+<li data-line="56" dir="auto"><span class="list-bullet"></span>provinceControllerIs(arg0_provinces, arg1_civ_tags)  </li>
+<li data-line="57" dir="auto"><span class="list-bullet"></span>provinceControllerIsNot(arg0_provinces, arg1_civ_tags)  </li>
+<li data-line="58" dir="auto"><span class="list-bullet"></span>provinceIsCapital(arg0_provinces)  </li>
+<li data-line="59" dir="auto"><span class="list-bullet"></span>provinceIsCapitalOf(arg0_provinces, arg1_civ_tags)  </li>
+<li data-line="60" dir="auto"><span class="list-bullet"></span>provinceIsCore(arg0_provinces, arg1_civ_tags)  </li>
+<li data-line="61" dir="auto"><span class="list-bullet"></span>provinceIsOccupied(arg0_provinces)  </li>
+<li data-line="62" dir="auto"><span class="list-bullet"></span>provinceIsOccupiedBy(arg0_provinces, arg1_civ_tags)  </li>
+<li data-line="63" dir="auto"><span class="list-bullet"></span>provinceIsNotCapital(arg0_provinces)  </li>
+<li data-line="64" dir="auto"><span class="list-bullet"></span>provinceIsNotCapitalOf(arg0_provinces, arg1_civ_tags)  </li>
+<li data-line="65" dir="auto"><span class="list-bullet"></span>provinceIsNotCore(arg0_provinces, arg1_civ_tags)	  </li>
+<li data-line="66" dir="auto"><span class="list-bullet"></span>provinceIsNotUnderSiege(arg0_provinces)  </li>
+<li data-line="67" dir="auto"><span class="list-bullet"></span>provinceIsNotUnderSiegeBy(arg0_provinces, arg1_civ_tags)  </li>
+<li data-line="68" dir="auto"><span class="list-bullet"></span>provinceIsUnderSiege(arg0_provinces)  </li>
+<li data-line="69" dir="auto"><span class="list-bullet"></span>provinceIsUnderSiegeBy(arg0_provinces, arg1_civ_tags)  </li>
+<li data-line="70" dir="auto"><span class="list-bullet"></span>provinceOwnerIs(arg0_provinces, arg1_civ_tags)  </li>
+<li data-line="71" dir="auto"><span class="list-bullet"></span>provinceOwnerIsNot(arg0_provinces, arg1_civ_tags)  
+<strong>Military.</strong>  </li>
+<li data-line="74" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>provinceArmyIs(arg0_provinces, arg1_options)  
+<ul class="has-list-bullet">
+<li data-line="75" dir="auto"><span class="list-bullet"></span>tag: (String, CivTag)<br>
+</li>
+<li data-line="77" dir="auto"><span class="list-bullet"></span>has_general: (FilePath.JSON) - Optional. The required general to be in the province. Not required by default.  </li>
+<li data-line="78" dir="auto"><span class="list-bullet"></span>value: (Number) - The required strength of the army in the province.  </li>
+</ul>
+</li>
+<li data-line="79" dir="auto"><span class="list-bullet"></span>provinceHasArmy(arg0_provinces)  </li>
+<li data-line="80" dir="auto"><span class="list-bullet"></span>provinceHasArmyFrom(arg0_provinces, arg1_civ_tags)<br>
+</li>
+<li data-line="82" dir="auto"><span class="list-bullet"></span>provinceDefenceLevelIs(arg0_provinces, arg1_value)  </li>
+<li data-line="83" dir="auto"><span class="list-bullet"></span>provinceDefenceLevelIsGEQ(arg0_provinces, arg1_value)  </li>
+<li data-line="84" dir="auto"><span class="list-bullet"></span>provinceDefenceLevelIsGreaterThan(arg0_provinces, arg1_value)  </li>
+<li data-line="85" dir="auto"><span class="list-bullet"></span>provinceDefenceLevelIsLEQ(arg0_provinces, arg1_value)  </li>
+<li data-line="86" dir="auto"><span class="list-bullet"></span>provinceDefenceLevelIsLessThan(arg0_provinces, arg1_value)  </li>
+<li data-line="87" dir="auto"><span class="list-bullet"></span>provinceManpowerIs(arg0_provinces, arg1_value)  </li>
+<li data-line="88" dir="auto"><span class="list-bullet"></span>provinceManpowerIsGEQ(arg0_provinces, arg1_value)  </li>
+<li data-line="89" dir="auto"><span class="list-bullet"></span>provinceManpowerIsGreaterThan(arg0_provinces, arg1_value)  </li>
+<li data-line="90" dir="auto"><span class="list-bullet"></span>provinceManpowerIsLEQ(arg0_provinces, arg1_value)  </li>
+<li data-line="91" dir="auto"><span class="list-bullet"></span>provinceManpowerIsLessThan(arg0_provinces, arg1_value)  
+<strong>Politics.</strong>  </li>
+<li data-line="94" dir="auto"><span class="list-bullet"></span>provinceUnrestIs(arg0_provinces, arg1_value)  </li>
+<li data-line="95" dir="auto"><span class="list-bullet"></span>provinceUnrestIsGEQ(arg0_provinces, arg1_value)  </li>
+<li data-line="96" dir="auto"><span class="list-bullet"></span>provinceUnrestIsGreaterThan(arg0_provinces, arg1_value)  </li>
+<li data-line="97" dir="auto"><span class="list-bullet"></span>provinceUnrestIsLEQ(arg0_provinces, arg1_value)  </li>
+<li data-line="98" dir="auto"><span class="list-bullet"></span>provinceUnrestIsLessThan(arg0_provinces, arg1_value)</li>
+</ul></div><div class="el-ol"><ol>
+<li data-line="0" dir="auto"><strong>Building Scope Conditions.</strong>  </li>
+<li data-line="1" dir="auto"><strong>Pop Scope Conditions.</strong><br>
+3. <strong>Wealth Scope Conditions.</strong></li>
+</ol></div><div class="el-p"><p dir="auto"><strong>WIP.</strong></p></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span>Add civilisation war weariness function checks.</li>
+</ul></div><div class="footer"><div class="data-bar"></div></div></div></div></div><div id="right-content" class="leaf" style="--sidebar-width: var(--sidebar-width-right);"><div id="right-sidebar" class="sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><label class="theme-toggle-container" for="theme-toggle-input" id=""><input class="theme-toggle-input" type="checkbox" id="theme-toggle-input"><div class="toggle-background"></div></label></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content-wrapper"><div id="right-sidebar-content" class="leaf-content"><div class="graph-view-wrapper"><div class="feature-header"><div class="feature-title">Interactive Graph</div></div><div class="graph-view-placeholder">
+		<div class="graph-view-container">
+			<div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div>
+			<div class="graph-icon graph-global" role="button" aria-label="Global Graph" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-git-fork"><circle cx="12" cy="18" r="3"></circle><circle cx="6" cy="6" r="3"></circle><circle cx="18" cy="6" r="3"></circle><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"></path><path d="M12 12v3"></path></svg></div>
+			<canvas id="graph-canvas" class="hide" width="512px" height="512px"></canvas>
+		</div>
+		</div></div><div id="outline" class=" tree-container"><div class="feature-header"><div class="feature-title">Table Of Contents</div><button class="clickable-icon nav-action-button tree-collapse-all" aria-label="Collapse All"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div><div class="tree-item" data-depth="1"><a class="tree-item-self is-clickable" href="CTD (Confoederatio, Technical Division)/Documentation/Games/Analytical Engine/External/Deepscript Conditionals.html#Deepscript_Conditionals_0" data-path="#Deepscript_Conditionals_0"><div class="tree-item-inner heading-link" heading-name="Deepscript Conditionals">Deepscript Conditionals</div></a><div class="tree-item-children"></div></div></div></div></div><script defer="">let rs = document.querySelector("#right-sidebar"); rs.classList.toggle("is-collapsed", window.innerWidth < 768); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></div></div></body></html>

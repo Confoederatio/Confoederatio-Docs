@@ -9,16 +9,17 @@ The first step in using Naissance is to install it. The process for doing so dep
 **1. Installation (Windows)**
 
 1. Visit [Naissance's Latest Release](https://github.com/ConfoederatioVF/Naissance/releases/tag/1.9.2b-skeleton) page. 
-2. Click on the **\[Download (Windows)]** button. This will take you to a file download link for the software's `.zip` file.
+2. Click on the **\[Download (Windows/MacOS/Linux)]** button. This will take you to a file download link for the software's `.zip` file.
 3. Download and extract the ZIP file on your computer.
 4. Run `naissance.exe`.
 
 **2. Installation (MacOS/Linux)**
 
-1. Visit [Naissance's GitHub](https://github.com/ConfoederatioVF/Naissance) page.
+1. Visit [Naissance's Latest Release](https://github.com/ConfoederatioVF/Naissance/releases/tag/1.9.2b-skeleton) page. 
 2. Download Node.JS if not installed: https://nodejs.org/en/download.
-3. Click `Code` > `Download ZIP` > Extract ZIP file when downloaded.
-4. Run `autorun.sh`.
+3. Click on the **\[Download (Windows/MacOS/Linux)]** button. This will take you to a file download link for the software's `.zip` file.
+4. Download and extract the ZIP file on your computer.
+5. Run `autorun.sh`.
 ### Startup Screen
 
 Once on your computer, Naissance should boot up smoothly. It may take several seconds to load if it is your first time. After a while, you should be greeted by a screen that appears as follows.
