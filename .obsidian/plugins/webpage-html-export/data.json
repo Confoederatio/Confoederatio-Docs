@@ -10,7 +10,7 @@
     "postProcess": true,
     "displayProgress": true,
     "inlineHTML": false,
-    "exportPath": "D:\\Project 1755 - Confoederatio Docs\\_website",
+    "exportPath": "D:\\Project 1755 - Confoederatio Docs\\docs",
     "filesToExport": [
       "all"
     ],
