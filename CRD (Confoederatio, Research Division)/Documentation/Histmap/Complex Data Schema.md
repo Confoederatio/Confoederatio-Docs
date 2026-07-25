@@ -3,6 +3,8 @@ cover: https://i.postimg.cc/qvvmDC6H/embed-template.png
 description: Specifications for file and class organisation for complex models and their resultant databases and data portals.
 ---
 
+Technical style guide for Confoederatio, Research Division (**CRD**).
+
 Complex databases need to be well-organised, in both their data structure as well as their given class structure. Because of this, [[Confoederatio]] databases are split up into discrete **Tasks** grouped into **Stages**, which parse a common config.
 
 This allows for databases to be structured more like iterative software as opposed to single-use pipelines, allowing for refactoring down the line.
@@ -56,6 +58,6 @@ A main dashboard app, from which tasks can be multithreaded is provided as `./au
 
 1. **Processing** - Directed Acyclic Graph (DAG) dashboard which is used to orchestrate and visualise tasks and methodology.
 2. **Visualisation** - 3D map and data viewer with floating windows for geostatistical context. It may also contain GUIs for tracing data provenance, helping with copychecking.
-3. **Papers** - Sorts papers by version and automatically produces them (similar to an R pipeline). This should help with reproducibility, especially surroundin given charts.
+3. **Papers** - Sorts papers by version and automatically produces them (similar to an R pipeline). This should help with reproducibility, especially surrounding given charts.
    
    [[Echarts]] should be used for chart production, and inline scripts should be referenced and linked.
